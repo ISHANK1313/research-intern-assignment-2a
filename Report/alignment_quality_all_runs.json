@@ -1,0 +1,224 @@
+{
+  "english_us_arpa (baseline)": [
+    {
+      "file": "F2BJRLP1",
+      "begin": "0.0",
+      "end": "25.309125",
+      "speaker": "corpus",
+      "overall_log_likelihood": "-47.13848281311734",
+      "speech_log_likelihood": "-46.43630110491134",
+      "phone_duration_deviation": "4.703797908643554",
+      "max_running_short_interval": "1",
+      "snr": "7.9355388978031876",
+      "intensity_deviation": ""
+    },
+    {
+      "file": "F2BJRLP2",
+      "begin": "0.0",
+      "end": "28.6474375",
+      "speaker": "corpus",
+      "overall_log_likelihood": "-46.40505562827225",
+      "speech_log_likelihood": "-46.202514359087395",
+      "phone_duration_deviation": "3.352464633373809",
+      "max_running_short_interval": "0",
+      "snr": "7.590129940757851",
+      "intensity_deviation": ""
+    },
+    {
+      "file": "F2BJRLP3",
+      "begin": "0.0",
+      "end": "30.7068125",
+      "speaker": "corpus",
+      "overall_log_likelihood": "-46.63591358677955",
+      "speech_log_likelihood": "-47.00806059927311",
+      "phone_duration_deviation": "3.092570089584667",
+      "max_running_short_interval": "1",
+      "snr": "9.887438099766328",
+      "intensity_deviation": ""
+    },
+    {
+      "file": "ISLE_SESS0131_BLOCKD02_03_sprt1",
+      "begin": "0.0",
+      "end": "4.5",
+      "speaker": "corpus",
+      "overall_log_likelihood": "-49.355234375",
+      "speech_log_likelihood": "-62.17140139066256",
+      "phone_duration_deviation": "2.6049734639243924",
+      "max_running_short_interval": "1",
+      "snr": "10.384889350997518",
+      "intensity_deviation": ""
+    },
+    {
+      "file": "ISLE_SESS0131_BLOCKD02_01_sprt1",
+      "begin": "0.0",
+      "end": "4.125",
+      "speaker": "corpus",
+      "overall_log_likelihood": "-49.00146129691284",
+      "speech_log_likelihood": "-60.63641621516301",
+      "phone_duration_deviation": "2.1572091393666057",
+      "max_running_short_interval": "0",
+      "snr": "11.802631135176163",
+      "intensity_deviation": ""
+    },
+    {
+      "file": "ISLE_SESS0131_BLOCKD02_02_sprt1",
+      "begin": "0.0",
+      "end": "3.875",
+      "speaker": "corpus",
+      "overall_log_likelihood": "-50.50716313627577",
+      "speech_log_likelihood": "-61.475563049316406",
+      "phone_duration_deviation": "1.9856890372052822",
+      "max_running_short_interval": "1",
+      "snr": "12.276922047257614",
+      "intensity_deviation": ""
+    }
+  ],
+  "us_arpa + G2P custom dict": [
+    {
+      "file": "F2BJRLP1",
+      "begin": "0.0",
+      "end": "25.309125",
+      "speaker": "corpus",
+      "overall_log_likelihood": "-47.65956514223627",
+      "speech_log_likelihood": "-47.681218259663694",
+      "phone_duration_deviation": "4.681058144823705",
+      "max_running_short_interval": "1",
+      "snr": "7.623213410464654",
+      "intensity_deviation": ""
+    },
+    {
+      "file": "F2BJRLP2",
+      "begin": "0.0",
+      "end": "28.6474375",
+      "speaker": "corpus",
+      "overall_log_likelihood": "-45.795767888307154",
+      "speech_log_likelihood": "-46.242391848424724",
+      "phone_duration_deviation": "3.4181063048016926",
+      "max_running_short_interval": "1",
+      "snr": "7.919918093794301",
+      "intensity_deviation": ""
+    },
+    {
+      "file": "F2BJRLP3",
+      "begin": "0.0",
+      "end": "30.7068125",
+      "speaker": "corpus",
+      "overall_log_likelihood": "-46.66826766525562",
+      "speech_log_likelihood": "-47.01968274797712",
+      "phone_duration_deviation": "2.9338421849703673",
+      "max_running_short_interval": "0",
+      "snr": "9.887438099766328",
+      "intensity_deviation": ""
+    },
+    {
+      "file": "ISLE_SESS0131_BLOCKD02_03_sprt1",
+      "begin": "0.0",
+      "end": "4.5",
+      "speaker": "corpus",
+      "overall_log_likelihood": "-49.470941840277774",
+      "speech_log_likelihood": "-61.03035648052509",
+      "phone_duration_deviation": "2.3945995767966024",
+      "max_running_short_interval": "0",
+      "snr": "10.31132827842638",
+      "intensity_deviation": ""
+    },
+    {
+      "file": "ISLE_SESS0131_BLOCKD02_01_sprt1",
+      "begin": "0.0",
+      "end": "4.125",
+      "speaker": "corpus",
+      "overall_log_likelihood": "-49.080035562953995",
+      "speech_log_likelihood": "-60.68997397789588",
+      "phone_duration_deviation": "2.234201558116172",
+      "max_running_short_interval": "0",
+      "snr": "11.802631135176163",
+      "intensity_deviation": ""
+    },
+    {
+      "file": "ISLE_SESS0131_BLOCKD02_02_sprt1",
+      "begin": "0.0",
+      "end": "3.875",
+      "speaker": "corpus",
+      "overall_log_likelihood": "-50.59582393685567",
+      "speech_log_likelihood": "-61.64354228973389",
+      "phone_duration_deviation": "2.102706914050512",
+      "max_running_short_interval": "0",
+      "snr": "12.276922047257614",
+      "intensity_deviation": ""
+    }
+  ],
+  "english_mfa (2nd model)": [
+    {
+      "file": "F2BJRLP1",
+      "begin": "0.0",
+      "end": "25.309125",
+      "speaker": "corpus",
+      "overall_log_likelihood": "-45.02555190636112",
+      "speech_log_likelihood": "-45.26961526517515",
+      "phone_duration_deviation": "3.502059492563127",
+      "max_running_short_interval": "0",
+      "snr": "8.039587883734946",
+      "intensity_deviation": ""
+    },
+    {
+      "file": "ISLE_SESS0131_BLOCKD02_02_sprt1",
+      "begin": "0.0",
+      "end": "3.875",
+      "speaker": "corpus",
+      "overall_log_likelihood": "-47.99412048969072",
+      "speech_log_likelihood": "-55.68251904574308",
+      "phone_duration_deviation": "2.9423447586218576",
+      "max_running_short_interval": "0",
+      "snr": "12.390099651773589",
+      "intensity_deviation": ""
+    },
+    {
+      "file": "F2BJRLP3",
+      "begin": "0.0",
+      "end": "30.7068125",
+      "speaker": "corpus",
+      "overall_log_likelihood": "-45.169102084011726",
+      "speech_log_likelihood": "-45.901713843967606",
+      "phone_duration_deviation": "2.747382510649094",
+      "max_running_short_interval": "0",
+      "snr": "10.004833563132632",
+      "intensity_deviation": ""
+    },
+    {
+      "file": "ISLE_SESS0131_BLOCKD02_03_sprt1",
+      "begin": "0.0",
+      "end": "4.5",
+      "speaker": "corpus",
+      "overall_log_likelihood": "-47.7653125",
+      "speech_log_likelihood": "-56.12698510976938",
+      "phone_duration_deviation": "2.7012025389289067",
+      "max_running_short_interval": "0",
+      "snr": "10.87849690659314",
+      "intensity_deviation": ""
+    },
+    {
+      "file": "F2BJRLP2",
+      "begin": "0.0",
+      "end": "28.6474375",
+      "speaker": "corpus",
+      "overall_log_likelihood": "-44.15410667539267",
+      "speech_log_likelihood": "-44.61385739604129",
+      "phone_duration_deviation": "2.663498536637255",
+      "max_running_short_interval": "0",
+      "snr": "7.55815844818153",
+      "intensity_deviation": ""
+    },
+    {
+      "file": "ISLE_SESS0131_BLOCKD02_01_sprt1",
+      "begin": "0.0",
+      "end": "4.125",
+      "speaker": "corpus",
+      "overall_log_likelihood": "-46.5756516722155",
+      "speech_log_likelihood": "-52.9347542982835",
+      "phone_duration_deviation": "2.144245636382957",
+      "max_running_short_interval": "0",
+      "snr": "11.155180205062207",
+      "intensity_deviation": ""
+    }
+  ]
+}

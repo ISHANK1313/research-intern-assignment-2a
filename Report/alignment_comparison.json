@@ -1,0 +1,437 @@
+{
+  "reference_dir": "outputs",
+  "test_dir": "outputs_custom_dict",
+  "files": [
+    {
+      "stem": "F2BJRLP1",
+      "words": {
+        "word_count_ref": 70,
+        "word_count_test": 70,
+        "labels_identical": true,
+        "start_shift_mean_abs": 0.0129,
+        "start_shift_median_abs": 0.0,
+        "start_shift_max_abs": 0.5,
+        "end_shift_max_abs": 0.54,
+        "words_shifted_gt_10ms": 7,
+        "words_shifted_gt_100ms": 2,
+        "largest_start_shift": {
+          "shift": -0.5,
+          "label": "margo",
+          "ref_start": 21.44,
+          "test_start": 20.94
+        }
+      },
+      "phones_ref": 284,
+      "phones_test": 299,
+      "spn_ref": 3,
+      "spn_test": 0,
+      "spn_regions_ref": [
+        {
+          "start": 15.45,
+          "end": 16.0,
+          "words": [
+            "dukakis"
+          ],
+          "phones_in_test_run": [
+            {
+              "start": 15.44,
+              "end": 15.5,
+              "label": "D"
+            },
+            {
+              "start": 15.5,
+              "end": 15.54,
+              "label": "UW0"
+            },
+            {
+              "start": 15.54,
+              "end": 15.64,
+              "label": "K"
+            },
+            {
+              "start": 15.64,
+              "end": 15.75,
+              "label": "AA1"
+            },
+            {
+              "start": 15.75,
+              "end": 15.84,
+              "label": "K"
+            },
+            {
+              "start": 15.84,
+              "end": 15.89,
+              "label": "IH0"
+            },
+            {
+              "start": 15.89,
+              "end": 16.01,
+              "label": "S"
+            }
+          ]
+        },
+        {
+          "start": 20.56,
+          "end": 21.33,
+          "words": [
+            "wbur's"
+          ],
+          "phones_in_test_run": [
+            {
+              "start": 20.49,
+              "end": 20.57,
+              "label": "Z"
+            },
+            {
+              "start": 20.57,
+              "end": 20.6,
+              "label": ""
+            },
+            {
+              "start": 20.6,
+              "end": 20.64,
+              "label": "W"
+            },
+            {
+              "start": 20.64,
+              "end": 20.68,
+              "label": "AH0"
+            },
+            {
+              "start": 20.68,
+              "end": 20.73,
+              "label": "B"
+            },
+            {
+              "start": 20.73,
+              "end": 20.87,
+              "label": "ER0"
+            },
+            {
+              "start": 20.87,
+              "end": 20.9,
+              "label": "Z"
+            },
+            {
+              "start": 20.9,
+              "end": 20.94,
+              "label": ""
+            },
+            {
+              "start": 20.94,
+              "end": 21.18,
+              "label": "M"
+            },
+            {
+              "start": 21.18,
+              "end": 21.24,
+              "label": "AA1"
+            },
+            {
+              "start": 21.24,
+              "end": 21.37,
+              "label": "R"
+            }
+          ]
+        },
+        {
+          "start": 21.75,
+          "end": 22.29,
+          "words": [
+            "melnicove"
+          ],
+          "phones_in_test_run": [
+            {
+              "start": 21.67,
+              "end": 21.89,
+              "label": "OW2"
+            },
+            {
+              "start": 21.89,
+              "end": 22.25,
+              "label": "V"
+            },
+            {
+              "start": 22.25,
+              "end": 22.28,
+              "label": ""
+            },
+            {
+              "start": 22.28,
+              "end": 22.34,
+              "label": "R"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stem": "F2BJRLP2",
+      "words": {
+        "word_count_ref": 74,
+        "word_count_test": 74,
+        "labels_identical": true,
+        "start_shift_mean_abs": 0.0028,
+        "start_shift_median_abs": 0.0,
+        "start_shift_max_abs": 0.13,
+        "end_shift_max_abs": 0.02,
+        "words_shifted_gt_10ms": 5,
+        "words_shifted_gt_100ms": 1,
+        "largest_start_shift": {
+          "shift": -0.13,
+          "label": "democratic",
+          "ref_start": 1.5,
+          "test_start": 1.37
+        }
+      },
+      "phones_ref": 328,
+      "phones_test": 345,
+      "spn_ref": 3,
+      "spn_test": 0,
+      "spn_regions_ref": [
+        {
+          "start": 2.73,
+          "end": 3.35,
+          "words": [
+            "dukakis"
+          ],
+          "phones_in_test_run": [
+            {
+              "start": 2.72,
+              "end": 2.79,
+              "label": "D"
+            },
+            {
+              "start": 2.79,
+              "end": 2.84,
+              "label": "UW1"
+            },
+            {
+              "start": 2.84,
+              "end": 2.95,
+              "label": "K"
+            },
+            {
+              "start": 2.95,
+              "end": 3.07,
+              "label": "AA1"
+            },
+            {
+              "start": 3.07,
+              "end": 3.15,
+              "label": "K"
+            },
+            {
+              "start": 3.15,
+              "end": 3.23,
+              "label": "IH0"
+            },
+            {
+              "start": 3.23,
+              "end": 3.36,
+              "label": "S"
+            }
+          ]
+        },
+        {
+          "start": 5.66,
+          "end": 6.53,
+          "words": [
+            "politicize"
+          ],
+          "phones_in_test_run": [
+            {
+              "start": 5.65,
+              "end": 5.75,
+              "label": "P"
+            },
+            {
+              "start": 5.75,
+              "end": 5.79,
+              "label": "AH0"
+            },
+            {
+              "start": 5.79,
+              "end": 5.88,
+              "label": "L"
+            },
+            {
+              "start": 5.88,
+              "end": 5.93,
+              "label": "IH1"
+            },
+            {
+              "start": 5.93,
+              "end": 5.97,
+              "label": "T"
+            },
+            {
+              "start": 5.97,
+              "end": 6.02,
+              "label": "IH0"
+            },
+            {
+              "start": 6.02,
+              "end": 6.15,
+              "label": "S"
+            },
+            {
+              "start": 6.15,
+              "end": 6.39,
+              "label": "AY2"
+            },
+            {
+              "start": 6.39,
+              "end": 6.51,
+              "label": "Z"
+            },
+            {
+              "start": 6.51,
+              "end": 6.62,
+              "label": "JH"
+            }
+          ]
+        },
+        {
+          "start": 23.92,
+          "end": 24.34,
+          "words": [
+            "maffy"
+          ],
+          "phones_in_test_run": [
+            {
+              "start": 23.84,
+              "end": 23.94,
+              "label": "S"
+            },
+            {
+              "start": 23.94,
+              "end": 23.99,
+              "label": "M"
+            },
+            {
+              "start": 23.99,
+              "end": 24.11,
+              "label": "AE1"
+            },
+            {
+              "start": 24.11,
+              "end": 24.21,
+              "label": "F"
+            },
+            {
+              "start": 24.21,
+              "end": 24.33,
+              "label": "IY0"
+            },
+            {
+              "start": 24.33,
+              "end": 24.39,
+              "label": "N"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "stem": "F2BJRLP3",
+      "words": {
+        "word_count_ref": 82,
+        "word_count_test": 82,
+        "labels_identical": true,
+        "start_shift_mean_abs": 0.0,
+        "start_shift_median_abs": 0.0,
+        "start_shift_max_abs": 0.0,
+        "end_shift_max_abs": 0.0,
+        "words_shifted_gt_10ms": 0,
+        "words_shifted_gt_100ms": 0,
+        "largest_start_shift": {
+          "shift": 0.0,
+          "label": "",
+          "ref_start": 0.0,
+          "test_start": 0.0
+        }
+      },
+      "phones_ref": 372,
+      "phones_test": 372,
+      "spn_ref": 0,
+      "spn_test": 0,
+      "spn_regions_ref": []
+    },
+    {
+      "stem": "ISLE_SESS0131_BLOCKD02_01_sprt1",
+      "words": {
+        "word_count_ref": 5,
+        "word_count_test": 5,
+        "labels_identical": true,
+        "start_shift_mean_abs": 0.0,
+        "start_shift_median_abs": 0.0,
+        "start_shift_max_abs": 0.0,
+        "end_shift_max_abs": 0.0,
+        "words_shifted_gt_10ms": 0,
+        "words_shifted_gt_100ms": 0,
+        "largest_start_shift": {
+          "shift": 0.0,
+          "label": "",
+          "ref_start": 0.0,
+          "test_start": 0.0
+        }
+      },
+      "phones_ref": 13,
+      "phones_test": 13,
+      "spn_ref": 0,
+      "spn_test": 0,
+      "spn_regions_ref": []
+    },
+    {
+      "stem": "ISLE_SESS0131_BLOCKD02_02_sprt1",
+      "words": {
+        "word_count_ref": 5,
+        "word_count_test": 5,
+        "labels_identical": true,
+        "start_shift_mean_abs": 0.0,
+        "start_shift_median_abs": 0.0,
+        "start_shift_max_abs": 0.0,
+        "end_shift_max_abs": 0.0,
+        "words_shifted_gt_10ms": 0,
+        "words_shifted_gt_100ms": 0,
+        "largest_start_shift": {
+          "shift": 0.0,
+          "label": "",
+          "ref_start": 0.0,
+          "test_start": 0.0
+        }
+      },
+      "phones_ref": 12,
+      "phones_test": 12,
+      "spn_ref": 0,
+      "spn_test": 0,
+      "spn_regions_ref": []
+    },
+    {
+      "stem": "ISLE_SESS0131_BLOCKD02_03_sprt1",
+      "words": {
+        "word_count_ref": 5,
+        "word_count_test": 5,
+        "labels_identical": true,
+        "start_shift_mean_abs": 0.016,
+        "start_shift_median_abs": 0.0,
+        "start_shift_max_abs": 0.08,
+        "end_shift_max_abs": 0.11,
+        "words_shifted_gt_10ms": 1,
+        "words_shifted_gt_100ms": 0,
+        "largest_start_shift": {
+          "shift": -0.08,
+          "label": "bed",
+          "ref_start": 1.57,
+          "test_start": 1.49
+        }
+      },
+      "phones_ref": 13,
+      "phones_test": 13,
+      "spn_ref": 0,
+      "spn_test": 0,
+      "spn_regions_ref": []
+    }
+  ]
+}
