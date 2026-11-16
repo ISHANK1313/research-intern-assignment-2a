@@ -338,6 +338,18 @@ left behind.
 
 ## 9. Notes on MFA 3.4.3
 
+### Reproducibility
+
+Re-cloning this repository into a clean folder and following the README
+reproduces everything: the corpus, the same 5 OOV word types from
+`mfa validate`, and 6 TextGrids for 6 wav files. Alignment is reproducible **to
+within one analysis frame**, not bit-exact. The three short ISLE TextGrids come
+out byte-identical; in the three longer BU files a few boundary timestamps move
+by exactly one 10 ms frame (20 of 770, 12 of 850, 2 of 966 boundary values).
+The full label sequences are identical in all six files.
+
+### MFA bugs encountered
+
 Two MFA subcommands fail on this data and were worked around; both are recorded
 in `logs/commands.log` because they were genuinely attempted:
 

@@ -660,6 +660,20 @@ def main() -> int:
         "given TextGrid-only directories (replaced by "
         "<font face='Courier'>scripts/06_compare_alignments.py</font>)."
     )
+    H2("6.1 Reproducibility")
+    P(
+        "The repository was re-cloned into a clean folder and its own README followed from "
+        "scratch: the corpus was rebuilt, <font face='Courier'>mfa validate</font> reported "
+        "the same 5 OOV word types, and <font face='Courier'>mfa align</font> again produced "
+        "6 TextGrids for 6 wav files. Alignment is reproducible <b>to within one analysis "
+        "frame</b> rather than bit-exact: the three short ISLE TextGrids were byte-identical "
+        "to the committed ones, while in the three longer BU files a small number of "
+        "boundary timestamps moved - 20 of 770, 12 of 850 and 2 of 966 boundary values, each "
+        "shifted by exactly 10 ms, which is the model's frame shift. The complete phoneme "
+        "and word <b>label sequences were identical in all six files</b>, so this is "
+        "frame-quantisation jitter in the training/adaptation steps, not a change in what "
+        "was aligned."
+    )
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
     doc = SimpleDocTemplate(
