@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.venv-mfa/
+venv/
+
+# MFA scratch / server state, if MFA is ever pointed inside the repo
+mfa_temp/
+*.log.lock
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Harness state, not part of the assignment
+.mimosa/

@@ -1,0 +1,22 @@
+# Conda environment for the MFA forced-alignment pipeline.
+#
+#   conda env create -f environment.yml
+#   conda activate aligner
+#   mfa version
+#
+# MFA is installed from conda-forge: it depends on `kalpy` (the Kaldi Python
+# bindings), which is NOT published on PyPI for any platform. A plain
+# `pip install montreal-forced-aligner` therefore produces an MFA that cannot
+# start on Windows - `import _kalpy` fails. Use conda.
+name: aligner
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - montreal-forced-aligner=3.4.3
+  # praatio, matplotlib, soundfile and numpy arrive as MFA dependencies, but
+  # they are pinned here because the inspection scripts import them directly.
+  - praatio=6.2.2
+  - matplotlib
+  - soundfile
+  - numpy

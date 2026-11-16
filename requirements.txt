@@ -1,0 +1,18 @@
+# Python dependencies used by the scripts in scripts/ (inspection, plotting,
+# dictionary merging, boundary comparison).
+#
+# MFA itself is deliberately NOT listed here: `pip install
+# montreal-forced-aligner` installs the Python code but not `kalpy`, the Kaldi
+# bindings it needs, which exist only on conda-forge. Install MFA with conda
+# (see environment.yml) and run the scripts inside that environment - it
+# already provides everything below:
+#
+#   conda env create -f environment.yml
+#   conda activate aligner
+#   pip install -r requirements.txt   # only if you add packages of your own
+#
+# This file exists so the scripting dependencies are documented explicitly.
+praatio==6.2.2
+matplotlib>=3.8
+soundfile>=0.12
+numpy>=1.26
