@@ -252,6 +252,18 @@ python scripts/06_compare_alignments.py
 
 (`$MFA_ROOT` is where MFA keeps its models, by default `~/Documents/MFA`.)
 
+One note on the merged dictionary's format. The shipped
+`english_us_arpa.dict` carries optional pronunciation-probability columns
+(four numeric fields before the phone string), whereas `mfa g2p` emits plain
+two-column `word<TAB>phones` lines. Mixing the two shapes in one file would be
+ambiguous, so `05_build_custom_dictionary.py` normalises everything to the
+two-column form — which means the base entries lose their probability priors,
+and pronunciation choice then rests on the acoustic score alone. On this corpus
+that changed nothing measurable: the four files without an OOV kept identical
+phone counts *and* identical boundaries. The generated dictionary is not
+committed (it is ~5.7 MB and 99.99% a verbatim copy of a downloadable model);
+the 13 interesting lines are in `dictionaries/g2p_oov_only.dict`.
+
 Results:
 
 * OOV words: **5 types → 0**. `logs/validate_custom/utterance_oovs.txt` is empty.

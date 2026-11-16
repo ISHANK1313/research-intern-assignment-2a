@@ -548,6 +548,18 @@ def main() -> int:
     add(table(rows, col_widths=[30 * mm, 145 * mm]))
     add(Spacer(1, 5))
     P(
+        "<b>Format note.</b> The shipped dictionary carries optional "
+        "pronunciation-probability columns before the phone string, whereas "
+        "<font face='Courier'>mfa g2p</font> emits plain two-column "
+        "<font face='Courier'>word&lt;TAB&gt;phones</font> lines. The merge normalises "
+        "everything to the two-column form, since mixing the two shapes in one file would "
+        "be ambiguous. The base entries therefore lose their probability priors and "
+        "pronunciation choice rests on the acoustic score alone - a real difference from "
+        "the shipped dictionary, though on this corpus it changed nothing measurable, as "
+        "section 5.1 shows below.",
+        "Small",
+    )
+    P(
         "The G2P model is visibly unsure about <font face='Courier'>wbur</font>, offering "
         "five variants (<font face='Courier'>B ER0</font>, "
         "<font face='Courier'>V B ER0</font>, <font face='Courier'>W AH0 B ER0</font>, "

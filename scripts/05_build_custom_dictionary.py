@@ -4,17 +4,29 @@
 The pretrained ``english_us_arpa`` dictionary is missing a handful of words that
 appear in this dataset (proper nouns and one derived form).  This script merges
 
-* every entry of the base dictionary, unchanged, and
+* every word/pronunciation pair of the base dictionary, and
 * the ``mfa g2p`` pronunciations generated for the words the base dictionary
   does not contain,
 
 into a single dictionary that can be handed to ``mfa align``.
 
-The generated entries are written in the same tab-separated
-``word<TAB>pronunciation`` form MFA's G2P command emits.  Any generated
-pronunciation that uses a phone absent from the base dictionary's inventory is
-dropped and reported, because MFA cannot align phones its acoustic model was
-never trained on.
+Format note
+-----------
+MFA applies every pronunciation of a word, and prefers the one with the best
+acoustic score.  The shipped ``english_us_arpa.dict`` carries optional
+pronunciation-probability columns (four numeric fields before the phone string,
+e.g. ``'d<TAB>0.99<TAB>0.34<TAB>0.62<TAB>1.14<TAB>D``), while ``mfa g2p``
+emits plain two-column ``word<TAB>phones`` lines.  Mixing the two shapes in one
+file would be ambiguous, so the merge normalises everything to the two-column
+form.  The consequence is that the base entries lose their probability priors:
+pronunciation choice then rests on the acoustic score alone.  On this corpus
+that changed nothing measurable - the files without an OOV came out with
+identical phone counts and identical boundaries - but it is a real difference
+from the shipped dictionary and is recorded here deliberately.
+
+Any generated pronunciation that uses a phone absent from the base dictionary's
+inventory is dropped and reported, because MFA cannot align phones its acoustic
+model was never trained on.
 
 Usage
 -----
@@ -112,7 +124,10 @@ def main() -> int:
         for item in rejected:
             print(f"  - {item}")
 
-    # Write the merged dictionary: base entries verbatim, then the new ones.
+    # Write the merged dictionary in a single consistent two-column format:
+    # base word/pronunciation pairs first, then the G2P ones. The base file's
+    # optional probability columns are not carried over -- see the module
+    # docstring for why and for the measured effect.
     out_lines: list[str] = []
     for word, pronunciations in sorted(base.items()):
         for pronunciation in pronunciations:
@@ -133,6 +148,8 @@ def main() -> int:
         "base_dictionary": str(args.base_dictionary).replace("\\", "/"),
         "g2p_dictionary": str(args.g2p_dictionary).replace("\\", "/"),
         "out_dictionary": str(args.out_dictionary).replace("\\", "/"),
+        "output_format": "word<TAB>phones (two columns)",
+        "base_probability_columns_preserved": False,
         "base_word_types": len(base),
         "base_phone_types": len(base_phone_set),
         "words_added": added,
