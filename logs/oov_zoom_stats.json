@@ -1,0 +1,2170 @@
+[
+  {
+    "stem": "F2BJRLP2",
+    "audio_duration_sec": 28.647,
+    "word_intervals": 84,
+    "word_intervals_non_empty": 74,
+    "phone_intervals": 338,
+    "phone_intervals_non_empty": 328,
+    "zero_length_phones": [],
+    "zero_length_phone_count": 0,
+    "spn_count": 3,
+    "spn_phones": [
+      "2.73-3.35",
+      "5.66-6.53",
+      "23.92-24.34"
+    ],
+    "spn_words": [
+      "dukakis",
+      "maffy",
+      "politicize"
+    ],
+    "explicit_sil_labels": 0,
+    "unlabelled_intervals": 10,
+    "nonspeech_intervals": [
+      "0.0-0.04",
+      "1.38-1.5",
+      "3.35-3.64",
+      "7.75-8.04",
+      "12.33-13.03",
+      "16.1-16.45",
+      "18.09-18.16",
+      "22.65-23.16",
+      "26.86-27.2",
+      "28.47-28.647"
+    ],
+    "nonspeech_total_sec": 2.887,
+    "leading_nonspeech_sec": 0.04,
+    "trailing_nonspeech_sec": 0.367,
+    "longest_phone": {
+      "label": "spn",
+      "start": 5.66,
+      "end": 6.53,
+      "duration": 0.87
+    },
+    "largest_word_gap": {
+      "gap_sec": 0.7,
+      "after_word": "court",
+      "before_word": "for",
+      "at_time": 12.33
+    },
+    "first_word": "in",
+    "first_word_start": 0.04,
+    "last_word": "clerk",
+    "last_word_end": 28.47,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "label": ""
+      },
+      {
+        "start": 0.04,
+        "end": 0.17,
+        "label": "in"
+      },
+      {
+        "start": 0.17,
+        "end": 0.54,
+        "label": "nineteen"
+      },
+      {
+        "start": 0.54,
+        "end": 0.9,
+        "label": "seventy"
+      },
+      {
+        "start": 0.9,
+        "end": 1.38,
+        "label": "six"
+      },
+      {
+        "start": 1.38,
+        "end": 1.5,
+        "label": ""
+      },
+      {
+        "start": 1.5,
+        "end": 2.05,
+        "label": "democratic"
+      },
+      {
+        "start": 2.05,
+        "end": 2.41,
+        "label": "governor"
+      },
+      {
+        "start": 2.41,
+        "end": 2.73,
+        "label": "michael"
+      },
+      {
+        "start": 2.73,
+        "end": 3.35,
+        "label": "dukakis"
+      },
+      {
+        "start": 3.35,
+        "end": 3.64,
+        "label": ""
+      },
+      {
+        "start": 3.64,
+        "end": 4.06,
+        "label": "fulfilled"
+      },
+      {
+        "start": 4.06,
+        "end": 4.12,
+        "label": "a"
+      },
+      {
+        "start": 4.12,
+        "end": 4.68,
+        "label": "campaign"
+      },
+      {
+        "start": 4.68,
+        "end": 5.2,
+        "label": "promise"
+      },
+      {
+        "start": 5.2,
+        "end": 5.42,
+        "label": "to"
+      },
+      {
+        "start": 5.42,
+        "end": 5.66,
+        "label": "de"
+      },
+      {
+        "start": 5.66,
+        "end": 6.53,
+        "label": "politicize"
+      },
+      {
+        "start": 6.53,
+        "end": 7.04,
+        "label": "judicial"
+      },
+      {
+        "start": 7.04,
+        "end": 7.75,
+        "label": "appointments"
+      },
+      {
+        "start": 7.75,
+        "end": 8.04,
+        "label": ""
+      },
+      {
+        "start": 8.04,
+        "end": 8.16,
+        "label": "he"
+      },
+      {
+        "start": 8.16,
+        "end": 8.5,
+        "label": "named"
+      },
+      {
+        "start": 8.5,
+        "end": 9.18,
+        "label": "republican"
+      },
+      {
+        "start": 9.18,
+        "end": 9.55,
+        "label": "edward"
+      },
+      {
+        "start": 9.55,
+        "end": 10.09,
+        "label": "hennessy"
+      },
+      {
+        "start": 10.09,
+        "end": 10.26,
+        "label": "to"
+      },
+      {
+        "start": 10.26,
+        "end": 10.52,
+        "label": "head"
+      },
+      {
+        "start": 10.52,
+        "end": 10.61,
+        "label": "the"
+      },
+      {
+        "start": 10.61,
+        "end": 10.97,
+        "label": "state"
+      },
+      {
+        "start": 10.97,
+        "end": 11.4,
+        "label": "supreme"
+      },
+      {
+        "start": 11.4,
+        "end": 11.87,
+        "label": "judicial"
+      },
+      {
+        "start": 11.87,
+        "end": 12.33,
+        "label": "court"
+      },
+      {
+        "start": 12.33,
+        "end": 13.03,
+        "label": ""
+      },
+      {
+        "start": 13.03,
+        "end": 13.2,
+        "label": "for"
+      },
+      {
+        "start": 13.2,
+        "end": 13.61,
+        "label": "hennessy"
+      },
+      {
+        "start": 13.61,
+        "end": 13.72,
+        "label": "it"
+      },
+      {
+        "start": 13.72,
+        "end": 13.88,
+        "label": "was"
+      },
+      {
+        "start": 13.88,
+        "end": 14.2,
+        "label": "another"
+      },
+      {
+        "start": 14.2,
+        "end": 14.68,
+        "label": "step"
+      },
+      {
+        "start": 14.68,
+        "end": 15.0,
+        "label": "along"
+      },
+      {
+        "start": 15.0,
+        "end": 15.05,
+        "label": "a"
+      },
+      {
+        "start": 15.05,
+        "end": 15.68,
+        "label": "distinguished"
+      },
+      {
+        "start": 15.68,
+        "end": 16.1,
+        "label": "career"
+      },
+      {
+        "start": 16.1,
+        "end": 16.45,
+        "label": ""
+      },
+      {
+        "start": 16.45,
+        "end": 16.6,
+        "label": "that"
+      },
+      {
+        "start": 16.6,
+        "end": 17.02,
+        "label": "began"
+      },
+      {
+        "start": 17.02,
+        "end": 17.17,
+        "label": "as"
+      },
+      {
+        "start": 17.17,
+        "end": 17.23,
+        "label": "a"
+      },
+      {
+        "start": 17.23,
+        "end": 17.64,
+        "label": "trial"
+      },
+      {
+        "start": 17.64,
+        "end": 18.09,
+        "label": "lawyer"
+      },
+      {
+        "start": 18.09,
+        "end": 18.16,
+        "label": ""
+      },
+      {
+        "start": 18.16,
+        "end": 18.34,
+        "label": "and"
+      },
+      {
+        "start": 18.34,
+        "end": 18.52,
+        "label": "led"
+      },
+      {
+        "start": 18.52,
+        "end": 18.63,
+        "label": "to"
+      },
+      {
+        "start": 18.63,
+        "end": 18.73,
+        "label": "an"
+      },
+      {
+        "start": 18.73,
+        "end": 19.3,
+        "label": "appointment"
+      },
+      {
+        "start": 19.3,
+        "end": 19.49,
+        "label": "as"
+      },
+      {
+        "start": 19.49,
+        "end": 20.14,
+        "label": "associate"
+      },
+      {
+        "start": 20.14,
+        "end": 20.54,
+        "label": "supreme"
+      },
+      {
+        "start": 20.54,
+        "end": 20.82,
+        "label": "court"
+      },
+      {
+        "start": 20.82,
+        "end": 21.3,
+        "label": "justice"
+      },
+      {
+        "start": 21.3,
+        "end": 21.48,
+        "label": "in"
+      },
+      {
+        "start": 21.48,
+        "end": 21.89,
+        "label": "nineteen"
+      },
+      {
+        "start": 21.89,
+        "end": 22.31,
+        "label": "seventy"
+      },
+      {
+        "start": 22.31,
+        "end": 22.65,
+        "label": "one"
+      },
+      {
+        "start": 22.65,
+        "end": 23.16,
+        "label": ""
+      },
+      {
+        "start": 23.16,
+        "end": 23.35,
+        "label": "that"
+      },
+      {
+        "start": 23.35,
+        "end": 23.52,
+        "label": "year"
+      },
+      {
+        "start": 23.52,
+        "end": 23.92,
+        "label": "thomas"
+      },
+      {
+        "start": 23.92,
+        "end": 24.34,
+        "label": "maffy"
+      },
+      {
+        "start": 24.34,
+        "end": 24.51,
+        "label": "now"
+      },
+      {
+        "start": 24.51,
+        "end": 25.05,
+        "label": "president"
+      },
+      {
+        "start": 25.05,
+        "end": 25.16,
+        "label": "of"
+      },
+      {
+        "start": 25.16,
+        "end": 25.23,
+        "label": "the"
+      },
+      {
+        "start": 25.23,
+        "end": 25.85,
+        "label": "massachusetts"
+      },
+      {
+        "start": 25.85,
+        "end": 26.08,
+        "label": "bar"
+      },
+      {
+        "start": 26.08,
+        "end": 26.86,
+        "label": "association"
+      },
+      {
+        "start": 26.86,
+        "end": 27.2,
+        "label": ""
+      },
+      {
+        "start": 27.2,
+        "end": 27.35,
+        "label": "was"
+      },
+      {
+        "start": 27.35,
+        "end": 27.81,
+        "label": "hennessy's"
+      },
+      {
+        "start": 27.81,
+        "end": 28.01,
+        "label": "law"
+      },
+      {
+        "start": 28.01,
+        "end": 28.47,
+        "label": "clerk"
+      },
+      {
+        "start": 28.47,
+        "end": 28.647,
+        "label": ""
+      }
+    ],
+    "phones": [
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "label": ""
+      },
+      {
+        "start": 0.04,
+        "end": 0.13,
+        "label": "IH0"
+      },
+      {
+        "start": 0.13,
+        "end": 0.17,
+        "label": "N"
+      },
+      {
+        "start": 0.17,
+        "end": 0.21,
+        "label": "N"
+      },
+      {
+        "start": 0.21,
+        "end": 0.3,
+        "label": "AY1"
+      },
+      {
+        "start": 0.3,
+        "end": 0.34,
+        "label": "N"
+      },
+      {
+        "start": 0.34,
+        "end": 0.42,
+        "label": "T"
+      },
+      {
+        "start": 0.42,
+        "end": 0.48,
+        "label": "IY1"
+      },
+      {
+        "start": 0.48,
+        "end": 0.54,
+        "label": "N"
+      },
+      {
+        "start": 0.54,
+        "end": 0.63,
+        "label": "S"
+      },
+      {
+        "start": 0.63,
+        "end": 0.69,
+        "label": "EH1"
+      },
+      {
+        "start": 0.69,
+        "end": 0.74,
+        "label": "V"
+      },
+      {
+        "start": 0.74,
+        "end": 0.78,
+        "label": "AH0"
+      },
+      {
+        "start": 0.78,
+        "end": 0.81,
+        "label": "N"
+      },
+      {
+        "start": 0.81,
+        "end": 0.84,
+        "label": "T"
+      },
+      {
+        "start": 0.84,
+        "end": 0.9,
+        "label": "IY0"
+      },
+      {
+        "start": 0.9,
+        "end": 1.05,
+        "label": "S"
+      },
+      {
+        "start": 1.05,
+        "end": 1.17,
+        "label": "IH1"
+      },
+      {
+        "start": 1.17,
+        "end": 1.29,
+        "label": "K"
+      },
+      {
+        "start": 1.29,
+        "end": 1.38,
+        "label": "S"
+      },
+      {
+        "start": 1.38,
+        "end": 1.5,
+        "label": ""
+      },
+      {
+        "start": 1.5,
+        "end": 1.56,
+        "label": "D"
+      },
+      {
+        "start": 1.56,
+        "end": 1.61,
+        "label": "EH2"
+      },
+      {
+        "start": 1.61,
+        "end": 1.66,
+        "label": "M"
+      },
+      {
+        "start": 1.66,
+        "end": 1.71,
+        "label": "AH0"
+      },
+      {
+        "start": 1.71,
+        "end": 1.79,
+        "label": "K"
+      },
+      {
+        "start": 1.79,
+        "end": 1.83,
+        "label": "R"
+      },
+      {
+        "start": 1.83,
+        "end": 1.9,
+        "label": "AE1"
+      },
+      {
+        "start": 1.9,
+        "end": 1.93,
+        "label": "T"
+      },
+      {
+        "start": 1.93,
+        "end": 2.0,
+        "label": "IH0"
+      },
+      {
+        "start": 2.0,
+        "end": 2.05,
+        "label": "K"
+      },
+      {
+        "start": 2.05,
+        "end": 2.11,
+        "label": "G"
+      },
+      {
+        "start": 2.11,
+        "end": 2.18,
+        "label": "AH1"
+      },
+      {
+        "start": 2.18,
+        "end": 2.23,
+        "label": "V"
+      },
+      {
+        "start": 2.23,
+        "end": 2.28,
+        "label": "ER0"
+      },
+      {
+        "start": 2.28,
+        "end": 2.32,
+        "label": "N"
+      },
+      {
+        "start": 2.32,
+        "end": 2.41,
+        "label": "ER0"
+      },
+      {
+        "start": 2.41,
+        "end": 2.48,
+        "label": "M"
+      },
+      {
+        "start": 2.48,
+        "end": 2.57,
+        "label": "AY1"
+      },
+      {
+        "start": 2.57,
+        "end": 2.65,
+        "label": "K"
+      },
+      {
+        "start": 2.65,
+        "end": 2.69,
+        "label": "AH0"
+      },
+      {
+        "start": 2.69,
+        "end": 2.73,
+        "label": "L"
+      },
+      {
+        "start": 2.73,
+        "end": 3.35,
+        "label": "spn"
+      },
+      {
+        "start": 3.35,
+        "end": 3.64,
+        "label": ""
+      },
+      {
+        "start": 3.64,
+        "end": 3.68,
+        "label": "F"
+      },
+      {
+        "start": 3.68,
+        "end": 3.71,
+        "label": "UH0"
+      },
+      {
+        "start": 3.71,
+        "end": 3.74,
+        "label": "L"
+      },
+      {
+        "start": 3.74,
+        "end": 3.84,
+        "label": "F"
+      },
+      {
+        "start": 3.84,
+        "end": 3.9,
+        "label": "IH1"
+      },
+      {
+        "start": 3.9,
+        "end": 3.99,
+        "label": "L"
+      },
+      {
+        "start": 3.99,
+        "end": 4.06,
+        "label": "D"
+      },
+      {
+        "start": 4.06,
+        "end": 4.12,
+        "label": "AH0"
+      },
+      {
+        "start": 4.12,
+        "end": 4.24,
+        "label": "K"
+      },
+      {
+        "start": 4.24,
+        "end": 4.35,
+        "label": "AE0"
+      },
+      {
+        "start": 4.35,
+        "end": 4.39,
+        "label": "M"
+      },
+      {
+        "start": 4.39,
+        "end": 4.48,
+        "label": "P"
+      },
+      {
+        "start": 4.48,
+        "end": 4.61,
+        "label": "EY1"
+      },
+      {
+        "start": 4.61,
+        "end": 4.68,
+        "label": "N"
+      },
+      {
+        "start": 4.68,
+        "end": 4.76,
+        "label": "P"
+      },
+      {
+        "start": 4.76,
+        "end": 4.82,
+        "label": "R"
+      },
+      {
+        "start": 4.82,
+        "end": 4.9,
+        "label": "AA1"
+      },
+      {
+        "start": 4.9,
+        "end": 4.95,
+        "label": "M"
+      },
+      {
+        "start": 4.95,
+        "end": 5.08,
+        "label": "AH0"
+      },
+      {
+        "start": 5.08,
+        "end": 5.2,
+        "label": "S"
+      },
+      {
+        "start": 5.2,
+        "end": 5.33,
+        "label": "T"
+      },
+      {
+        "start": 5.33,
+        "end": 5.42,
+        "label": "UW1"
+      },
+      {
+        "start": 5.42,
+        "end": 5.54,
+        "label": "D"
+      },
+      {
+        "start": 5.54,
+        "end": 5.66,
+        "label": "IY1"
+      },
+      {
+        "start": 5.66,
+        "end": 6.53,
+        "label": "spn"
+      },
+      {
+        "start": 6.53,
+        "end": 6.62,
+        "label": "JH"
+      },
+      {
+        "start": 6.62,
+        "end": 6.68,
+        "label": "UW0"
+      },
+      {
+        "start": 6.68,
+        "end": 6.75,
+        "label": "D"
+      },
+      {
+        "start": 6.75,
+        "end": 6.8,
+        "label": "IH1"
+      },
+      {
+        "start": 6.8,
+        "end": 6.91,
+        "label": "SH"
+      },
+      {
+        "start": 6.91,
+        "end": 6.97,
+        "label": "AH0"
+      },
+      {
+        "start": 6.97,
+        "end": 7.04,
+        "label": "L"
+      },
+      {
+        "start": 7.04,
+        "end": 7.09,
+        "label": "AH0"
+      },
+      {
+        "start": 7.09,
+        "end": 7.2,
+        "label": "P"
+      },
+      {
+        "start": 7.2,
+        "end": 7.32,
+        "label": "OY1"
+      },
+      {
+        "start": 7.32,
+        "end": 7.36,
+        "label": "N"
+      },
+      {
+        "start": 7.36,
+        "end": 7.39,
+        "label": "T"
+      },
+      {
+        "start": 7.39,
+        "end": 7.42,
+        "label": "M"
+      },
+      {
+        "start": 7.42,
+        "end": 7.5,
+        "label": "AH0"
+      },
+      {
+        "start": 7.5,
+        "end": 7.53,
+        "label": "N"
+      },
+      {
+        "start": 7.53,
+        "end": 7.59,
+        "label": "T"
+      },
+      {
+        "start": 7.59,
+        "end": 7.75,
+        "label": "S"
+      },
+      {
+        "start": 7.75,
+        "end": 8.04,
+        "label": ""
+      },
+      {
+        "start": 8.04,
+        "end": 8.11,
+        "label": "HH"
+      },
+      {
+        "start": 8.11,
+        "end": 8.16,
+        "label": "IY1"
+      },
+      {
+        "start": 8.16,
+        "end": 8.22,
+        "label": "N"
+      },
+      {
+        "start": 8.22,
+        "end": 8.36,
+        "label": "EY1"
+      },
+      {
+        "start": 8.36,
+        "end": 8.42,
+        "label": "M"
+      },
+      {
+        "start": 8.42,
+        "end": 8.5,
+        "label": "D"
+      },
+      {
+        "start": 8.5,
+        "end": 8.55,
+        "label": "R"
+      },
+      {
+        "start": 8.55,
+        "end": 8.62,
+        "label": "IY0"
+      },
+      {
+        "start": 8.62,
+        "end": 8.72,
+        "label": "P"
+      },
+      {
+        "start": 8.72,
+        "end": 8.8,
+        "label": "AH1"
+      },
+      {
+        "start": 8.8,
+        "end": 8.84,
+        "label": "B"
+      },
+      {
+        "start": 8.84,
+        "end": 8.92,
+        "label": "L"
+      },
+      {
+        "start": 8.92,
+        "end": 8.97,
+        "label": "IH0"
+      },
+      {
+        "start": 8.97,
+        "end": 9.04,
+        "label": "K"
+      },
+      {
+        "start": 9.04,
+        "end": 9.13,
+        "label": "AH0"
+      },
+      {
+        "start": 9.13,
+        "end": 9.18,
+        "label": "N"
+      },
+      {
+        "start": 9.18,
+        "end": 9.34,
+        "label": "EH1"
+      },
+      {
+        "start": 9.34,
+        "end": 9.39,
+        "label": "D"
+      },
+      {
+        "start": 9.39,
+        "end": 9.44,
+        "label": "W"
+      },
+      {
+        "start": 9.44,
+        "end": 9.5,
+        "label": "ER0"
+      },
+      {
+        "start": 9.5,
+        "end": 9.55,
+        "label": "D"
+      },
+      {
+        "start": 9.55,
+        "end": 9.62,
+        "label": "HH"
+      },
+      {
+        "start": 9.62,
+        "end": 9.67,
+        "label": "EH1"
+      },
+      {
+        "start": 9.67,
+        "end": 9.72,
+        "label": "N"
+      },
+      {
+        "start": 9.72,
+        "end": 9.8,
+        "label": "AH0"
+      },
+      {
+        "start": 9.8,
+        "end": 9.94,
+        "label": "S"
+      },
+      {
+        "start": 9.94,
+        "end": 10.09,
+        "label": "IY0"
+      },
+      {
+        "start": 10.09,
+        "end": 10.23,
+        "label": "T"
+      },
+      {
+        "start": 10.23,
+        "end": 10.26,
+        "label": "UW1"
+      },
+      {
+        "start": 10.26,
+        "end": 10.35,
+        "label": "HH"
+      },
+      {
+        "start": 10.35,
+        "end": 10.45,
+        "label": "EH1"
+      },
+      {
+        "start": 10.45,
+        "end": 10.52,
+        "label": "D"
+      },
+      {
+        "start": 10.52,
+        "end": 10.56,
+        "label": "DH"
+      },
+      {
+        "start": 10.56,
+        "end": 10.61,
+        "label": "AH0"
+      },
+      {
+        "start": 10.61,
+        "end": 10.72,
+        "label": "S"
+      },
+      {
+        "start": 10.72,
+        "end": 10.78,
+        "label": "T"
+      },
+      {
+        "start": 10.78,
+        "end": 10.89,
+        "label": "EY1"
+      },
+      {
+        "start": 10.89,
+        "end": 10.97,
+        "label": "T"
+      },
+      {
+        "start": 10.97,
+        "end": 11.06,
+        "label": "S"
+      },
+      {
+        "start": 11.06,
+        "end": 11.09,
+        "label": "AH0"
+      },
+      {
+        "start": 11.09,
+        "end": 11.21,
+        "label": "P"
+      },
+      {
+        "start": 11.21,
+        "end": 11.25,
+        "label": "R"
+      },
+      {
+        "start": 11.25,
+        "end": 11.34,
+        "label": "IY1"
+      },
+      {
+        "start": 11.34,
+        "end": 11.4,
+        "label": "M"
+      },
+      {
+        "start": 11.4,
+        "end": 11.49,
+        "label": "JH"
+      },
+      {
+        "start": 11.49,
+        "end": 11.54,
+        "label": "UW0"
+      },
+      {
+        "start": 11.54,
+        "end": 11.61,
+        "label": "D"
+      },
+      {
+        "start": 11.61,
+        "end": 11.67,
+        "label": "IH1"
+      },
+      {
+        "start": 11.67,
+        "end": 11.77,
+        "label": "SH"
+      },
+      {
+        "start": 11.77,
+        "end": 11.83,
+        "label": "AH0"
+      },
+      {
+        "start": 11.83,
+        "end": 11.87,
+        "label": "L"
+      },
+      {
+        "start": 11.87,
+        "end": 12.04,
+        "label": "K"
+      },
+      {
+        "start": 12.04,
+        "end": 12.11,
+        "label": "AO1"
+      },
+      {
+        "start": 12.11,
+        "end": 12.2,
+        "label": "R"
+      },
+      {
+        "start": 12.2,
+        "end": 12.33,
+        "label": "T"
+      },
+      {
+        "start": 12.33,
+        "end": 13.03,
+        "label": ""
+      },
+      {
+        "start": 13.03,
+        "end": 13.14,
+        "label": "F"
+      },
+      {
+        "start": 13.14,
+        "end": 13.17,
+        "label": "R"
+      },
+      {
+        "start": 13.17,
+        "end": 13.2,
+        "label": "ER0"
+      },
+      {
+        "start": 13.2,
+        "end": 13.25,
+        "label": "HH"
+      },
+      {
+        "start": 13.25,
+        "end": 13.3,
+        "label": "EH1"
+      },
+      {
+        "start": 13.3,
+        "end": 13.35,
+        "label": "N"
+      },
+      {
+        "start": 13.35,
+        "end": 13.41,
+        "label": "AH0"
+      },
+      {
+        "start": 13.41,
+        "end": 13.52,
+        "label": "S"
+      },
+      {
+        "start": 13.52,
+        "end": 13.61,
+        "label": "IY0"
+      },
+      {
+        "start": 13.61,
+        "end": 13.65,
+        "label": "IH1"
+      },
+      {
+        "start": 13.65,
+        "end": 13.72,
+        "label": "T"
+      },
+      {
+        "start": 13.72,
+        "end": 13.78,
+        "label": "W"
+      },
+      {
+        "start": 13.78,
+        "end": 13.83,
+        "label": "AH0"
+      },
+      {
+        "start": 13.83,
+        "end": 13.88,
+        "label": "Z"
+      },
+      {
+        "start": 13.88,
+        "end": 13.94,
+        "label": "AH0"
+      },
+      {
+        "start": 13.94,
+        "end": 14.02,
+        "label": "N"
+      },
+      {
+        "start": 14.02,
+        "end": 14.07,
+        "label": "AH1"
+      },
+      {
+        "start": 14.07,
+        "end": 14.12,
+        "label": "DH"
+      },
+      {
+        "start": 14.12,
+        "end": 14.2,
+        "label": "ER0"
+      },
+      {
+        "start": 14.2,
+        "end": 14.34,
+        "label": "S"
+      },
+      {
+        "start": 14.34,
+        "end": 14.41,
+        "label": "T"
+      },
+      {
+        "start": 14.41,
+        "end": 14.55,
+        "label": "EH1"
+      },
+      {
+        "start": 14.55,
+        "end": 14.68,
+        "label": "P"
+      },
+      {
+        "start": 14.68,
+        "end": 14.72,
+        "label": "AH0"
+      },
+      {
+        "start": 14.72,
+        "end": 14.82,
+        "label": "L"
+      },
+      {
+        "start": 14.82,
+        "end": 14.91,
+        "label": "AO1"
+      },
+      {
+        "start": 14.91,
+        "end": 15.0,
+        "label": "NG"
+      },
+      {
+        "start": 15.0,
+        "end": 15.05,
+        "label": "AH0"
+      },
+      {
+        "start": 15.05,
+        "end": 15.14,
+        "label": "D"
+      },
+      {
+        "start": 15.14,
+        "end": 15.19,
+        "label": "IH0"
+      },
+      {
+        "start": 15.19,
+        "end": 15.28,
+        "label": "S"
+      },
+      {
+        "start": 15.28,
+        "end": 15.34,
+        "label": "T"
+      },
+      {
+        "start": 15.34,
+        "end": 15.4,
+        "label": "IH1"
+      },
+      {
+        "start": 15.4,
+        "end": 15.44,
+        "label": "NG"
+      },
+      {
+        "start": 15.44,
+        "end": 15.47,
+        "label": "G"
+      },
+      {
+        "start": 15.47,
+        "end": 15.51,
+        "label": "W"
+      },
+      {
+        "start": 15.51,
+        "end": 15.56,
+        "label": "IH0"
+      },
+      {
+        "start": 15.56,
+        "end": 15.65,
+        "label": "SH"
+      },
+      {
+        "start": 15.65,
+        "end": 15.68,
+        "label": "T"
+      },
+      {
+        "start": 15.68,
+        "end": 15.78,
+        "label": "K"
+      },
+      {
+        "start": 15.78,
+        "end": 15.9,
+        "label": "ER0"
+      },
+      {
+        "start": 15.9,
+        "end": 15.98,
+        "label": "IH1"
+      },
+      {
+        "start": 15.98,
+        "end": 16.1,
+        "label": "R"
+      },
+      {
+        "start": 16.1,
+        "end": 16.45,
+        "label": ""
+      },
+      {
+        "start": 16.45,
+        "end": 16.49,
+        "label": "DH"
+      },
+      {
+        "start": 16.49,
+        "end": 16.55,
+        "label": "AE1"
+      },
+      {
+        "start": 16.55,
+        "end": 16.6,
+        "label": "T"
+      },
+      {
+        "start": 16.6,
+        "end": 16.64,
+        "label": "B"
+      },
+      {
+        "start": 16.64,
+        "end": 16.72,
+        "label": "IH0"
+      },
+      {
+        "start": 16.72,
+        "end": 16.8,
+        "label": "G"
+      },
+      {
+        "start": 16.8,
+        "end": 16.97,
+        "label": "AE1"
+      },
+      {
+        "start": 16.97,
+        "end": 17.02,
+        "label": "N"
+      },
+      {
+        "start": 17.02,
+        "end": 17.09,
+        "label": "AE1"
+      },
+      {
+        "start": 17.09,
+        "end": 17.17,
+        "label": "Z"
+      },
+      {
+        "start": 17.17,
+        "end": 17.23,
+        "label": "AH0"
+      },
+      {
+        "start": 17.23,
+        "end": 17.35,
+        "label": "T"
+      },
+      {
+        "start": 17.35,
+        "end": 17.4,
+        "label": "R"
+      },
+      {
+        "start": 17.4,
+        "end": 17.49,
+        "label": "AY1"
+      },
+      {
+        "start": 17.49,
+        "end": 17.59,
+        "label": "AH0"
+      },
+      {
+        "start": 17.59,
+        "end": 17.64,
+        "label": "L"
+      },
+      {
+        "start": 17.64,
+        "end": 17.71,
+        "label": "L"
+      },
+      {
+        "start": 17.71,
+        "end": 17.81,
+        "label": "AO1"
+      },
+      {
+        "start": 17.81,
+        "end": 17.87,
+        "label": "Y"
+      },
+      {
+        "start": 17.87,
+        "end": 18.09,
+        "label": "ER0"
+      },
+      {
+        "start": 18.09,
+        "end": 18.16,
+        "label": ""
+      },
+      {
+        "start": 18.16,
+        "end": 18.24,
+        "label": "AE1"
+      },
+      {
+        "start": 18.24,
+        "end": 18.28,
+        "label": "N"
+      },
+      {
+        "start": 18.28,
+        "end": 18.34,
+        "label": "D"
+      },
+      {
+        "start": 18.34,
+        "end": 18.39,
+        "label": "L"
+      },
+      {
+        "start": 18.39,
+        "end": 18.45,
+        "label": "EH1"
+      },
+      {
+        "start": 18.45,
+        "end": 18.52,
+        "label": "D"
+      },
+      {
+        "start": 18.52,
+        "end": 18.58,
+        "label": "T"
+      },
+      {
+        "start": 18.58,
+        "end": 18.63,
+        "label": "UW1"
+      },
+      {
+        "start": 18.63,
+        "end": 18.69,
+        "label": "AH0"
+      },
+      {
+        "start": 18.69,
+        "end": 18.73,
+        "label": "N"
+      },
+      {
+        "start": 18.73,
+        "end": 18.8,
+        "label": "AH0"
+      },
+      {
+        "start": 18.8,
+        "end": 18.92,
+        "label": "P"
+      },
+      {
+        "start": 18.92,
+        "end": 19.03,
+        "label": "OY1"
+      },
+      {
+        "start": 19.03,
+        "end": 19.07,
+        "label": "N"
+      },
+      {
+        "start": 19.07,
+        "end": 19.1,
+        "label": "T"
+      },
+      {
+        "start": 19.1,
+        "end": 19.13,
+        "label": "M"
+      },
+      {
+        "start": 19.13,
+        "end": 19.21,
+        "label": "AH0"
+      },
+      {
+        "start": 19.21,
+        "end": 19.25,
+        "label": "N"
+      },
+      {
+        "start": 19.25,
+        "end": 19.3,
+        "label": "T"
+      },
+      {
+        "start": 19.3,
+        "end": 19.42,
+        "label": "AE1"
+      },
+      {
+        "start": 19.42,
+        "end": 19.49,
+        "label": "Z"
+      },
+      {
+        "start": 19.49,
+        "end": 19.55,
+        "label": "AH0"
+      },
+      {
+        "start": 19.55,
+        "end": 19.67,
+        "label": "S"
+      },
+      {
+        "start": 19.67,
+        "end": 19.75,
+        "label": "OW1"
+      },
+      {
+        "start": 19.75,
+        "end": 19.89,
+        "label": "S"
+      },
+      {
+        "start": 19.89,
+        "end": 20.01,
+        "label": "IY0"
+      },
+      {
+        "start": 20.01,
+        "end": 20.07,
+        "label": "AH0"
+      },
+      {
+        "start": 20.07,
+        "end": 20.14,
+        "label": "T"
+      },
+      {
+        "start": 20.14,
+        "end": 20.21,
+        "label": "S"
+      },
+      {
+        "start": 20.21,
+        "end": 20.24,
+        "label": "AH0"
+      },
+      {
+        "start": 20.24,
+        "end": 20.34,
+        "label": "P"
+      },
+      {
+        "start": 20.34,
+        "end": 20.38,
+        "label": "R"
+      },
+      {
+        "start": 20.38,
+        "end": 20.45,
+        "label": "IY1"
+      },
+      {
+        "start": 20.45,
+        "end": 20.54,
+        "label": "M"
+      },
+      {
+        "start": 20.54,
+        "end": 20.65,
+        "label": "K"
+      },
+      {
+        "start": 20.65,
+        "end": 20.68,
+        "label": "AO1"
+      },
+      {
+        "start": 20.68,
+        "end": 20.76,
+        "label": "R"
+      },
+      {
+        "start": 20.76,
+        "end": 20.82,
+        "label": "T"
+      },
+      {
+        "start": 20.82,
+        "end": 20.91,
+        "label": "JH"
+      },
+      {
+        "start": 20.91,
+        "end": 21.0,
+        "label": "AH1"
+      },
+      {
+        "start": 21.0,
+        "end": 21.09,
+        "label": "S"
+      },
+      {
+        "start": 21.09,
+        "end": 21.15,
+        "label": "T"
+      },
+      {
+        "start": 21.15,
+        "end": 21.21,
+        "label": "AH0"
+      },
+      {
+        "start": 21.21,
+        "end": 21.3,
+        "label": "S"
+      },
+      {
+        "start": 21.3,
+        "end": 21.41,
+        "label": "IH0"
+      },
+      {
+        "start": 21.41,
+        "end": 21.48,
+        "label": "N"
+      },
+      {
+        "start": 21.48,
+        "end": 21.52,
+        "label": "N"
+      },
+      {
+        "start": 21.52,
+        "end": 21.61,
+        "label": "AY1"
+      },
+      {
+        "start": 21.61,
+        "end": 21.66,
+        "label": "N"
+      },
+      {
+        "start": 21.66,
+        "end": 21.77,
+        "label": "T"
+      },
+      {
+        "start": 21.77,
+        "end": 21.82,
+        "label": "IY1"
+      },
+      {
+        "start": 21.82,
+        "end": 21.89,
+        "label": "N"
+      },
+      {
+        "start": 21.89,
+        "end": 22.0,
+        "label": "S"
+      },
+      {
+        "start": 22.0,
+        "end": 22.06,
+        "label": "EH1"
+      },
+      {
+        "start": 22.06,
+        "end": 22.12,
+        "label": "V"
+      },
+      {
+        "start": 22.12,
+        "end": 22.16,
+        "label": "AH0"
+      },
+      {
+        "start": 22.16,
+        "end": 22.2,
+        "label": "N"
+      },
+      {
+        "start": 22.2,
+        "end": 22.23,
+        "label": "T"
+      },
+      {
+        "start": 22.23,
+        "end": 22.31,
+        "label": "IY0"
+      },
+      {
+        "start": 22.31,
+        "end": 22.42,
+        "label": "W"
+      },
+      {
+        "start": 22.42,
+        "end": 22.56,
+        "label": "AH1"
+      },
+      {
+        "start": 22.56,
+        "end": 22.65,
+        "label": "N"
+      },
+      {
+        "start": 22.65,
+        "end": 23.16,
+        "label": ""
+      },
+      {
+        "start": 23.16,
+        "end": 23.2,
+        "label": "DH"
+      },
+      {
+        "start": 23.2,
+        "end": 23.3,
+        "label": "AE1"
+      },
+      {
+        "start": 23.3,
+        "end": 23.35,
+        "label": "T"
+      },
+      {
+        "start": 23.35,
+        "end": 23.39,
+        "label": "Y"
+      },
+      {
+        "start": 23.39,
+        "end": 23.45,
+        "label": "IH1"
+      },
+      {
+        "start": 23.45,
+        "end": 23.52,
+        "label": "R"
+      },
+      {
+        "start": 23.52,
+        "end": 23.63,
+        "label": "T"
+      },
+      {
+        "start": 23.63,
+        "end": 23.74,
+        "label": "AA1"
+      },
+      {
+        "start": 23.74,
+        "end": 23.79,
+        "label": "M"
+      },
+      {
+        "start": 23.79,
+        "end": 23.84,
+        "label": "AH0"
+      },
+      {
+        "start": 23.84,
+        "end": 23.92,
+        "label": "S"
+      },
+      {
+        "start": 23.92,
+        "end": 24.34,
+        "label": "spn"
+      },
+      {
+        "start": 24.34,
+        "end": 24.39,
+        "label": "N"
+      },
+      {
+        "start": 24.39,
+        "end": 24.51,
+        "label": "AW1"
+      },
+      {
+        "start": 24.51,
+        "end": 24.62,
+        "label": "P"
+      },
+      {
+        "start": 24.62,
+        "end": 24.65,
+        "label": "R"
+      },
+      {
+        "start": 24.65,
+        "end": 24.71,
+        "label": "EH1"
+      },
+      {
+        "start": 24.71,
+        "end": 24.78,
+        "label": "Z"
+      },
+      {
+        "start": 24.78,
+        "end": 24.83,
+        "label": "IH0"
+      },
+      {
+        "start": 24.83,
+        "end": 24.86,
+        "label": "D"
+      },
+      {
+        "start": 24.86,
+        "end": 24.94,
+        "label": "AH0"
+      },
+      {
+        "start": 24.94,
+        "end": 24.99,
+        "label": "N"
+      },
+      {
+        "start": 24.99,
+        "end": 25.05,
+        "label": "T"
+      },
+      {
+        "start": 25.05,
+        "end": 25.1,
+        "label": "AH0"
+      },
+      {
+        "start": 25.1,
+        "end": 25.16,
+        "label": "V"
+      },
+      {
+        "start": 25.16,
+        "end": 25.19,
+        "label": "DH"
+      },
+      {
+        "start": 25.19,
+        "end": 25.23,
+        "label": "AH0"
+      },
+      {
+        "start": 25.23,
+        "end": 25.28,
+        "label": "M"
+      },
+      {
+        "start": 25.28,
+        "end": 25.37,
+        "label": "AE2"
+      },
+      {
+        "start": 25.37,
+        "end": 25.47,
+        "label": "S"
+      },
+      {
+        "start": 25.47,
+        "end": 25.5,
+        "label": "AH0"
+      },
+      {
+        "start": 25.5,
+        "end": 25.61,
+        "label": "CH"
+      },
+      {
+        "start": 25.61,
+        "end": 25.64,
+        "label": "UW1"
+      },
+      {
+        "start": 25.64,
+        "end": 25.73,
+        "label": "S"
+      },
+      {
+        "start": 25.73,
+        "end": 25.78,
+        "label": "AH0"
+      },
+      {
+        "start": 25.78,
+        "end": 25.82,
+        "label": "T"
+      },
+      {
+        "start": 25.82,
+        "end": 25.85,
+        "label": "S"
+      },
+      {
+        "start": 25.85,
+        "end": 25.92,
+        "label": "B"
+      },
+      {
+        "start": 25.92,
+        "end": 25.98,
+        "label": "AA1"
+      },
+      {
+        "start": 25.98,
+        "end": 26.08,
+        "label": "R"
+      },
+      {
+        "start": 26.08,
+        "end": 26.13,
+        "label": "AH0"
+      },
+      {
+        "start": 26.13,
+        "end": 26.24,
+        "label": "S"
+      },
+      {
+        "start": 26.24,
+        "end": 26.31,
+        "label": "OW2"
+      },
+      {
+        "start": 26.31,
+        "end": 26.45,
+        "label": "S"
+      },
+      {
+        "start": 26.45,
+        "end": 26.55,
+        "label": "IY0"
+      },
+      {
+        "start": 26.55,
+        "end": 26.62,
+        "label": "EY1"
+      },
+      {
+        "start": 26.62,
+        "end": 26.74,
+        "label": "SH"
+      },
+      {
+        "start": 26.74,
+        "end": 26.8,
+        "label": "AH0"
+      },
+      {
+        "start": 26.8,
+        "end": 26.86,
+        "label": "N"
+      },
+      {
+        "start": 26.86,
+        "end": 27.2,
+        "label": ""
+      },
+      {
+        "start": 27.2,
+        "end": 27.24,
+        "label": "W"
+      },
+      {
+        "start": 27.24,
+        "end": 27.28,
+        "label": "AH0"
+      },
+      {
+        "start": 27.28,
+        "end": 27.35,
+        "label": "Z"
+      },
+      {
+        "start": 27.35,
+        "end": 27.4,
+        "label": "HH"
+      },
+      {
+        "start": 27.4,
+        "end": 27.45,
+        "label": "EH1"
+      },
+      {
+        "start": 27.45,
+        "end": 27.49,
+        "label": "N"
+      },
+      {
+        "start": 27.49,
+        "end": 27.55,
+        "label": "IH0"
+      },
+      {
+        "start": 27.55,
+        "end": 27.65,
+        "label": "S"
+      },
+      {
+        "start": 27.65,
+        "end": 27.7,
+        "label": "IY0"
+      },
+      {
+        "start": 27.7,
+        "end": 27.81,
+        "label": "Z"
+      },
+      {
+        "start": 27.81,
+        "end": 27.87,
+        "label": "L"
+      },
+      {
+        "start": 27.87,
+        "end": 28.01,
+        "label": "AA1"
+      },
+      {
+        "start": 28.01,
+        "end": 28.15,
+        "label": "K"
+      },
+      {
+        "start": 28.15,
+        "end": 28.19,
+        "label": "L"
+      },
+      {
+        "start": 28.19,
+        "end": 28.28,
+        "label": "ER1"
+      },
+      {
+        "start": 28.28,
+        "end": 28.47,
+        "label": "K"
+      },
+      {
+        "start": 28.47,
+        "end": 28.647,
+        "label": ""
+      }
+    ]
+  }
+]

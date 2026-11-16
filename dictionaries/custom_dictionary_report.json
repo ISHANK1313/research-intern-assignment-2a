@@ -1,0 +1,35 @@
+{
+  "base_dictionary": "C:/Users/hdd/Documents/MFA/pretrained_models/dictionary/english_us_arpa.dict",
+  "g2p_dictionary": "dictionaries/g2p_oov_only.dict",
+  "out_dictionary": "dictionaries/english_us_arpa_plus_g2p.dict",
+  "base_word_types": 199860,
+  "base_phone_types": 70,
+  "words_added": {
+    "dukakis": [
+      "D AH0 K AA1 K IH0 S",
+      "D AH1 K AA1 K IH0 S",
+      "D UW0 K AA1 K IH0 S",
+      "D UW1 K AA1 K IH0 S",
+      "D UW2 K AA1 K IH0 S"
+    ],
+    "maffy": [
+      "M AE1 F IY0"
+    ],
+    "melnicove": [
+      "M EH1 L N IH0 K OW2 V"
+    ],
+    "politicize": [
+      "P AH0 L IH1 T IH0 S AY2 Z"
+    ],
+    "wbur": [
+      "B ER0",
+      "V B ER0",
+      "W AH0 B ER0",
+      "W AO1 AH0 B ER0",
+      "W AY1 B ER0"
+    ]
+  },
+  "pronunciations_added": 13,
+  "total_lines": 208664,
+  "rejected": []
+}
