@@ -313,14 +313,14 @@ mfa-forced-alignment/
 │   ├── 07_record_versions.sh       # Phase 1: version record
 │   └── run_pipeline.sh             # full pipeline, end to end
 ├── data/
-│   ├── raw/                        # the provided dataset, unmodified
-│   ├── corpus/                      # MFA-ready: <stem>.wav + <stem>.lab
+│   ├── raw/                        # the provided dataset, unmodified (committed)
+│   ├── corpus/                     # MFA-ready: <stem>.wav + <stem>.lab  [regenerated]
 │   ├── dataset_summary.json
 │   └── corpus_summary.json
 ├── outputs/                        # 6 TextGrids + alignment_analysis.csv (main run)
 ├── outputs_custom_dict/            # 6 TextGrids (custom G2P dictionary)
 ├── outputs_acoustic_english_mfa/   # 6 TextGrids (second acoustic model)
-├── dictionaries/                   # generated custom dictionary + report
+├── dictionaries/                   # G2P output + merge report (committed)
 ├── Report/
 │   ├── report.pdf                  # written report
 │   ├── versions.txt
@@ -328,6 +328,20 @@ mfa-forced-alignment/
 │   └── figures/                    # alignment visualisations
 └── logs/                           # commands.log, per-step logs, OOV reports
 ```
+
+### What is deliberately not committed
+
+These are all regenerable by the tracked scripts, so they are in `.gitignore`:
+
+| Path | Why | Recreate with |
+|---|---|---|
+| `data/corpus/` | derived from `data/raw` | `python scripts/01_prepare_corpus.py` |
+| `Report/figures_custom_dict/` | near-duplicate figure set | `python scripts/04_inspect_textgrids.py --textgrid-dir outputs_custom_dict --out-dir Report/figures_custom_dict` |
+| `dictionaries/english_us_arpa_plus_g2p.dict` | ~5.7 MB and 99.99% a verbatim copy of the downloadable `english_us_arpa` dictionary; the 13 genuinely new lines are committed as `dictionaries/g2p_oov_only.dict` | `python scripts/05_build_custom_dictionary.py --base-dictionary $MFA_ROOT/pretrained_models/dictionary/english_us_arpa.dict` |
+
+`data/raw/` **is** committed — it is the provided dataset and cannot be
+recreated. A fresh clone therefore has everything needed to run
+`./scripts/run_pipeline.sh` from scratch, which rebuilds the corpus first.
 
 ---
 
