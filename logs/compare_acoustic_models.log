@@ -1,0 +1,18 @@
+stem                                   words  phoneΔ   mean|Δ|   max|Δ|  >10ms
+------------------------------------------------------------------------------
+F2BJRLP1                                  70      -8    0.0217     0.68     26
+F2BJRLP2                                  74      -6    0.0208     0.25     26
+F2BJRLP3                                  82     -19    0.0117     0.09     24
+ISLE_SESS0131_BLOCKD02_01_sprt1            5      +0     0.028      0.1      5
+ISLE_SESS0131_BLOCKD02_02_sprt1            5      -1     0.032     0.12      4
+ISLE_SESS0131_BLOCKD02_03_sprt1            5      +0     0.034      0.1      4
+
+wrote Report\alignment_comparison_english_mfa.json
+
+spn regions in the reference run and the phones the custom run used:
+  F2BJRLP1  15.45-16.0s  [dukakis] -> l spn
+  F2BJRLP1  20.56-21.33s  [wbur's] -> spn
+  F2BJRLP1  21.75-22.29s  [melnicove] -> spn ɹ
+  F2BJRLP2  2.73-3.35s  [dukakis] -> l spn
+  F2BJRLP2  5.66-6.53s  [politicize] -> spn dʒ
+  F2BJRLP2  23.92-24.34s  [maffy] -> s spn

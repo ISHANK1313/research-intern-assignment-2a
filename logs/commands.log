@@ -1,0 +1,121 @@
+# Full command log - Assignment 2a, MFA forced alignment
+#
+# Chronological record of every command used to produce this repository.
+# Entries marked [auto] are appended automatically by the scripts in scripts/
+# (see scripts/lib.sh -> run_logged). The setup and download commands were run
+# interactively and were added to this file by hand.
+#
+# Host: Windows 10 (win32 10.0.19045), Git Bash. MFA 3.4.3, conda env "aligner".
+
+## ---------------------------------------------------------------------------
+## Phase 1 - environment and models
+## ---------------------------------------------------------------------------
+
+# Install Miniconda (user-level, no admin, PATH not modified)
+powershell -NoProfile -Command "Start-Process -FilePath '.\miniconda.exe' \
+  -ArgumentList '/InstallationType=JustMe','/RegisterPython=0','/AddToPath=0','/S','/D=C:\Users\hdd\miniconda3' -Wait"
+
+# Create the MFA environment from conda-forge
+conda create -n aligner --override-channels -c conda-forge montreal-forced-aligner -y
+
+# MFA must run inside that environment
+conda activate aligner
+mfa version                                        # -> 3.4.3
+
+# Download the acoustic model, dictionary and G2P model
+mfa model download dictionary english_us_arpa
+mfa model download acoustic   english_us_arpa
+mfa model download g2p        english_us_arpa
+mfa model download acoustic   english_mfa          # second model (extra credit)
+mfa model download dictionary english_mfa          # second model (extra credit)
+mfa model inspect acoustic english_us_arpa         # version / architecture details
+mfa model list acoustic
+mfa model list dictionary
+
+## ---------------------------------------------------------------------------
+## Phase 2 - data inspection, corpus preparation, validation
+## ---------------------------------------------------------------------------
+
+python scripts/00_inspect_dataset.py
+python scripts/01_prepare_corpus.py
+python scripts/01_prepare_corpus.py                # re-run after the clitic fix
+
+mfa validate data/corpus english_us_arpa --output_directory logs/mfa_validate   # [auto]
+
+## ---------------------------------------------------------------------------
+## Phase 3 - forced alignment
+## ---------------------------------------------------------------------------
+
+mfa align data/corpus english_us_arpa english_us_arpa outputs --clean   # [auto]
+# -> 6 TextGrids for 6 wav files, 0 failures, 214 s
+
+## ---------------------------------------------------------------------------
+## Phase 4 - inspection and visualisation
+## ---------------------------------------------------------------------------
+
+python scripts/04_inspect_textgrids.py
+python scripts/04_inspect_textgrids.py --files F2BJRLP1 --zoom-start 14.5 --zoom-end 17.0 \
+    --suffix _oov_zoom --stats-json logs/oov_zoom_stats.json
+python scripts/04_inspect_textgrids.py --files F2BJRLP2 --zoom-start 4.5 --zoom-end 7.0 \
+    --suffix _oov_zoom --stats-json logs/oov_zoom_stats.json
+# and, for the custom-dictionary run:
+python scripts/04_inspect_textgrids.py --textgrid-dir outputs_custom_dict \
+    --out-dir Report/figures_custom_dict \
+    --stats-json Report/alignment_stats_custom_dict.json
+
+## ---------------------------------------------------------------------------
+## Phase 5 - extra credit: custom G2P dictionary
+## ---------------------------------------------------------------------------
+
+# Every word in the transcripts (282 pronunciations for 148 word types)
+mfa g2p data/corpus english_us_arpa dictionaries/g2p_all_words.dict    # [auto]
+
+# Only the words missing from the base dictionary (13 lines for 5 word types)
+mfa g2p data/corpus english_us_arpa dictionaries/g2p_oov_only.dict \
+    --dictionary_path $MFA_ROOT/pretrained_models/dictionary/english_us_arpa.dict   # [auto]
+
+# Merge base dictionary + G2P entries
+python scripts/05_build_custom_dictionary.py \
+    --base-dictionary $MFA_ROOT/pretrained_models/dictionary/english_us_arpa.dict
+
+# Re-validate and re-align with the custom dictionary
+mfa validate data/corpus dictionaries/english_us_arpa_plus_g2p.dict \
+    --ignore_acoustics --output_directory logs/validate_custom        # [auto]
+mfa align data/corpus dictionaries/english_us_arpa_plus_g2p.dict english_us_arpa \
+    outputs_custom_dict --clean                                       # [auto]
+
+# Compare the two runs (own script - see the note at the bottom)
+python scripts/06_compare_alignments.py
+
+## ---------------------------------------------------------------------------
+## Phase 5 - extra credit: second acoustic model
+## ---------------------------------------------------------------------------
+
+mfa validate data/corpus english_mfa --ignore_acoustics \
+    --output_directory logs/validate_english_mfa                      # [auto]
+mfa align data/corpus english_mfa english_mfa outputs_acoustic_english_mfa --clean   # [auto]
+python scripts/06_compare_alignments.py --reference-dir outputs \
+    --test-dir outputs_acoustic_english_mfa \
+    --out-json Report/alignment_comparison_english_mfa.json
+
+## ---------------------------------------------------------------------------
+## Version record
+## ---------------------------------------------------------------------------
+
+bash scripts/07_record_versions.sh
+
+## ---------------------------------------------------------------------------
+## Commands that failed on MFA 3.4.3, recorded because they were attempted
+## ---------------------------------------------------------------------------
+
+# find_oovs crashes with an sqlalchemy UNIQUE constraint error on the merged
+# dictionary. "mfa validate --ignore_acoustics" was used instead; it reports
+# the same OOV information.
+mfa find_oovs data/corpus dictionaries/english_us_arpa_plus_g2p.dict logs/oov_custom
+# -> sqlalchemy.exc.IntegrityError: UNIQUE constraint failed: word.id
+
+# compare_alignments crashes while loading the reference TextGrid set.
+mfa compare_alignments outputs outputs_custom_dict logs/compare_alignments
+# -> TypeError: 'KeyError' object is not subscriptable
+# Replaced by scripts/06_compare_alignments.py, which compares the TextGrids
+# directly and reports equivalent boundary statistics.

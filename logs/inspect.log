@@ -1,0 +1,42 @@
+F2BJRLP1
+  duration 25.309 s | words 70 | phones 284 | spn 3 | zero-length phones 0 | non-speech 2.999 s (lead 0.53 / trail 0.299)
+  spn covers OOV word(s): ['dukakis', 'melnicove', "wbur's"]
+  first word 'wanted' @ 0.53 s, last word 'follow' ends @ 25.01 s
+  longest phone spn 0.77 s @ 20.56 s
+  largest word gap 0.39 s at 12.62 s ('march' -> 'it')
+  spn at ['15.45-16.0', '20.56-21.33', '21.75-22.29']
+  wrote Report\figures\F2BJRLP1_alignment.png
+F2BJRLP2
+  duration 28.647 s | words 74 | phones 328 | spn 3 | zero-length phones 0 | non-speech 2.887 s (lead 0.04 / trail 0.177)
+  spn covers OOV word(s): ['dukakis', 'maffy', 'politicize']
+  first word 'in' @ 0.04 s, last word 'clerk' ends @ 28.47 s
+  longest phone spn 0.87 s @ 5.66 s
+  largest word gap 0.7 s at 12.33 s ('court' -> 'for')
+  spn at ['2.73-3.35', '5.66-6.53', '23.92-24.34']
+  wrote Report\figures\F2BJRLP2_alignment.png
+F2BJRLP3
+  duration 30.707 s | words 82 | phones 372 | spn 0 | zero-length phones 0 | non-speech 3.177 s (lead 0.21 / trail 0.347)
+  first word 'the' @ 0.21 s, last word 'gains' ends @ 30.36 s
+  longest phone OW1 0.29 s @ 13.47 s
+  largest word gap 0.54 s at 21.63 s ('houses' -> 'despite')
+  wrote Report\figures\F2BJRLP3_alignment.png
+ISLE_SESS0131_BLOCKD02_01_sprt1
+  duration 4.125 s | words 5 | phones 13 | spn 0 | zero-length phones 0 | non-speech 2.595 s (lead 0.44 / trail 1.885)
+  first word 'i' @ 0.44 s, last word 'bait' ends @ 2.24 s
+  longest phone EY1 0.21 s @ 1.84 s
+  largest word gap 0.27 s at 1.21 s ('white' -> 'not')
+  wrote Report\figures\ISLE_SESS0131_BLOCKD02_01_sprt1_alignment.png
+ISLE_SESS0131_BLOCKD02_02_sprt1
+  duration 3.875 s | words 5 | phones 12 | spn 0 | zero-length phones 0 | non-speech 2.335 s (lead 0.62 / trail 1.685)
+  first word 'i' @ 0.62 s, last word 'no' ends @ 2.19 s
+  longest phone OW1 0.32 s @ 1.87 s
+  largest word gap 0.03 s at 1.43 s ('new' -> 'not')
+  wrote Report\figures\ISLE_SESS0131_BLOCKD02_02_sprt1_alignment.png
+ISLE_SESS0131_BLOCKD02_03_sprt1
+  duration 4.5 s | words 5 | phones 13 | spn 0 | zero-length phones 0 | non-speech 2.84 s (lead 0.22 / trail 2.54)
+  first word 'i' @ 0.22 s, last word 'bed' ends @ 1.96 s
+  longest phone T 0.24 s @ 1.33 s
+  largest word gap 0.08 s at 1.05 s ('bad' -> 'not')
+  wrote Report\figures\ISLE_SESS0131_BLOCKD02_03_sprt1_alignment.png
+
+wrote Report\alignment_stats.json
