@@ -1,0 +1,16 @@
+base dictionary : C:\Users\hdd\Documents\MFA\pretrained_models\dictionary\english_us_arpa.dict
+  word types    : 199860
+  phone types   : 70
+g2p dictionary  : dictionaries\g2p_oov_only.dict
+  word types    : 5
+
+words added from G2P : 5
+  dukakis        5 pronunciation(s): D AH0 K AA1 K IH0 S
+  maffy          1 pronunciation(s): M AE1 F IY0
+  melnicove      1 pronunciation(s): M EH1 L N IH0 K OW2 V
+  politicize     1 pronunciation(s): P AH0 L IH1 T IH0 S AY2 Z
+  wbur           5 pronunciation(s): B ER0
+
+wrote dictionaries\english_us_arpa_plus_g2p.dict
+  total lines      : 208664 (13 from G2P)
+  report           : dictionaries\custom_dictionary_report.json
