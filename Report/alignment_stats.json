@@ -1,0 +1,7079 @@
+[
+  {
+    "stem": "F2BJRLP1",
+    "audio_duration_sec": 25.309,
+    "word_intervals": 84,
+    "word_intervals_non_empty": 70,
+    "phone_intervals": 298,
+    "phone_intervals_non_empty": 284,
+    "zero_length_phones": [],
+    "zero_length_phone_count": 0,
+    "spn_count": 3,
+    "spn_phones": [
+      "15.45-16.0",
+      "20.56-21.33",
+      "21.75-22.29"
+    ],
+    "spn_words": [
+      "dukakis",
+      "melnicove",
+      "wbur's"
+    ],
+    "explicit_sil_labels": 0,
+    "unlabelled_intervals": 14,
+    "nonspeech_intervals": [
+      "0.0-0.53",
+      "1.13-1.28",
+      "3.95-4.16",
+      "6.13-6.16",
+      "6.97-7.36",
+      "9.99-10.08",
+      "12.62-13.01",
+      "14.76-14.79",
+      "16.4-16.71",
+      "18.68-18.78",
+      "19.98-20.36",
+      "22.87-22.93",
+      "24.09-24.12",
+      "25.01-25.309"
+    ],
+    "nonspeech_total_sec": 2.999,
+    "leading_nonspeech_sec": 0.53,
+    "trailing_nonspeech_sec": 0.299,
+    "longest_phone": {
+      "label": "spn",
+      "start": 20.56,
+      "end": 21.33,
+      "duration": 0.77
+    },
+    "largest_word_gap": {
+      "gap_sec": 0.39,
+      "after_word": "march",
+      "before_word": "it",
+      "at_time": 12.62
+    },
+    "first_word": "wanted",
+    "first_word_start": 0.53,
+    "last_word": "follow",
+    "last_word_end": 25.01,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.53,
+        "label": ""
+      },
+      {
+        "start": 0.53,
+        "end": 1.13,
+        "label": "wanted"
+      },
+      {
+        "start": 1.13,
+        "end": 1.28,
+        "label": ""
+      },
+      {
+        "start": 1.28,
+        "end": 1.58,
+        "label": "chief"
+      },
+      {
+        "start": 1.58,
+        "end": 2.09,
+        "label": "justice"
+      },
+      {
+        "start": 2.09,
+        "end": 2.23,
+        "label": "of"
+      },
+      {
+        "start": 2.23,
+        "end": 2.31,
+        "label": "the"
+      },
+      {
+        "start": 2.31,
+        "end": 3.05,
+        "label": "massachusetts"
+      },
+      {
+        "start": 3.05,
+        "end": 3.48,
+        "label": "supreme"
+      },
+      {
+        "start": 3.48,
+        "end": 3.95,
+        "label": "court"
+      },
+      {
+        "start": 3.95,
+        "end": 4.16,
+        "label": ""
+      },
+      {
+        "start": 4.16,
+        "end": 4.29,
+        "label": "in"
+      },
+      {
+        "start": 4.29,
+        "end": 4.63,
+        "label": "april"
+      },
+      {
+        "start": 4.63,
+        "end": 4.8,
+        "label": "the"
+      },
+      {
+        "start": 4.8,
+        "end": 4.94,
+        "label": "s"
+      },
+      {
+        "start": 4.94,
+        "end": 5.12,
+        "label": "j"
+      },
+      {
+        "start": 5.12,
+        "end": 5.43,
+        "label": "c's"
+      },
+      {
+        "start": 5.43,
+        "end": 5.8,
+        "label": "current"
+      },
+      {
+        "start": 5.8,
+        "end": 6.13,
+        "label": "leader"
+      },
+      {
+        "start": 6.13,
+        "end": 6.16,
+        "label": ""
+      },
+      {
+        "start": 6.16,
+        "end": 6.48,
+        "label": "edward"
+      },
+      {
+        "start": 6.48,
+        "end": 6.97,
+        "label": "hennessy"
+      },
+      {
+        "start": 6.97,
+        "end": 7.36,
+        "label": ""
+      },
+      {
+        "start": 7.36,
+        "end": 7.69,
+        "label": "reaches"
+      },
+      {
+        "start": 7.69,
+        "end": 7.79,
+        "label": "the"
+      },
+      {
+        "start": 7.79,
+        "end": 8.41,
+        "label": "mandatory"
+      },
+      {
+        "start": 8.41,
+        "end": 9.04,
+        "label": "retirement"
+      },
+      {
+        "start": 9.04,
+        "end": 9.26,
+        "label": "age"
+      },
+      {
+        "start": 9.26,
+        "end": 9.38,
+        "label": "of"
+      },
+      {
+        "start": 9.38,
+        "end": 9.99,
+        "label": "seventy"
+      },
+      {
+        "start": 9.99,
+        "end": 10.08,
+        "label": ""
+      },
+      {
+        "start": 10.08,
+        "end": 10.21,
+        "label": "and"
+      },
+      {
+        "start": 10.21,
+        "end": 10.25,
+        "label": "a"
+      },
+      {
+        "start": 10.25,
+        "end": 10.85,
+        "label": "successor"
+      },
+      {
+        "start": 10.85,
+        "end": 10.98,
+        "label": "is"
+      },
+      {
+        "start": 10.98,
+        "end": 11.47,
+        "label": "expected"
+      },
+      {
+        "start": 11.47,
+        "end": 11.55,
+        "label": "to"
+      },
+      {
+        "start": 11.55,
+        "end": 11.65,
+        "label": "be"
+      },
+      {
+        "start": 11.65,
+        "end": 12.01,
+        "label": "named"
+      },
+      {
+        "start": 12.01,
+        "end": 12.15,
+        "label": "in"
+      },
+      {
+        "start": 12.15,
+        "end": 12.62,
+        "label": "march"
+      },
+      {
+        "start": 12.62,
+        "end": 13.01,
+        "label": ""
+      },
+      {
+        "start": 13.01,
+        "end": 13.11,
+        "label": "it"
+      },
+      {
+        "start": 13.11,
+        "end": 13.25,
+        "label": "may"
+      },
+      {
+        "start": 13.25,
+        "end": 13.37,
+        "label": "be"
+      },
+      {
+        "start": 13.37,
+        "end": 13.46,
+        "label": "the"
+      },
+      {
+        "start": 13.46,
+        "end": 13.72,
+        "label": "most"
+      },
+      {
+        "start": 13.72,
+        "end": 14.16,
+        "label": "important"
+      },
+      {
+        "start": 14.16,
+        "end": 14.76,
+        "label": "appointment"
+      },
+      {
+        "start": 14.76,
+        "end": 14.79,
+        "label": ""
+      },
+      {
+        "start": 14.79,
+        "end": 15.13,
+        "label": "governor"
+      },
+      {
+        "start": 15.13,
+        "end": 15.45,
+        "label": "michael"
+      },
+      {
+        "start": 15.45,
+        "end": 16.0,
+        "label": "dukakis"
+      },
+      {
+        "start": 16.0,
+        "end": 16.4,
+        "label": "makes"
+      },
+      {
+        "start": 16.4,
+        "end": 16.71,
+        "label": ""
+      },
+      {
+        "start": 16.71,
+        "end": 16.95,
+        "label": "during"
+      },
+      {
+        "start": 16.95,
+        "end": 17.02,
+        "label": "the"
+      },
+      {
+        "start": 17.02,
+        "end": 17.51,
+        "label": "remainder"
+      },
+      {
+        "start": 17.51,
+        "end": 17.6,
+        "label": "of"
+      },
+      {
+        "start": 17.6,
+        "end": 17.77,
+        "label": "his"
+      },
+      {
+        "start": 17.77,
+        "end": 18.68,
+        "label": "administration"
+      },
+      {
+        "start": 18.68,
+        "end": 18.78,
+        "label": ""
+      },
+      {
+        "start": 18.78,
+        "end": 19.0,
+        "label": "and"
+      },
+      {
+        "start": 19.0,
+        "end": 19.17,
+        "label": "one"
+      },
+      {
+        "start": 19.17,
+        "end": 19.28,
+        "label": "of"
+      },
+      {
+        "start": 19.28,
+        "end": 19.36,
+        "label": "the"
+      },
+      {
+        "start": 19.36,
+        "end": 19.98,
+        "label": "toughest"
+      },
+      {
+        "start": 19.98,
+        "end": 20.36,
+        "label": ""
+      },
+      {
+        "start": 20.36,
+        "end": 20.56,
+        "label": "as"
+      },
+      {
+        "start": 20.56,
+        "end": 21.44,
+        "label": "wbur's"
+      },
+      {
+        "start": 21.44,
+        "end": 21.75,
+        "label": "margo"
+      },
+      {
+        "start": 21.75,
+        "end": 22.29,
+        "label": "melnicove"
+      },
+      {
+        "start": 22.29,
+        "end": 22.87,
+        "label": "reports"
+      },
+      {
+        "start": 22.87,
+        "end": 22.93,
+        "label": ""
+      },
+      {
+        "start": 22.93,
+        "end": 23.36,
+        "label": "hennessy"
+      },
+      {
+        "start": 23.36,
+        "end": 23.5,
+        "label": "will"
+      },
+      {
+        "start": 23.5,
+        "end": 23.66,
+        "label": "be"
+      },
+      {
+        "start": 23.66,
+        "end": 23.77,
+        "label": "a"
+      },
+      {
+        "start": 23.77,
+        "end": 24.09,
+        "label": "hard"
+      },
+      {
+        "start": 24.09,
+        "end": 24.12,
+        "label": ""
+      },
+      {
+        "start": 24.12,
+        "end": 24.48,
+        "label": "act"
+      },
+      {
+        "start": 24.48,
+        "end": 24.58,
+        "label": "to"
+      },
+      {
+        "start": 24.58,
+        "end": 25.01,
+        "label": "follow"
+      },
+      {
+        "start": 25.01,
+        "end": 25.309,
+        "label": ""
+      }
+    ],
+    "phones": [
+      {
+        "start": 0.0,
+        "end": 0.53,
+        "label": ""
+      },
+      {
+        "start": 0.53,
+        "end": 0.64,
+        "label": "W"
+      },
+      {
+        "start": 0.64,
+        "end": 0.74,
+        "label": "AA1"
+      },
+      {
+        "start": 0.74,
+        "end": 0.79,
+        "label": "N"
+      },
+      {
+        "start": 0.79,
+        "end": 0.88,
+        "label": "T"
+      },
+      {
+        "start": 0.88,
+        "end": 0.96,
+        "label": "IH0"
+      },
+      {
+        "start": 0.96,
+        "end": 1.13,
+        "label": "D"
+      },
+      {
+        "start": 1.13,
+        "end": 1.28,
+        "label": ""
+      },
+      {
+        "start": 1.28,
+        "end": 1.4,
+        "label": "CH"
+      },
+      {
+        "start": 1.4,
+        "end": 1.48,
+        "label": "IY1"
+      },
+      {
+        "start": 1.48,
+        "end": 1.58,
+        "label": "F"
+      },
+      {
+        "start": 1.58,
+        "end": 1.66,
+        "label": "JH"
+      },
+      {
+        "start": 1.66,
+        "end": 1.74,
+        "label": "AH1"
+      },
+      {
+        "start": 1.74,
+        "end": 1.82,
+        "label": "S"
+      },
+      {
+        "start": 1.82,
+        "end": 1.88,
+        "label": "T"
+      },
+      {
+        "start": 1.88,
+        "end": 1.98,
+        "label": "AH0"
+      },
+      {
+        "start": 1.98,
+        "end": 2.09,
+        "label": "S"
+      },
+      {
+        "start": 2.09,
+        "end": 2.17,
+        "label": "AH0"
+      },
+      {
+        "start": 2.17,
+        "end": 2.23,
+        "label": "V"
+      },
+      {
+        "start": 2.23,
+        "end": 2.26,
+        "label": "DH"
+      },
+      {
+        "start": 2.26,
+        "end": 2.31,
+        "label": "AH0"
+      },
+      {
+        "start": 2.31,
+        "end": 2.38,
+        "label": "M"
+      },
+      {
+        "start": 2.38,
+        "end": 2.47,
+        "label": "AE2"
+      },
+      {
+        "start": 2.47,
+        "end": 2.57,
+        "label": "S"
+      },
+      {
+        "start": 2.57,
+        "end": 2.6,
+        "label": "AH0"
+      },
+      {
+        "start": 2.6,
+        "end": 2.72,
+        "label": "CH"
+      },
+      {
+        "start": 2.72,
+        "end": 2.79,
+        "label": "UW1"
+      },
+      {
+        "start": 2.79,
+        "end": 2.89,
+        "label": "S"
+      },
+      {
+        "start": 2.89,
+        "end": 2.95,
+        "label": "AH0"
+      },
+      {
+        "start": 2.95,
+        "end": 3.02,
+        "label": "T"
+      },
+      {
+        "start": 3.02,
+        "end": 3.05,
+        "label": "S"
+      },
+      {
+        "start": 3.05,
+        "end": 3.1,
+        "label": "S"
+      },
+      {
+        "start": 3.1,
+        "end": 3.14,
+        "label": "AH0"
+      },
+      {
+        "start": 3.14,
+        "end": 3.26,
+        "label": "P"
+      },
+      {
+        "start": 3.26,
+        "end": 3.3,
+        "label": "R"
+      },
+      {
+        "start": 3.3,
+        "end": 3.39,
+        "label": "IY1"
+      },
+      {
+        "start": 3.39,
+        "end": 3.48,
+        "label": "M"
+      },
+      {
+        "start": 3.48,
+        "end": 3.61,
+        "label": "K"
+      },
+      {
+        "start": 3.61,
+        "end": 3.68,
+        "label": "AO1"
+      },
+      {
+        "start": 3.68,
+        "end": 3.81,
+        "label": "R"
+      },
+      {
+        "start": 3.81,
+        "end": 3.95,
+        "label": "T"
+      },
+      {
+        "start": 3.95,
+        "end": 4.16,
+        "label": ""
+      },
+      {
+        "start": 4.16,
+        "end": 4.24,
+        "label": "IH0"
+      },
+      {
+        "start": 4.24,
+        "end": 4.29,
+        "label": "N"
+      },
+      {
+        "start": 4.29,
+        "end": 4.4,
+        "label": "EY1"
+      },
+      {
+        "start": 4.4,
+        "end": 4.49,
+        "label": "P"
+      },
+      {
+        "start": 4.49,
+        "end": 4.53,
+        "label": "R"
+      },
+      {
+        "start": 4.53,
+        "end": 4.58,
+        "label": "AH0"
+      },
+      {
+        "start": 4.58,
+        "end": 4.63,
+        "label": "L"
+      },
+      {
+        "start": 4.63,
+        "end": 4.69,
+        "label": "DH"
+      },
+      {
+        "start": 4.69,
+        "end": 4.8,
+        "label": "IY0"
+      },
+      {
+        "start": 4.8,
+        "end": 4.86,
+        "label": "EH1"
+      },
+      {
+        "start": 4.86,
+        "end": 4.94,
+        "label": "S"
+      },
+      {
+        "start": 4.94,
+        "end": 5.03,
+        "label": "JH"
+      },
+      {
+        "start": 5.03,
+        "end": 5.12,
+        "label": "EY1"
+      },
+      {
+        "start": 5.12,
+        "end": 5.25,
+        "label": "S"
+      },
+      {
+        "start": 5.25,
+        "end": 5.35,
+        "label": "IY1"
+      },
+      {
+        "start": 5.35,
+        "end": 5.43,
+        "label": "Z"
+      },
+      {
+        "start": 5.43,
+        "end": 5.56,
+        "label": "K"
+      },
+      {
+        "start": 5.56,
+        "end": 5.64,
+        "label": "ER1"
+      },
+      {
+        "start": 5.64,
+        "end": 5.72,
+        "label": "AH0"
+      },
+      {
+        "start": 5.72,
+        "end": 5.75,
+        "label": "N"
+      },
+      {
+        "start": 5.75,
+        "end": 5.8,
+        "label": "T"
+      },
+      {
+        "start": 5.8,
+        "end": 5.85,
+        "label": "L"
+      },
+      {
+        "start": 5.85,
+        "end": 5.93,
+        "label": "IY1"
+      },
+      {
+        "start": 5.93,
+        "end": 5.97,
+        "label": "D"
+      },
+      {
+        "start": 5.97,
+        "end": 6.13,
+        "label": "ER0"
+      },
+      {
+        "start": 6.13,
+        "end": 6.16,
+        "label": ""
+      },
+      {
+        "start": 6.16,
+        "end": 6.28,
+        "label": "EH1"
+      },
+      {
+        "start": 6.28,
+        "end": 6.33,
+        "label": "D"
+      },
+      {
+        "start": 6.33,
+        "end": 6.39,
+        "label": "W"
+      },
+      {
+        "start": 6.39,
+        "end": 6.44,
+        "label": "ER0"
+      },
+      {
+        "start": 6.44,
+        "end": 6.48,
+        "label": "D"
+      },
+      {
+        "start": 6.48,
+        "end": 6.57,
+        "label": "HH"
+      },
+      {
+        "start": 6.57,
+        "end": 6.6,
+        "label": "EH1"
+      },
+      {
+        "start": 6.6,
+        "end": 6.65,
+        "label": "N"
+      },
+      {
+        "start": 6.65,
+        "end": 6.71,
+        "label": "AH0"
+      },
+      {
+        "start": 6.71,
+        "end": 6.83,
+        "label": "S"
+      },
+      {
+        "start": 6.83,
+        "end": 6.97,
+        "label": "IY0"
+      },
+      {
+        "start": 6.97,
+        "end": 7.36,
+        "label": ""
+      },
+      {
+        "start": 7.36,
+        "end": 7.42,
+        "label": "R"
+      },
+      {
+        "start": 7.42,
+        "end": 7.46,
+        "label": "IY1"
+      },
+      {
+        "start": 7.46,
+        "end": 7.55,
+        "label": "CH"
+      },
+      {
+        "start": 7.55,
+        "end": 7.61,
+        "label": "IH0"
+      },
+      {
+        "start": 7.61,
+        "end": 7.69,
+        "label": "Z"
+      },
+      {
+        "start": 7.69,
+        "end": 7.74,
+        "label": "DH"
+      },
+      {
+        "start": 7.74,
+        "end": 7.79,
+        "label": "AH0"
+      },
+      {
+        "start": 7.79,
+        "end": 7.86,
+        "label": "M"
+      },
+      {
+        "start": 7.86,
+        "end": 7.95,
+        "label": "AE1"
+      },
+      {
+        "start": 7.95,
+        "end": 7.98,
+        "label": "N"
+      },
+      {
+        "start": 7.98,
+        "end": 8.03,
+        "label": "D"
+      },
+      {
+        "start": 8.03,
+        "end": 8.07,
+        "label": "AH0"
+      },
+      {
+        "start": 8.07,
+        "end": 8.19,
+        "label": "T"
+      },
+      {
+        "start": 8.19,
+        "end": 8.22,
+        "label": "AO2"
+      },
+      {
+        "start": 8.22,
+        "end": 8.33,
+        "label": "R"
+      },
+      {
+        "start": 8.33,
+        "end": 8.41,
+        "label": "IY0"
+      },
+      {
+        "start": 8.41,
+        "end": 8.49,
+        "label": "R"
+      },
+      {
+        "start": 8.49,
+        "end": 8.54,
+        "label": "IY0"
+      },
+      {
+        "start": 8.54,
+        "end": 8.65,
+        "label": "T"
+      },
+      {
+        "start": 8.65,
+        "end": 8.72,
+        "label": "AY1"
+      },
+      {
+        "start": 8.72,
+        "end": 8.84,
+        "label": "ER0"
+      },
+      {
+        "start": 8.84,
+        "end": 8.9,
+        "label": "M"
+      },
+      {
+        "start": 8.9,
+        "end": 8.95,
+        "label": "AH0"
+      },
+      {
+        "start": 8.95,
+        "end": 8.98,
+        "label": "N"
+      },
+      {
+        "start": 8.98,
+        "end": 9.04,
+        "label": "T"
+      },
+      {
+        "start": 9.04,
+        "end": 9.17,
+        "label": "EY1"
+      },
+      {
+        "start": 9.17,
+        "end": 9.26,
+        "label": "JH"
+      },
+      {
+        "start": 9.26,
+        "end": 9.32,
+        "label": "AH0"
+      },
+      {
+        "start": 9.32,
+        "end": 9.38,
+        "label": "V"
+      },
+      {
+        "start": 9.38,
+        "end": 9.49,
+        "label": "S"
+      },
+      {
+        "start": 9.49,
+        "end": 9.56,
+        "label": "EH1"
+      },
+      {
+        "start": 9.56,
+        "end": 9.61,
+        "label": "V"
+      },
+      {
+        "start": 9.61,
+        "end": 9.67,
+        "label": "AH0"
+      },
+      {
+        "start": 9.67,
+        "end": 9.71,
+        "label": "N"
+      },
+      {
+        "start": 9.71,
+        "end": 9.76,
+        "label": "T"
+      },
+      {
+        "start": 9.76,
+        "end": 9.99,
+        "label": "IY0"
+      },
+      {
+        "start": 9.99,
+        "end": 10.08,
+        "label": ""
+      },
+      {
+        "start": 10.08,
+        "end": 10.14,
+        "label": "AE1"
+      },
+      {
+        "start": 10.14,
+        "end": 10.17,
+        "label": "N"
+      },
+      {
+        "start": 10.17,
+        "end": 10.21,
+        "label": "D"
+      },
+      {
+        "start": 10.21,
+        "end": 10.25,
+        "label": "AH0"
+      },
+      {
+        "start": 10.25,
+        "end": 10.36,
+        "label": "S"
+      },
+      {
+        "start": 10.36,
+        "end": 10.41,
+        "label": "AH0"
+      },
+      {
+        "start": 10.41,
+        "end": 10.46,
+        "label": "K"
+      },
+      {
+        "start": 10.46,
+        "end": 10.54,
+        "label": "S"
+      },
+      {
+        "start": 10.54,
+        "end": 10.62,
+        "label": "EH1"
+      },
+      {
+        "start": 10.62,
+        "end": 10.74,
+        "label": "S"
+      },
+      {
+        "start": 10.74,
+        "end": 10.85,
+        "label": "ER0"
+      },
+      {
+        "start": 10.85,
+        "end": 10.9,
+        "label": "IH0"
+      },
+      {
+        "start": 10.9,
+        "end": 10.98,
+        "label": "Z"
+      },
+      {
+        "start": 10.98,
+        "end": 11.03,
+        "label": "IH0"
+      },
+      {
+        "start": 11.03,
+        "end": 11.1,
+        "label": "K"
+      },
+      {
+        "start": 11.1,
+        "end": 11.16,
+        "label": "S"
+      },
+      {
+        "start": 11.16,
+        "end": 11.22,
+        "label": "P"
+      },
+      {
+        "start": 11.22,
+        "end": 11.27,
+        "label": "EH1"
+      },
+      {
+        "start": 11.27,
+        "end": 11.34,
+        "label": "K"
+      },
+      {
+        "start": 11.34,
+        "end": 11.39,
+        "label": "T"
+      },
+      {
+        "start": 11.39,
+        "end": 11.42,
+        "label": "IH0"
+      },
+      {
+        "start": 11.42,
+        "end": 11.47,
+        "label": "D"
+      },
+      {
+        "start": 11.47,
+        "end": 11.51,
+        "label": "T"
+      },
+      {
+        "start": 11.51,
+        "end": 11.55,
+        "label": "IH0"
+      },
+      {
+        "start": 11.55,
+        "end": 11.59,
+        "label": "B"
+      },
+      {
+        "start": 11.59,
+        "end": 11.65,
+        "label": "IY0"
+      },
+      {
+        "start": 11.65,
+        "end": 11.74,
+        "label": "N"
+      },
+      {
+        "start": 11.74,
+        "end": 11.9,
+        "label": "EY1"
+      },
+      {
+        "start": 11.9,
+        "end": 11.95,
+        "label": "M"
+      },
+      {
+        "start": 11.95,
+        "end": 12.01,
+        "label": "D"
+      },
+      {
+        "start": 12.01,
+        "end": 12.07,
+        "label": "IH0"
+      },
+      {
+        "start": 12.07,
+        "end": 12.15,
+        "label": "N"
+      },
+      {
+        "start": 12.15,
+        "end": 12.19,
+        "label": "M"
+      },
+      {
+        "start": 12.19,
+        "end": 12.26,
+        "label": "AA1"
+      },
+      {
+        "start": 12.26,
+        "end": 12.4,
+        "label": "R"
+      },
+      {
+        "start": 12.4,
+        "end": 12.62,
+        "label": "CH"
+      },
+      {
+        "start": 12.62,
+        "end": 13.01,
+        "label": ""
+      },
+      {
+        "start": 13.01,
+        "end": 13.08,
+        "label": "IH1"
+      },
+      {
+        "start": 13.08,
+        "end": 13.11,
+        "label": "T"
+      },
+      {
+        "start": 13.11,
+        "end": 13.16,
+        "label": "M"
+      },
+      {
+        "start": 13.16,
+        "end": 13.25,
+        "label": "EY1"
+      },
+      {
+        "start": 13.25,
+        "end": 13.3,
+        "label": "B"
+      },
+      {
+        "start": 13.3,
+        "end": 13.37,
+        "label": "IY0"
+      },
+      {
+        "start": 13.37,
+        "end": 13.42,
+        "label": "DH"
+      },
+      {
+        "start": 13.42,
+        "end": 13.46,
+        "label": "AH0"
+      },
+      {
+        "start": 13.46,
+        "end": 13.52,
+        "label": "M"
+      },
+      {
+        "start": 13.52,
+        "end": 13.6,
+        "label": "OW1"
+      },
+      {
+        "start": 13.6,
+        "end": 13.66,
+        "label": "S"
+      },
+      {
+        "start": 13.66,
+        "end": 13.72,
+        "label": "T"
+      },
+      {
+        "start": 13.72,
+        "end": 13.75,
+        "label": "IH0"
+      },
+      {
+        "start": 13.75,
+        "end": 13.81,
+        "label": "M"
+      },
+      {
+        "start": 13.81,
+        "end": 13.91,
+        "label": "P"
+      },
+      {
+        "start": 13.91,
+        "end": 13.94,
+        "label": "AO1"
+      },
+      {
+        "start": 13.94,
+        "end": 14.03,
+        "label": "R"
+      },
+      {
+        "start": 14.03,
+        "end": 14.06,
+        "label": "T"
+      },
+      {
+        "start": 14.06,
+        "end": 14.1,
+        "label": "AH0"
+      },
+      {
+        "start": 14.1,
+        "end": 14.13,
+        "label": "N"
+      },
+      {
+        "start": 14.13,
+        "end": 14.16,
+        "label": "T"
+      },
+      {
+        "start": 14.16,
+        "end": 14.22,
+        "label": "AH0"
+      },
+      {
+        "start": 14.22,
+        "end": 14.34,
+        "label": "P"
+      },
+      {
+        "start": 14.34,
+        "end": 14.46,
+        "label": "OY1"
+      },
+      {
+        "start": 14.46,
+        "end": 14.49,
+        "label": "N"
+      },
+      {
+        "start": 14.49,
+        "end": 14.52,
+        "label": "T"
+      },
+      {
+        "start": 14.52,
+        "end": 14.56,
+        "label": "M"
+      },
+      {
+        "start": 14.56,
+        "end": 14.65,
+        "label": "AH0"
+      },
+      {
+        "start": 14.65,
+        "end": 14.69,
+        "label": "N"
+      },
+      {
+        "start": 14.69,
+        "end": 14.76,
+        "label": "T"
+      },
+      {
+        "start": 14.76,
+        "end": 14.79,
+        "label": ""
+      },
+      {
+        "start": 14.79,
+        "end": 14.85,
+        "label": "G"
+      },
+      {
+        "start": 14.85,
+        "end": 14.91,
+        "label": "AH1"
+      },
+      {
+        "start": 14.91,
+        "end": 14.97,
+        "label": "V"
+      },
+      {
+        "start": 14.97,
+        "end": 15.02,
+        "label": "ER0"
+      },
+      {
+        "start": 15.02,
+        "end": 15.07,
+        "label": "N"
+      },
+      {
+        "start": 15.07,
+        "end": 15.13,
+        "label": "ER0"
+      },
+      {
+        "start": 15.13,
+        "end": 15.2,
+        "label": "M"
+      },
+      {
+        "start": 15.2,
+        "end": 15.3,
+        "label": "AY1"
+      },
+      {
+        "start": 15.3,
+        "end": 15.37,
+        "label": "K"
+      },
+      {
+        "start": 15.37,
+        "end": 15.41,
+        "label": "AH0"
+      },
+      {
+        "start": 15.41,
+        "end": 15.45,
+        "label": "L"
+      },
+      {
+        "start": 15.45,
+        "end": 16.0,
+        "label": "spn"
+      },
+      {
+        "start": 16.0,
+        "end": 16.06,
+        "label": "M"
+      },
+      {
+        "start": 16.06,
+        "end": 16.23,
+        "label": "EY1"
+      },
+      {
+        "start": 16.23,
+        "end": 16.3,
+        "label": "K"
+      },
+      {
+        "start": 16.3,
+        "end": 16.4,
+        "label": "S"
+      },
+      {
+        "start": 16.4,
+        "end": 16.71,
+        "label": ""
+      },
+      {
+        "start": 16.71,
+        "end": 16.75,
+        "label": "D"
+      },
+      {
+        "start": 16.75,
+        "end": 16.8,
+        "label": "UH1"
+      },
+      {
+        "start": 16.8,
+        "end": 16.83,
+        "label": "R"
+      },
+      {
+        "start": 16.83,
+        "end": 16.9,
+        "label": "IH0"
+      },
+      {
+        "start": 16.9,
+        "end": 16.95,
+        "label": "NG"
+      },
+      {
+        "start": 16.95,
+        "end": 16.99,
+        "label": "DH"
+      },
+      {
+        "start": 16.99,
+        "end": 17.02,
+        "label": "AH0"
+      },
+      {
+        "start": 17.02,
+        "end": 17.07,
+        "label": "R"
+      },
+      {
+        "start": 17.07,
+        "end": 17.15,
+        "label": "IY0"
+      },
+      {
+        "start": 17.15,
+        "end": 17.22,
+        "label": "M"
+      },
+      {
+        "start": 17.22,
+        "end": 17.34,
+        "label": "EY1"
+      },
+      {
+        "start": 17.34,
+        "end": 17.37,
+        "label": "N"
+      },
+      {
+        "start": 17.37,
+        "end": 17.42,
+        "label": "D"
+      },
+      {
+        "start": 17.42,
+        "end": 17.51,
+        "label": "ER0"
+      },
+      {
+        "start": 17.51,
+        "end": 17.55,
+        "label": "AH0"
+      },
+      {
+        "start": 17.55,
+        "end": 17.6,
+        "label": "V"
+      },
+      {
+        "start": 17.6,
+        "end": 17.65,
+        "label": "HH"
+      },
+      {
+        "start": 17.65,
+        "end": 17.7,
+        "label": "IH0"
+      },
+      {
+        "start": 17.7,
+        "end": 17.77,
+        "label": "Z"
+      },
+      {
+        "start": 17.77,
+        "end": 17.81,
+        "label": "AE0"
+      },
+      {
+        "start": 17.81,
+        "end": 17.87,
+        "label": "D"
+      },
+      {
+        "start": 17.87,
+        "end": 17.92,
+        "label": "M"
+      },
+      {
+        "start": 17.92,
+        "end": 17.96,
+        "label": "IH2"
+      },
+      {
+        "start": 17.96,
+        "end": 17.99,
+        "label": "N"
+      },
+      {
+        "start": 17.99,
+        "end": 18.05,
+        "label": "IH0"
+      },
+      {
+        "start": 18.05,
+        "end": 18.14,
+        "label": "S"
+      },
+      {
+        "start": 18.14,
+        "end": 18.2,
+        "label": "T"
+      },
+      {
+        "start": 18.2,
+        "end": 18.25,
+        "label": "R"
+      },
+      {
+        "start": 18.25,
+        "end": 18.33,
+        "label": "EY1"
+      },
+      {
+        "start": 18.33,
+        "end": 18.48,
+        "label": "SH"
+      },
+      {
+        "start": 18.48,
+        "end": 18.54,
+        "label": "AH0"
+      },
+      {
+        "start": 18.54,
+        "end": 18.68,
+        "label": "N"
+      },
+      {
+        "start": 18.68,
+        "end": 18.78,
+        "label": ""
+      },
+      {
+        "start": 18.78,
+        "end": 18.88,
+        "label": "AE1"
+      },
+      {
+        "start": 18.88,
+        "end": 18.95,
+        "label": "N"
+      },
+      {
+        "start": 18.95,
+        "end": 19.0,
+        "label": "D"
+      },
+      {
+        "start": 19.0,
+        "end": 19.09,
+        "label": "W"
+      },
+      {
+        "start": 19.09,
+        "end": 19.13,
+        "label": "AH1"
+      },
+      {
+        "start": 19.13,
+        "end": 19.17,
+        "label": "N"
+      },
+      {
+        "start": 19.17,
+        "end": 19.23,
+        "label": "AH0"
+      },
+      {
+        "start": 19.23,
+        "end": 19.28,
+        "label": "V"
+      },
+      {
+        "start": 19.28,
+        "end": 19.32,
+        "label": "DH"
+      },
+      {
+        "start": 19.32,
+        "end": 19.36,
+        "label": "AH0"
+      },
+      {
+        "start": 19.36,
+        "end": 19.5,
+        "label": "T"
+      },
+      {
+        "start": 19.5,
+        "end": 19.57,
+        "label": "AH1"
+      },
+      {
+        "start": 19.57,
+        "end": 19.67,
+        "label": "F"
+      },
+      {
+        "start": 19.67,
+        "end": 19.79,
+        "label": "AH0"
+      },
+      {
+        "start": 19.79,
+        "end": 19.9,
+        "label": "S"
+      },
+      {
+        "start": 19.9,
+        "end": 19.98,
+        "label": "T"
+      },
+      {
+        "start": 19.98,
+        "end": 20.36,
+        "label": ""
+      },
+      {
+        "start": 20.36,
+        "end": 20.49,
+        "label": "EH1"
+      },
+      {
+        "start": 20.49,
+        "end": 20.56,
+        "label": "Z"
+      },
+      {
+        "start": 20.56,
+        "end": 21.33,
+        "label": "spn"
+      },
+      {
+        "start": 21.33,
+        "end": 21.37,
+        "label": "AH0"
+      },
+      {
+        "start": 21.37,
+        "end": 21.44,
+        "label": "Z"
+      },
+      {
+        "start": 21.44,
+        "end": 21.5,
+        "label": "M"
+      },
+      {
+        "start": 21.5,
+        "end": 21.53,
+        "label": "AA1"
+      },
+      {
+        "start": 21.53,
+        "end": 21.61,
+        "label": "R"
+      },
+      {
+        "start": 21.61,
+        "end": 21.68,
+        "label": "G"
+      },
+      {
+        "start": 21.68,
+        "end": 21.75,
+        "label": "OW0"
+      },
+      {
+        "start": 21.75,
+        "end": 22.29,
+        "label": "spn"
+      },
+      {
+        "start": 22.29,
+        "end": 22.34,
+        "label": "R"
+      },
+      {
+        "start": 22.34,
+        "end": 22.4,
+        "label": "IH0"
+      },
+      {
+        "start": 22.4,
+        "end": 22.52,
+        "label": "P"
+      },
+      {
+        "start": 22.52,
+        "end": 22.57,
+        "label": "AO1"
+      },
+      {
+        "start": 22.57,
+        "end": 22.67,
+        "label": "R"
+      },
+      {
+        "start": 22.67,
+        "end": 22.77,
+        "label": "T"
+      },
+      {
+        "start": 22.77,
+        "end": 22.87,
+        "label": "S"
+      },
+      {
+        "start": 22.87,
+        "end": 22.93,
+        "label": ""
+      },
+      {
+        "start": 22.93,
+        "end": 23.01,
+        "label": "HH"
+      },
+      {
+        "start": 23.01,
+        "end": 23.05,
+        "label": "EH1"
+      },
+      {
+        "start": 23.05,
+        "end": 23.1,
+        "label": "N"
+      },
+      {
+        "start": 23.1,
+        "end": 23.16,
+        "label": "AH0"
+      },
+      {
+        "start": 23.16,
+        "end": 23.28,
+        "label": "S"
+      },
+      {
+        "start": 23.28,
+        "end": 23.36,
+        "label": "IY0"
+      },
+      {
+        "start": 23.36,
+        "end": 23.44,
+        "label": "W"
+      },
+      {
+        "start": 23.44,
+        "end": 23.45,
+        "label": "AH0"
+      },
+      {
+        "start": 23.45,
+        "end": 23.5,
+        "label": "L"
+      },
+      {
+        "start": 23.5,
+        "end": 23.57,
+        "label": "B"
+      },
+      {
+        "start": 23.57,
+        "end": 23.66,
+        "label": "IY0"
+      },
+      {
+        "start": 23.66,
+        "end": 23.77,
+        "label": "AH0"
+      },
+      {
+        "start": 23.77,
+        "end": 23.9,
+        "label": "HH"
+      },
+      {
+        "start": 23.9,
+        "end": 23.93,
+        "label": "AA1"
+      },
+      {
+        "start": 23.93,
+        "end": 24.04,
+        "label": "R"
+      },
+      {
+        "start": 24.04,
+        "end": 24.09,
+        "label": "D"
+      },
+      {
+        "start": 24.09,
+        "end": 24.12,
+        "label": ""
+      },
+      {
+        "start": 24.12,
+        "end": 24.29,
+        "label": "AE1"
+      },
+      {
+        "start": 24.29,
+        "end": 24.39,
+        "label": "K"
+      },
+      {
+        "start": 24.39,
+        "end": 24.48,
+        "label": "T"
+      },
+      {
+        "start": 24.48,
+        "end": 24.54,
+        "label": "T"
+      },
+      {
+        "start": 24.54,
+        "end": 24.58,
+        "label": "AH0"
+      },
+      {
+        "start": 24.58,
+        "end": 24.7,
+        "label": "F"
+      },
+      {
+        "start": 24.7,
+        "end": 24.82,
+        "label": "AA1"
+      },
+      {
+        "start": 24.82,
+        "end": 24.9,
+        "label": "L"
+      },
+      {
+        "start": 24.9,
+        "end": 25.01,
+        "label": "OW0"
+      },
+      {
+        "start": 25.01,
+        "end": 25.309,
+        "label": ""
+      }
+    ]
+  },
+  {
+    "stem": "F2BJRLP2",
+    "audio_duration_sec": 28.647,
+    "word_intervals": 84,
+    "word_intervals_non_empty": 74,
+    "phone_intervals": 338,
+    "phone_intervals_non_empty": 328,
+    "zero_length_phones": [],
+    "zero_length_phone_count": 0,
+    "spn_count": 3,
+    "spn_phones": [
+      "2.73-3.35",
+      "5.66-6.53",
+      "23.92-24.34"
+    ],
+    "spn_words": [
+      "dukakis",
+      "maffy",
+      "politicize"
+    ],
+    "explicit_sil_labels": 0,
+    "unlabelled_intervals": 10,
+    "nonspeech_intervals": [
+      "0.0-0.04",
+      "1.38-1.5",
+      "3.35-3.64",
+      "7.75-8.04",
+      "12.33-13.03",
+      "16.1-16.45",
+      "18.09-18.16",
+      "22.65-23.16",
+      "26.86-27.2",
+      "28.47-28.647"
+    ],
+    "nonspeech_total_sec": 2.887,
+    "leading_nonspeech_sec": 0.04,
+    "trailing_nonspeech_sec": 0.177,
+    "longest_phone": {
+      "label": "spn",
+      "start": 5.66,
+      "end": 6.53,
+      "duration": 0.87
+    },
+    "largest_word_gap": {
+      "gap_sec": 0.7,
+      "after_word": "court",
+      "before_word": "for",
+      "at_time": 12.33
+    },
+    "first_word": "in",
+    "first_word_start": 0.04,
+    "last_word": "clerk",
+    "last_word_end": 28.47,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "label": ""
+      },
+      {
+        "start": 0.04,
+        "end": 0.17,
+        "label": "in"
+      },
+      {
+        "start": 0.17,
+        "end": 0.54,
+        "label": "nineteen"
+      },
+      {
+        "start": 0.54,
+        "end": 0.9,
+        "label": "seventy"
+      },
+      {
+        "start": 0.9,
+        "end": 1.38,
+        "label": "six"
+      },
+      {
+        "start": 1.38,
+        "end": 1.5,
+        "label": ""
+      },
+      {
+        "start": 1.5,
+        "end": 2.05,
+        "label": "democratic"
+      },
+      {
+        "start": 2.05,
+        "end": 2.41,
+        "label": "governor"
+      },
+      {
+        "start": 2.41,
+        "end": 2.73,
+        "label": "michael"
+      },
+      {
+        "start": 2.73,
+        "end": 3.35,
+        "label": "dukakis"
+      },
+      {
+        "start": 3.35,
+        "end": 3.64,
+        "label": ""
+      },
+      {
+        "start": 3.64,
+        "end": 4.06,
+        "label": "fulfilled"
+      },
+      {
+        "start": 4.06,
+        "end": 4.12,
+        "label": "a"
+      },
+      {
+        "start": 4.12,
+        "end": 4.68,
+        "label": "campaign"
+      },
+      {
+        "start": 4.68,
+        "end": 5.2,
+        "label": "promise"
+      },
+      {
+        "start": 5.2,
+        "end": 5.42,
+        "label": "to"
+      },
+      {
+        "start": 5.42,
+        "end": 5.66,
+        "label": "de"
+      },
+      {
+        "start": 5.66,
+        "end": 6.53,
+        "label": "politicize"
+      },
+      {
+        "start": 6.53,
+        "end": 7.04,
+        "label": "judicial"
+      },
+      {
+        "start": 7.04,
+        "end": 7.75,
+        "label": "appointments"
+      },
+      {
+        "start": 7.75,
+        "end": 8.04,
+        "label": ""
+      },
+      {
+        "start": 8.04,
+        "end": 8.16,
+        "label": "he"
+      },
+      {
+        "start": 8.16,
+        "end": 8.5,
+        "label": "named"
+      },
+      {
+        "start": 8.5,
+        "end": 9.18,
+        "label": "republican"
+      },
+      {
+        "start": 9.18,
+        "end": 9.55,
+        "label": "edward"
+      },
+      {
+        "start": 9.55,
+        "end": 10.09,
+        "label": "hennessy"
+      },
+      {
+        "start": 10.09,
+        "end": 10.26,
+        "label": "to"
+      },
+      {
+        "start": 10.26,
+        "end": 10.52,
+        "label": "head"
+      },
+      {
+        "start": 10.52,
+        "end": 10.61,
+        "label": "the"
+      },
+      {
+        "start": 10.61,
+        "end": 10.97,
+        "label": "state"
+      },
+      {
+        "start": 10.97,
+        "end": 11.4,
+        "label": "supreme"
+      },
+      {
+        "start": 11.4,
+        "end": 11.87,
+        "label": "judicial"
+      },
+      {
+        "start": 11.87,
+        "end": 12.33,
+        "label": "court"
+      },
+      {
+        "start": 12.33,
+        "end": 13.03,
+        "label": ""
+      },
+      {
+        "start": 13.03,
+        "end": 13.2,
+        "label": "for"
+      },
+      {
+        "start": 13.2,
+        "end": 13.61,
+        "label": "hennessy"
+      },
+      {
+        "start": 13.61,
+        "end": 13.72,
+        "label": "it"
+      },
+      {
+        "start": 13.72,
+        "end": 13.88,
+        "label": "was"
+      },
+      {
+        "start": 13.88,
+        "end": 14.2,
+        "label": "another"
+      },
+      {
+        "start": 14.2,
+        "end": 14.68,
+        "label": "step"
+      },
+      {
+        "start": 14.68,
+        "end": 15.0,
+        "label": "along"
+      },
+      {
+        "start": 15.0,
+        "end": 15.05,
+        "label": "a"
+      },
+      {
+        "start": 15.05,
+        "end": 15.68,
+        "label": "distinguished"
+      },
+      {
+        "start": 15.68,
+        "end": 16.1,
+        "label": "career"
+      },
+      {
+        "start": 16.1,
+        "end": 16.45,
+        "label": ""
+      },
+      {
+        "start": 16.45,
+        "end": 16.6,
+        "label": "that"
+      },
+      {
+        "start": 16.6,
+        "end": 17.02,
+        "label": "began"
+      },
+      {
+        "start": 17.02,
+        "end": 17.17,
+        "label": "as"
+      },
+      {
+        "start": 17.17,
+        "end": 17.23,
+        "label": "a"
+      },
+      {
+        "start": 17.23,
+        "end": 17.64,
+        "label": "trial"
+      },
+      {
+        "start": 17.64,
+        "end": 18.09,
+        "label": "lawyer"
+      },
+      {
+        "start": 18.09,
+        "end": 18.16,
+        "label": ""
+      },
+      {
+        "start": 18.16,
+        "end": 18.34,
+        "label": "and"
+      },
+      {
+        "start": 18.34,
+        "end": 18.52,
+        "label": "led"
+      },
+      {
+        "start": 18.52,
+        "end": 18.63,
+        "label": "to"
+      },
+      {
+        "start": 18.63,
+        "end": 18.73,
+        "label": "an"
+      },
+      {
+        "start": 18.73,
+        "end": 19.3,
+        "label": "appointment"
+      },
+      {
+        "start": 19.3,
+        "end": 19.49,
+        "label": "as"
+      },
+      {
+        "start": 19.49,
+        "end": 20.14,
+        "label": "associate"
+      },
+      {
+        "start": 20.14,
+        "end": 20.54,
+        "label": "supreme"
+      },
+      {
+        "start": 20.54,
+        "end": 20.82,
+        "label": "court"
+      },
+      {
+        "start": 20.82,
+        "end": 21.3,
+        "label": "justice"
+      },
+      {
+        "start": 21.3,
+        "end": 21.48,
+        "label": "in"
+      },
+      {
+        "start": 21.48,
+        "end": 21.89,
+        "label": "nineteen"
+      },
+      {
+        "start": 21.89,
+        "end": 22.31,
+        "label": "seventy"
+      },
+      {
+        "start": 22.31,
+        "end": 22.65,
+        "label": "one"
+      },
+      {
+        "start": 22.65,
+        "end": 23.16,
+        "label": ""
+      },
+      {
+        "start": 23.16,
+        "end": 23.35,
+        "label": "that"
+      },
+      {
+        "start": 23.35,
+        "end": 23.52,
+        "label": "year"
+      },
+      {
+        "start": 23.52,
+        "end": 23.92,
+        "label": "thomas"
+      },
+      {
+        "start": 23.92,
+        "end": 24.34,
+        "label": "maffy"
+      },
+      {
+        "start": 24.34,
+        "end": 24.51,
+        "label": "now"
+      },
+      {
+        "start": 24.51,
+        "end": 25.05,
+        "label": "president"
+      },
+      {
+        "start": 25.05,
+        "end": 25.16,
+        "label": "of"
+      },
+      {
+        "start": 25.16,
+        "end": 25.23,
+        "label": "the"
+      },
+      {
+        "start": 25.23,
+        "end": 25.85,
+        "label": "massachusetts"
+      },
+      {
+        "start": 25.85,
+        "end": 26.08,
+        "label": "bar"
+      },
+      {
+        "start": 26.08,
+        "end": 26.86,
+        "label": "association"
+      },
+      {
+        "start": 26.86,
+        "end": 27.2,
+        "label": ""
+      },
+      {
+        "start": 27.2,
+        "end": 27.35,
+        "label": "was"
+      },
+      {
+        "start": 27.35,
+        "end": 27.81,
+        "label": "hennessy's"
+      },
+      {
+        "start": 27.81,
+        "end": 28.01,
+        "label": "law"
+      },
+      {
+        "start": 28.01,
+        "end": 28.47,
+        "label": "clerk"
+      },
+      {
+        "start": 28.47,
+        "end": 28.647,
+        "label": ""
+      }
+    ],
+    "phones": [
+      {
+        "start": 0.0,
+        "end": 0.04,
+        "label": ""
+      },
+      {
+        "start": 0.04,
+        "end": 0.13,
+        "label": "IH0"
+      },
+      {
+        "start": 0.13,
+        "end": 0.17,
+        "label": "N"
+      },
+      {
+        "start": 0.17,
+        "end": 0.21,
+        "label": "N"
+      },
+      {
+        "start": 0.21,
+        "end": 0.3,
+        "label": "AY1"
+      },
+      {
+        "start": 0.3,
+        "end": 0.34,
+        "label": "N"
+      },
+      {
+        "start": 0.34,
+        "end": 0.42,
+        "label": "T"
+      },
+      {
+        "start": 0.42,
+        "end": 0.48,
+        "label": "IY1"
+      },
+      {
+        "start": 0.48,
+        "end": 0.54,
+        "label": "N"
+      },
+      {
+        "start": 0.54,
+        "end": 0.63,
+        "label": "S"
+      },
+      {
+        "start": 0.63,
+        "end": 0.69,
+        "label": "EH1"
+      },
+      {
+        "start": 0.69,
+        "end": 0.74,
+        "label": "V"
+      },
+      {
+        "start": 0.74,
+        "end": 0.78,
+        "label": "AH0"
+      },
+      {
+        "start": 0.78,
+        "end": 0.81,
+        "label": "N"
+      },
+      {
+        "start": 0.81,
+        "end": 0.84,
+        "label": "T"
+      },
+      {
+        "start": 0.84,
+        "end": 0.9,
+        "label": "IY0"
+      },
+      {
+        "start": 0.9,
+        "end": 1.05,
+        "label": "S"
+      },
+      {
+        "start": 1.05,
+        "end": 1.17,
+        "label": "IH1"
+      },
+      {
+        "start": 1.17,
+        "end": 1.29,
+        "label": "K"
+      },
+      {
+        "start": 1.29,
+        "end": 1.38,
+        "label": "S"
+      },
+      {
+        "start": 1.38,
+        "end": 1.5,
+        "label": ""
+      },
+      {
+        "start": 1.5,
+        "end": 1.56,
+        "label": "D"
+      },
+      {
+        "start": 1.56,
+        "end": 1.61,
+        "label": "EH2"
+      },
+      {
+        "start": 1.61,
+        "end": 1.66,
+        "label": "M"
+      },
+      {
+        "start": 1.66,
+        "end": 1.71,
+        "label": "AH0"
+      },
+      {
+        "start": 1.71,
+        "end": 1.79,
+        "label": "K"
+      },
+      {
+        "start": 1.79,
+        "end": 1.83,
+        "label": "R"
+      },
+      {
+        "start": 1.83,
+        "end": 1.9,
+        "label": "AE1"
+      },
+      {
+        "start": 1.9,
+        "end": 1.93,
+        "label": "T"
+      },
+      {
+        "start": 1.93,
+        "end": 2.0,
+        "label": "IH0"
+      },
+      {
+        "start": 2.0,
+        "end": 2.05,
+        "label": "K"
+      },
+      {
+        "start": 2.05,
+        "end": 2.11,
+        "label": "G"
+      },
+      {
+        "start": 2.11,
+        "end": 2.18,
+        "label": "AH1"
+      },
+      {
+        "start": 2.18,
+        "end": 2.23,
+        "label": "V"
+      },
+      {
+        "start": 2.23,
+        "end": 2.28,
+        "label": "ER0"
+      },
+      {
+        "start": 2.28,
+        "end": 2.32,
+        "label": "N"
+      },
+      {
+        "start": 2.32,
+        "end": 2.41,
+        "label": "ER0"
+      },
+      {
+        "start": 2.41,
+        "end": 2.48,
+        "label": "M"
+      },
+      {
+        "start": 2.48,
+        "end": 2.57,
+        "label": "AY1"
+      },
+      {
+        "start": 2.57,
+        "end": 2.65,
+        "label": "K"
+      },
+      {
+        "start": 2.65,
+        "end": 2.69,
+        "label": "AH0"
+      },
+      {
+        "start": 2.69,
+        "end": 2.73,
+        "label": "L"
+      },
+      {
+        "start": 2.73,
+        "end": 3.35,
+        "label": "spn"
+      },
+      {
+        "start": 3.35,
+        "end": 3.64,
+        "label": ""
+      },
+      {
+        "start": 3.64,
+        "end": 3.68,
+        "label": "F"
+      },
+      {
+        "start": 3.68,
+        "end": 3.71,
+        "label": "UH0"
+      },
+      {
+        "start": 3.71,
+        "end": 3.74,
+        "label": "L"
+      },
+      {
+        "start": 3.74,
+        "end": 3.84,
+        "label": "F"
+      },
+      {
+        "start": 3.84,
+        "end": 3.9,
+        "label": "IH1"
+      },
+      {
+        "start": 3.9,
+        "end": 3.99,
+        "label": "L"
+      },
+      {
+        "start": 3.99,
+        "end": 4.06,
+        "label": "D"
+      },
+      {
+        "start": 4.06,
+        "end": 4.12,
+        "label": "AH0"
+      },
+      {
+        "start": 4.12,
+        "end": 4.24,
+        "label": "K"
+      },
+      {
+        "start": 4.24,
+        "end": 4.35,
+        "label": "AE0"
+      },
+      {
+        "start": 4.35,
+        "end": 4.39,
+        "label": "M"
+      },
+      {
+        "start": 4.39,
+        "end": 4.48,
+        "label": "P"
+      },
+      {
+        "start": 4.48,
+        "end": 4.61,
+        "label": "EY1"
+      },
+      {
+        "start": 4.61,
+        "end": 4.68,
+        "label": "N"
+      },
+      {
+        "start": 4.68,
+        "end": 4.76,
+        "label": "P"
+      },
+      {
+        "start": 4.76,
+        "end": 4.82,
+        "label": "R"
+      },
+      {
+        "start": 4.82,
+        "end": 4.9,
+        "label": "AA1"
+      },
+      {
+        "start": 4.9,
+        "end": 4.95,
+        "label": "M"
+      },
+      {
+        "start": 4.95,
+        "end": 5.08,
+        "label": "AH0"
+      },
+      {
+        "start": 5.08,
+        "end": 5.2,
+        "label": "S"
+      },
+      {
+        "start": 5.2,
+        "end": 5.33,
+        "label": "T"
+      },
+      {
+        "start": 5.33,
+        "end": 5.42,
+        "label": "UW1"
+      },
+      {
+        "start": 5.42,
+        "end": 5.54,
+        "label": "D"
+      },
+      {
+        "start": 5.54,
+        "end": 5.66,
+        "label": "IY1"
+      },
+      {
+        "start": 5.66,
+        "end": 6.53,
+        "label": "spn"
+      },
+      {
+        "start": 6.53,
+        "end": 6.62,
+        "label": "JH"
+      },
+      {
+        "start": 6.62,
+        "end": 6.68,
+        "label": "UW0"
+      },
+      {
+        "start": 6.68,
+        "end": 6.75,
+        "label": "D"
+      },
+      {
+        "start": 6.75,
+        "end": 6.8,
+        "label": "IH1"
+      },
+      {
+        "start": 6.8,
+        "end": 6.91,
+        "label": "SH"
+      },
+      {
+        "start": 6.91,
+        "end": 6.97,
+        "label": "AH0"
+      },
+      {
+        "start": 6.97,
+        "end": 7.04,
+        "label": "L"
+      },
+      {
+        "start": 7.04,
+        "end": 7.09,
+        "label": "AH0"
+      },
+      {
+        "start": 7.09,
+        "end": 7.2,
+        "label": "P"
+      },
+      {
+        "start": 7.2,
+        "end": 7.32,
+        "label": "OY1"
+      },
+      {
+        "start": 7.32,
+        "end": 7.36,
+        "label": "N"
+      },
+      {
+        "start": 7.36,
+        "end": 7.39,
+        "label": "T"
+      },
+      {
+        "start": 7.39,
+        "end": 7.42,
+        "label": "M"
+      },
+      {
+        "start": 7.42,
+        "end": 7.5,
+        "label": "AH0"
+      },
+      {
+        "start": 7.5,
+        "end": 7.53,
+        "label": "N"
+      },
+      {
+        "start": 7.53,
+        "end": 7.59,
+        "label": "T"
+      },
+      {
+        "start": 7.59,
+        "end": 7.75,
+        "label": "S"
+      },
+      {
+        "start": 7.75,
+        "end": 8.04,
+        "label": ""
+      },
+      {
+        "start": 8.04,
+        "end": 8.11,
+        "label": "HH"
+      },
+      {
+        "start": 8.11,
+        "end": 8.16,
+        "label": "IY1"
+      },
+      {
+        "start": 8.16,
+        "end": 8.22,
+        "label": "N"
+      },
+      {
+        "start": 8.22,
+        "end": 8.36,
+        "label": "EY1"
+      },
+      {
+        "start": 8.36,
+        "end": 8.42,
+        "label": "M"
+      },
+      {
+        "start": 8.42,
+        "end": 8.5,
+        "label": "D"
+      },
+      {
+        "start": 8.5,
+        "end": 8.55,
+        "label": "R"
+      },
+      {
+        "start": 8.55,
+        "end": 8.62,
+        "label": "IY0"
+      },
+      {
+        "start": 8.62,
+        "end": 8.72,
+        "label": "P"
+      },
+      {
+        "start": 8.72,
+        "end": 8.8,
+        "label": "AH1"
+      },
+      {
+        "start": 8.8,
+        "end": 8.84,
+        "label": "B"
+      },
+      {
+        "start": 8.84,
+        "end": 8.92,
+        "label": "L"
+      },
+      {
+        "start": 8.92,
+        "end": 8.97,
+        "label": "IH0"
+      },
+      {
+        "start": 8.97,
+        "end": 9.04,
+        "label": "K"
+      },
+      {
+        "start": 9.04,
+        "end": 9.13,
+        "label": "AH0"
+      },
+      {
+        "start": 9.13,
+        "end": 9.18,
+        "label": "N"
+      },
+      {
+        "start": 9.18,
+        "end": 9.34,
+        "label": "EH1"
+      },
+      {
+        "start": 9.34,
+        "end": 9.39,
+        "label": "D"
+      },
+      {
+        "start": 9.39,
+        "end": 9.44,
+        "label": "W"
+      },
+      {
+        "start": 9.44,
+        "end": 9.5,
+        "label": "ER0"
+      },
+      {
+        "start": 9.5,
+        "end": 9.55,
+        "label": "D"
+      },
+      {
+        "start": 9.55,
+        "end": 9.62,
+        "label": "HH"
+      },
+      {
+        "start": 9.62,
+        "end": 9.67,
+        "label": "EH1"
+      },
+      {
+        "start": 9.67,
+        "end": 9.72,
+        "label": "N"
+      },
+      {
+        "start": 9.72,
+        "end": 9.8,
+        "label": "AH0"
+      },
+      {
+        "start": 9.8,
+        "end": 9.94,
+        "label": "S"
+      },
+      {
+        "start": 9.94,
+        "end": 10.09,
+        "label": "IY0"
+      },
+      {
+        "start": 10.09,
+        "end": 10.23,
+        "label": "T"
+      },
+      {
+        "start": 10.23,
+        "end": 10.26,
+        "label": "UW1"
+      },
+      {
+        "start": 10.26,
+        "end": 10.35,
+        "label": "HH"
+      },
+      {
+        "start": 10.35,
+        "end": 10.45,
+        "label": "EH1"
+      },
+      {
+        "start": 10.45,
+        "end": 10.52,
+        "label": "D"
+      },
+      {
+        "start": 10.52,
+        "end": 10.56,
+        "label": "DH"
+      },
+      {
+        "start": 10.56,
+        "end": 10.61,
+        "label": "AH0"
+      },
+      {
+        "start": 10.61,
+        "end": 10.72,
+        "label": "S"
+      },
+      {
+        "start": 10.72,
+        "end": 10.78,
+        "label": "T"
+      },
+      {
+        "start": 10.78,
+        "end": 10.89,
+        "label": "EY1"
+      },
+      {
+        "start": 10.89,
+        "end": 10.97,
+        "label": "T"
+      },
+      {
+        "start": 10.97,
+        "end": 11.06,
+        "label": "S"
+      },
+      {
+        "start": 11.06,
+        "end": 11.09,
+        "label": "AH0"
+      },
+      {
+        "start": 11.09,
+        "end": 11.21,
+        "label": "P"
+      },
+      {
+        "start": 11.21,
+        "end": 11.25,
+        "label": "R"
+      },
+      {
+        "start": 11.25,
+        "end": 11.34,
+        "label": "IY1"
+      },
+      {
+        "start": 11.34,
+        "end": 11.4,
+        "label": "M"
+      },
+      {
+        "start": 11.4,
+        "end": 11.49,
+        "label": "JH"
+      },
+      {
+        "start": 11.49,
+        "end": 11.54,
+        "label": "UW0"
+      },
+      {
+        "start": 11.54,
+        "end": 11.61,
+        "label": "D"
+      },
+      {
+        "start": 11.61,
+        "end": 11.67,
+        "label": "IH1"
+      },
+      {
+        "start": 11.67,
+        "end": 11.77,
+        "label": "SH"
+      },
+      {
+        "start": 11.77,
+        "end": 11.83,
+        "label": "AH0"
+      },
+      {
+        "start": 11.83,
+        "end": 11.87,
+        "label": "L"
+      },
+      {
+        "start": 11.87,
+        "end": 12.04,
+        "label": "K"
+      },
+      {
+        "start": 12.04,
+        "end": 12.11,
+        "label": "AO1"
+      },
+      {
+        "start": 12.11,
+        "end": 12.2,
+        "label": "R"
+      },
+      {
+        "start": 12.2,
+        "end": 12.33,
+        "label": "T"
+      },
+      {
+        "start": 12.33,
+        "end": 13.03,
+        "label": ""
+      },
+      {
+        "start": 13.03,
+        "end": 13.14,
+        "label": "F"
+      },
+      {
+        "start": 13.14,
+        "end": 13.17,
+        "label": "R"
+      },
+      {
+        "start": 13.17,
+        "end": 13.2,
+        "label": "ER0"
+      },
+      {
+        "start": 13.2,
+        "end": 13.25,
+        "label": "HH"
+      },
+      {
+        "start": 13.25,
+        "end": 13.3,
+        "label": "EH1"
+      },
+      {
+        "start": 13.3,
+        "end": 13.35,
+        "label": "N"
+      },
+      {
+        "start": 13.35,
+        "end": 13.41,
+        "label": "AH0"
+      },
+      {
+        "start": 13.41,
+        "end": 13.52,
+        "label": "S"
+      },
+      {
+        "start": 13.52,
+        "end": 13.61,
+        "label": "IY0"
+      },
+      {
+        "start": 13.61,
+        "end": 13.65,
+        "label": "IH1"
+      },
+      {
+        "start": 13.65,
+        "end": 13.72,
+        "label": "T"
+      },
+      {
+        "start": 13.72,
+        "end": 13.78,
+        "label": "W"
+      },
+      {
+        "start": 13.78,
+        "end": 13.83,
+        "label": "AH0"
+      },
+      {
+        "start": 13.83,
+        "end": 13.88,
+        "label": "Z"
+      },
+      {
+        "start": 13.88,
+        "end": 13.94,
+        "label": "AH0"
+      },
+      {
+        "start": 13.94,
+        "end": 14.02,
+        "label": "N"
+      },
+      {
+        "start": 14.02,
+        "end": 14.07,
+        "label": "AH1"
+      },
+      {
+        "start": 14.07,
+        "end": 14.12,
+        "label": "DH"
+      },
+      {
+        "start": 14.12,
+        "end": 14.2,
+        "label": "ER0"
+      },
+      {
+        "start": 14.2,
+        "end": 14.34,
+        "label": "S"
+      },
+      {
+        "start": 14.34,
+        "end": 14.41,
+        "label": "T"
+      },
+      {
+        "start": 14.41,
+        "end": 14.55,
+        "label": "EH1"
+      },
+      {
+        "start": 14.55,
+        "end": 14.68,
+        "label": "P"
+      },
+      {
+        "start": 14.68,
+        "end": 14.72,
+        "label": "AH0"
+      },
+      {
+        "start": 14.72,
+        "end": 14.82,
+        "label": "L"
+      },
+      {
+        "start": 14.82,
+        "end": 14.91,
+        "label": "AO1"
+      },
+      {
+        "start": 14.91,
+        "end": 15.0,
+        "label": "NG"
+      },
+      {
+        "start": 15.0,
+        "end": 15.05,
+        "label": "AH0"
+      },
+      {
+        "start": 15.05,
+        "end": 15.14,
+        "label": "D"
+      },
+      {
+        "start": 15.14,
+        "end": 15.19,
+        "label": "IH0"
+      },
+      {
+        "start": 15.19,
+        "end": 15.28,
+        "label": "S"
+      },
+      {
+        "start": 15.28,
+        "end": 15.34,
+        "label": "T"
+      },
+      {
+        "start": 15.34,
+        "end": 15.4,
+        "label": "IH1"
+      },
+      {
+        "start": 15.4,
+        "end": 15.44,
+        "label": "NG"
+      },
+      {
+        "start": 15.44,
+        "end": 15.47,
+        "label": "G"
+      },
+      {
+        "start": 15.47,
+        "end": 15.51,
+        "label": "W"
+      },
+      {
+        "start": 15.51,
+        "end": 15.56,
+        "label": "IH0"
+      },
+      {
+        "start": 15.56,
+        "end": 15.65,
+        "label": "SH"
+      },
+      {
+        "start": 15.65,
+        "end": 15.68,
+        "label": "T"
+      },
+      {
+        "start": 15.68,
+        "end": 15.78,
+        "label": "K"
+      },
+      {
+        "start": 15.78,
+        "end": 15.9,
+        "label": "ER0"
+      },
+      {
+        "start": 15.9,
+        "end": 15.98,
+        "label": "IH1"
+      },
+      {
+        "start": 15.98,
+        "end": 16.1,
+        "label": "R"
+      },
+      {
+        "start": 16.1,
+        "end": 16.45,
+        "label": ""
+      },
+      {
+        "start": 16.45,
+        "end": 16.49,
+        "label": "DH"
+      },
+      {
+        "start": 16.49,
+        "end": 16.55,
+        "label": "AE1"
+      },
+      {
+        "start": 16.55,
+        "end": 16.6,
+        "label": "T"
+      },
+      {
+        "start": 16.6,
+        "end": 16.64,
+        "label": "B"
+      },
+      {
+        "start": 16.64,
+        "end": 16.72,
+        "label": "IH0"
+      },
+      {
+        "start": 16.72,
+        "end": 16.8,
+        "label": "G"
+      },
+      {
+        "start": 16.8,
+        "end": 16.97,
+        "label": "AE1"
+      },
+      {
+        "start": 16.97,
+        "end": 17.02,
+        "label": "N"
+      },
+      {
+        "start": 17.02,
+        "end": 17.09,
+        "label": "AE1"
+      },
+      {
+        "start": 17.09,
+        "end": 17.17,
+        "label": "Z"
+      },
+      {
+        "start": 17.17,
+        "end": 17.23,
+        "label": "AH0"
+      },
+      {
+        "start": 17.23,
+        "end": 17.35,
+        "label": "T"
+      },
+      {
+        "start": 17.35,
+        "end": 17.4,
+        "label": "R"
+      },
+      {
+        "start": 17.4,
+        "end": 17.49,
+        "label": "AY1"
+      },
+      {
+        "start": 17.49,
+        "end": 17.59,
+        "label": "AH0"
+      },
+      {
+        "start": 17.59,
+        "end": 17.64,
+        "label": "L"
+      },
+      {
+        "start": 17.64,
+        "end": 17.71,
+        "label": "L"
+      },
+      {
+        "start": 17.71,
+        "end": 17.81,
+        "label": "AO1"
+      },
+      {
+        "start": 17.81,
+        "end": 17.87,
+        "label": "Y"
+      },
+      {
+        "start": 17.87,
+        "end": 18.09,
+        "label": "ER0"
+      },
+      {
+        "start": 18.09,
+        "end": 18.16,
+        "label": ""
+      },
+      {
+        "start": 18.16,
+        "end": 18.24,
+        "label": "AE1"
+      },
+      {
+        "start": 18.24,
+        "end": 18.28,
+        "label": "N"
+      },
+      {
+        "start": 18.28,
+        "end": 18.34,
+        "label": "D"
+      },
+      {
+        "start": 18.34,
+        "end": 18.39,
+        "label": "L"
+      },
+      {
+        "start": 18.39,
+        "end": 18.45,
+        "label": "EH1"
+      },
+      {
+        "start": 18.45,
+        "end": 18.52,
+        "label": "D"
+      },
+      {
+        "start": 18.52,
+        "end": 18.58,
+        "label": "T"
+      },
+      {
+        "start": 18.58,
+        "end": 18.63,
+        "label": "UW1"
+      },
+      {
+        "start": 18.63,
+        "end": 18.69,
+        "label": "AH0"
+      },
+      {
+        "start": 18.69,
+        "end": 18.73,
+        "label": "N"
+      },
+      {
+        "start": 18.73,
+        "end": 18.8,
+        "label": "AH0"
+      },
+      {
+        "start": 18.8,
+        "end": 18.92,
+        "label": "P"
+      },
+      {
+        "start": 18.92,
+        "end": 19.03,
+        "label": "OY1"
+      },
+      {
+        "start": 19.03,
+        "end": 19.07,
+        "label": "N"
+      },
+      {
+        "start": 19.07,
+        "end": 19.1,
+        "label": "T"
+      },
+      {
+        "start": 19.1,
+        "end": 19.13,
+        "label": "M"
+      },
+      {
+        "start": 19.13,
+        "end": 19.21,
+        "label": "AH0"
+      },
+      {
+        "start": 19.21,
+        "end": 19.25,
+        "label": "N"
+      },
+      {
+        "start": 19.25,
+        "end": 19.3,
+        "label": "T"
+      },
+      {
+        "start": 19.3,
+        "end": 19.42,
+        "label": "AE1"
+      },
+      {
+        "start": 19.42,
+        "end": 19.49,
+        "label": "Z"
+      },
+      {
+        "start": 19.49,
+        "end": 19.55,
+        "label": "AH0"
+      },
+      {
+        "start": 19.55,
+        "end": 19.67,
+        "label": "S"
+      },
+      {
+        "start": 19.67,
+        "end": 19.75,
+        "label": "OW1"
+      },
+      {
+        "start": 19.75,
+        "end": 19.89,
+        "label": "S"
+      },
+      {
+        "start": 19.89,
+        "end": 20.01,
+        "label": "IY0"
+      },
+      {
+        "start": 20.01,
+        "end": 20.07,
+        "label": "AH0"
+      },
+      {
+        "start": 20.07,
+        "end": 20.14,
+        "label": "T"
+      },
+      {
+        "start": 20.14,
+        "end": 20.21,
+        "label": "S"
+      },
+      {
+        "start": 20.21,
+        "end": 20.24,
+        "label": "AH0"
+      },
+      {
+        "start": 20.24,
+        "end": 20.34,
+        "label": "P"
+      },
+      {
+        "start": 20.34,
+        "end": 20.38,
+        "label": "R"
+      },
+      {
+        "start": 20.38,
+        "end": 20.45,
+        "label": "IY1"
+      },
+      {
+        "start": 20.45,
+        "end": 20.54,
+        "label": "M"
+      },
+      {
+        "start": 20.54,
+        "end": 20.65,
+        "label": "K"
+      },
+      {
+        "start": 20.65,
+        "end": 20.68,
+        "label": "AO1"
+      },
+      {
+        "start": 20.68,
+        "end": 20.76,
+        "label": "R"
+      },
+      {
+        "start": 20.76,
+        "end": 20.82,
+        "label": "T"
+      },
+      {
+        "start": 20.82,
+        "end": 20.91,
+        "label": "JH"
+      },
+      {
+        "start": 20.91,
+        "end": 21.0,
+        "label": "AH1"
+      },
+      {
+        "start": 21.0,
+        "end": 21.09,
+        "label": "S"
+      },
+      {
+        "start": 21.09,
+        "end": 21.15,
+        "label": "T"
+      },
+      {
+        "start": 21.15,
+        "end": 21.21,
+        "label": "AH0"
+      },
+      {
+        "start": 21.21,
+        "end": 21.3,
+        "label": "S"
+      },
+      {
+        "start": 21.3,
+        "end": 21.41,
+        "label": "IH0"
+      },
+      {
+        "start": 21.41,
+        "end": 21.48,
+        "label": "N"
+      },
+      {
+        "start": 21.48,
+        "end": 21.52,
+        "label": "N"
+      },
+      {
+        "start": 21.52,
+        "end": 21.61,
+        "label": "AY1"
+      },
+      {
+        "start": 21.61,
+        "end": 21.66,
+        "label": "N"
+      },
+      {
+        "start": 21.66,
+        "end": 21.77,
+        "label": "T"
+      },
+      {
+        "start": 21.77,
+        "end": 21.82,
+        "label": "IY1"
+      },
+      {
+        "start": 21.82,
+        "end": 21.89,
+        "label": "N"
+      },
+      {
+        "start": 21.89,
+        "end": 22.0,
+        "label": "S"
+      },
+      {
+        "start": 22.0,
+        "end": 22.06,
+        "label": "EH1"
+      },
+      {
+        "start": 22.06,
+        "end": 22.12,
+        "label": "V"
+      },
+      {
+        "start": 22.12,
+        "end": 22.16,
+        "label": "AH0"
+      },
+      {
+        "start": 22.16,
+        "end": 22.2,
+        "label": "N"
+      },
+      {
+        "start": 22.2,
+        "end": 22.23,
+        "label": "T"
+      },
+      {
+        "start": 22.23,
+        "end": 22.31,
+        "label": "IY0"
+      },
+      {
+        "start": 22.31,
+        "end": 22.42,
+        "label": "W"
+      },
+      {
+        "start": 22.42,
+        "end": 22.56,
+        "label": "AH1"
+      },
+      {
+        "start": 22.56,
+        "end": 22.65,
+        "label": "N"
+      },
+      {
+        "start": 22.65,
+        "end": 23.16,
+        "label": ""
+      },
+      {
+        "start": 23.16,
+        "end": 23.2,
+        "label": "DH"
+      },
+      {
+        "start": 23.2,
+        "end": 23.3,
+        "label": "AE1"
+      },
+      {
+        "start": 23.3,
+        "end": 23.35,
+        "label": "T"
+      },
+      {
+        "start": 23.35,
+        "end": 23.39,
+        "label": "Y"
+      },
+      {
+        "start": 23.39,
+        "end": 23.45,
+        "label": "IH1"
+      },
+      {
+        "start": 23.45,
+        "end": 23.52,
+        "label": "R"
+      },
+      {
+        "start": 23.52,
+        "end": 23.63,
+        "label": "T"
+      },
+      {
+        "start": 23.63,
+        "end": 23.74,
+        "label": "AA1"
+      },
+      {
+        "start": 23.74,
+        "end": 23.79,
+        "label": "M"
+      },
+      {
+        "start": 23.79,
+        "end": 23.84,
+        "label": "AH0"
+      },
+      {
+        "start": 23.84,
+        "end": 23.92,
+        "label": "S"
+      },
+      {
+        "start": 23.92,
+        "end": 24.34,
+        "label": "spn"
+      },
+      {
+        "start": 24.34,
+        "end": 24.39,
+        "label": "N"
+      },
+      {
+        "start": 24.39,
+        "end": 24.51,
+        "label": "AW1"
+      },
+      {
+        "start": 24.51,
+        "end": 24.62,
+        "label": "P"
+      },
+      {
+        "start": 24.62,
+        "end": 24.65,
+        "label": "R"
+      },
+      {
+        "start": 24.65,
+        "end": 24.71,
+        "label": "EH1"
+      },
+      {
+        "start": 24.71,
+        "end": 24.78,
+        "label": "Z"
+      },
+      {
+        "start": 24.78,
+        "end": 24.83,
+        "label": "IH0"
+      },
+      {
+        "start": 24.83,
+        "end": 24.86,
+        "label": "D"
+      },
+      {
+        "start": 24.86,
+        "end": 24.94,
+        "label": "AH0"
+      },
+      {
+        "start": 24.94,
+        "end": 24.99,
+        "label": "N"
+      },
+      {
+        "start": 24.99,
+        "end": 25.05,
+        "label": "T"
+      },
+      {
+        "start": 25.05,
+        "end": 25.1,
+        "label": "AH0"
+      },
+      {
+        "start": 25.1,
+        "end": 25.16,
+        "label": "V"
+      },
+      {
+        "start": 25.16,
+        "end": 25.19,
+        "label": "DH"
+      },
+      {
+        "start": 25.19,
+        "end": 25.23,
+        "label": "AH0"
+      },
+      {
+        "start": 25.23,
+        "end": 25.28,
+        "label": "M"
+      },
+      {
+        "start": 25.28,
+        "end": 25.37,
+        "label": "AE2"
+      },
+      {
+        "start": 25.37,
+        "end": 25.47,
+        "label": "S"
+      },
+      {
+        "start": 25.47,
+        "end": 25.5,
+        "label": "AH0"
+      },
+      {
+        "start": 25.5,
+        "end": 25.61,
+        "label": "CH"
+      },
+      {
+        "start": 25.61,
+        "end": 25.64,
+        "label": "UW1"
+      },
+      {
+        "start": 25.64,
+        "end": 25.73,
+        "label": "S"
+      },
+      {
+        "start": 25.73,
+        "end": 25.78,
+        "label": "AH0"
+      },
+      {
+        "start": 25.78,
+        "end": 25.82,
+        "label": "T"
+      },
+      {
+        "start": 25.82,
+        "end": 25.85,
+        "label": "S"
+      },
+      {
+        "start": 25.85,
+        "end": 25.92,
+        "label": "B"
+      },
+      {
+        "start": 25.92,
+        "end": 25.98,
+        "label": "AA1"
+      },
+      {
+        "start": 25.98,
+        "end": 26.08,
+        "label": "R"
+      },
+      {
+        "start": 26.08,
+        "end": 26.13,
+        "label": "AH0"
+      },
+      {
+        "start": 26.13,
+        "end": 26.24,
+        "label": "S"
+      },
+      {
+        "start": 26.24,
+        "end": 26.31,
+        "label": "OW2"
+      },
+      {
+        "start": 26.31,
+        "end": 26.45,
+        "label": "S"
+      },
+      {
+        "start": 26.45,
+        "end": 26.55,
+        "label": "IY0"
+      },
+      {
+        "start": 26.55,
+        "end": 26.62,
+        "label": "EY1"
+      },
+      {
+        "start": 26.62,
+        "end": 26.74,
+        "label": "SH"
+      },
+      {
+        "start": 26.74,
+        "end": 26.8,
+        "label": "AH0"
+      },
+      {
+        "start": 26.8,
+        "end": 26.86,
+        "label": "N"
+      },
+      {
+        "start": 26.86,
+        "end": 27.2,
+        "label": ""
+      },
+      {
+        "start": 27.2,
+        "end": 27.24,
+        "label": "W"
+      },
+      {
+        "start": 27.24,
+        "end": 27.28,
+        "label": "AH0"
+      },
+      {
+        "start": 27.28,
+        "end": 27.35,
+        "label": "Z"
+      },
+      {
+        "start": 27.35,
+        "end": 27.4,
+        "label": "HH"
+      },
+      {
+        "start": 27.4,
+        "end": 27.45,
+        "label": "EH1"
+      },
+      {
+        "start": 27.45,
+        "end": 27.49,
+        "label": "N"
+      },
+      {
+        "start": 27.49,
+        "end": 27.55,
+        "label": "IH0"
+      },
+      {
+        "start": 27.55,
+        "end": 27.65,
+        "label": "S"
+      },
+      {
+        "start": 27.65,
+        "end": 27.7,
+        "label": "IY0"
+      },
+      {
+        "start": 27.7,
+        "end": 27.81,
+        "label": "Z"
+      },
+      {
+        "start": 27.81,
+        "end": 27.87,
+        "label": "L"
+      },
+      {
+        "start": 27.87,
+        "end": 28.01,
+        "label": "AA1"
+      },
+      {
+        "start": 28.01,
+        "end": 28.15,
+        "label": "K"
+      },
+      {
+        "start": 28.15,
+        "end": 28.19,
+        "label": "L"
+      },
+      {
+        "start": 28.19,
+        "end": 28.28,
+        "label": "ER1"
+      },
+      {
+        "start": 28.28,
+        "end": 28.47,
+        "label": "K"
+      },
+      {
+        "start": 28.47,
+        "end": 28.647,
+        "label": ""
+      }
+    ]
+  },
+  {
+    "stem": "F2BJRLP3",
+    "audio_duration_sec": 30.707,
+    "word_intervals": 95,
+    "word_intervals_non_empty": 82,
+    "phone_intervals": 385,
+    "phone_intervals_non_empty": 372,
+    "zero_length_phones": [],
+    "zero_length_phone_count": 0,
+    "spn_count": 0,
+    "spn_phones": [],
+    "spn_words": [],
+    "explicit_sil_labels": 0,
+    "unlabelled_intervals": 13,
+    "nonspeech_intervals": [
+      "0.0-0.21",
+      "3.16-3.48",
+      "6.47-6.5",
+      "8.12-8.53",
+      "10.74-10.99",
+      "13.76-13.87",
+      "15.96-16.06",
+      "17.73-18.05",
+      "21.63-22.17",
+      "24.42-24.79",
+      "27.56-27.65",
+      "28.59-28.67",
+      "30.36-30.707"
+    ],
+    "nonspeech_total_sec": 3.177,
+    "leading_nonspeech_sec": 0.21,
+    "trailing_nonspeech_sec": 0.347,
+    "longest_phone": {
+      "label": "OW1",
+      "start": 13.47,
+      "end": 13.76,
+      "duration": 0.29
+    },
+    "largest_word_gap": {
+      "gap_sec": 0.54,
+      "after_word": "houses",
+      "before_word": "despite",
+      "at_time": 21.63
+    },
+    "first_word": "the",
+    "first_word_start": 0.21,
+    "last_word": "gains",
+    "last_word_end": 30.36,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.21,
+        "label": ""
+      },
+      {
+        "start": 0.21,
+        "end": 0.36,
+        "label": "the"
+      },
+      {
+        "start": 0.36,
+        "end": 0.71,
+        "label": "author"
+      },
+      {
+        "start": 0.71,
+        "end": 0.87,
+        "label": "of"
+      },
+      {
+        "start": 0.87,
+        "end": 1.05,
+        "label": "more"
+      },
+      {
+        "start": 1.05,
+        "end": 1.23,
+        "label": "than"
+      },
+      {
+        "start": 1.23,
+        "end": 1.4,
+        "label": "eight"
+      },
+      {
+        "start": 1.4,
+        "end": 1.8,
+        "label": "hundred"
+      },
+      {
+        "start": 1.8,
+        "end": 2.04,
+        "label": "state"
+      },
+      {
+        "start": 2.04,
+        "end": 2.36,
+        "label": "supreme"
+      },
+      {
+        "start": 2.36,
+        "end": 2.59,
+        "label": "court"
+      },
+      {
+        "start": 2.59,
+        "end": 3.16,
+        "label": "opinions"
+      },
+      {
+        "start": 3.16,
+        "end": 3.48,
+        "label": ""
+      },
+      {
+        "start": 3.48,
+        "end": 3.9,
+        "label": "hennessy"
+      },
+      {
+        "start": 3.9,
+        "end": 4.05,
+        "label": "is"
+      },
+      {
+        "start": 4.05,
+        "end": 4.44,
+        "label": "widely"
+      },
+      {
+        "start": 4.44,
+        "end": 5.12,
+        "label": "respected"
+      },
+      {
+        "start": 5.12,
+        "end": 5.27,
+        "label": "for"
+      },
+      {
+        "start": 5.27,
+        "end": 5.48,
+        "label": "his"
+      },
+      {
+        "start": 5.48,
+        "end": 5.74,
+        "label": "legal"
+      },
+      {
+        "start": 5.74,
+        "end": 6.47,
+        "label": "scholarship"
+      },
+      {
+        "start": 6.47,
+        "end": 6.5,
+        "label": ""
+      },
+      {
+        "start": 6.5,
+        "end": 6.66,
+        "label": "and"
+      },
+      {
+        "start": 6.66,
+        "end": 6.84,
+        "label": "his"
+      },
+      {
+        "start": 6.84,
+        "end": 7.49,
+        "label": "administrative"
+      },
+      {
+        "start": 7.49,
+        "end": 8.12,
+        "label": "abilities"
+      },
+      {
+        "start": 8.12,
+        "end": 8.53,
+        "label": ""
+      },
+      {
+        "start": 8.53,
+        "end": 9.26,
+        "label": "admirers"
+      },
+      {
+        "start": 9.26,
+        "end": 9.51,
+        "label": "give"
+      },
+      {
+        "start": 9.51,
+        "end": 10.0,
+        "label": "hennessy"
+      },
+      {
+        "start": 10.0,
+        "end": 10.23,
+        "label": "much"
+      },
+      {
+        "start": 10.23,
+        "end": 10.31,
+        "label": "of"
+      },
+      {
+        "start": 10.31,
+        "end": 10.39,
+        "label": "the"
+      },
+      {
+        "start": 10.39,
+        "end": 10.74,
+        "label": "credit"
+      },
+      {
+        "start": 10.74,
+        "end": 10.99,
+        "label": ""
+      },
+      {
+        "start": 10.99,
+        "end": 11.16,
+        "label": "for"
+      },
+      {
+        "start": 11.16,
+        "end": 11.59,
+        "label": "sweeping"
+      },
+      {
+        "start": 11.59,
+        "end": 11.86,
+        "label": "court"
+      },
+      {
+        "start": 11.86,
+        "end": 12.42,
+        "label": "reform"
+      },
+      {
+        "start": 12.42,
+        "end": 12.56,
+        "label": "that"
+      },
+      {
+        "start": 12.56,
+        "end": 12.88,
+        "label": "began"
+      },
+      {
+        "start": 12.88,
+        "end": 12.93,
+        "label": "a"
+      },
+      {
+        "start": 12.93,
+        "end": 13.31,
+        "label": "decade"
+      },
+      {
+        "start": 13.31,
+        "end": 13.76,
+        "label": "ago"
+      },
+      {
+        "start": 13.76,
+        "end": 13.87,
+        "label": ""
+      },
+      {
+        "start": 13.87,
+        "end": 14.06,
+        "label": "and"
+      },
+      {
+        "start": 14.06,
+        "end": 14.17,
+        "label": "for"
+      },
+      {
+        "start": 14.17,
+        "end": 14.54,
+        "label": "last"
+      },
+      {
+        "start": 14.54,
+        "end": 14.82,
+        "label": "year's"
+      },
+      {
+        "start": 14.82,
+        "end": 15.39,
+        "label": "legislative"
+      },
+      {
+        "start": 15.39,
+        "end": 15.96,
+        "label": "approval"
+      },
+      {
+        "start": 15.96,
+        "end": 16.06,
+        "label": ""
+      },
+      {
+        "start": 16.06,
+        "end": 16.19,
+        "label": "of"
+      },
+      {
+        "start": 16.19,
+        "end": 16.54,
+        "label": "thirty"
+      },
+      {
+        "start": 16.54,
+        "end": 16.93,
+        "label": "five"
+      },
+      {
+        "start": 16.93,
+        "end": 17.09,
+        "label": "new"
+      },
+      {
+        "start": 17.09,
+        "end": 17.73,
+        "label": "judgeships"
+      },
+      {
+        "start": 17.73,
+        "end": 18.05,
+        "label": ""
+      },
+      {
+        "start": 18.05,
+        "end": 18.21,
+        "label": "and"
+      },
+      {
+        "start": 18.21,
+        "end": 18.42,
+        "label": "three"
+      },
+      {
+        "start": 18.42,
+        "end": 18.8,
+        "label": "hundred"
+      },
+      {
+        "start": 18.8,
+        "end": 19.12,
+        "label": "million"
+      },
+      {
+        "start": 19.12,
+        "end": 19.59,
+        "label": "dollars"
+      },
+      {
+        "start": 19.59,
+        "end": 19.73,
+        "label": "to"
+      },
+      {
+        "start": 19.73,
+        "end": 20.28,
+        "label": "restore"
+      },
+      {
+        "start": 20.28,
+        "end": 20.8,
+        "label": "crumbling"
+      },
+      {
+        "start": 20.8,
+        "end": 21.07,
+        "label": "court"
+      },
+      {
+        "start": 21.07,
+        "end": 21.63,
+        "label": "houses"
+      },
+      {
+        "start": 21.63,
+        "end": 22.17,
+        "label": ""
+      },
+      {
+        "start": 22.17,
+        "end": 22.58,
+        "label": "despite"
+      },
+      {
+        "start": 22.58,
+        "end": 22.67,
+        "label": "the"
+      },
+      {
+        "start": 22.67,
+        "end": 23.03,
+        "label": "state's"
+      },
+      {
+        "start": 23.03,
+        "end": 23.52,
+        "label": "massive"
+      },
+      {
+        "start": 23.52,
+        "end": 23.88,
+        "label": "budget"
+      },
+      {
+        "start": 23.88,
+        "end": 24.42,
+        "label": "deficit"
+      },
+      {
+        "start": 24.42,
+        "end": 24.79,
+        "label": ""
+      },
+      {
+        "start": 24.79,
+        "end": 25.17,
+        "label": "hennessy"
+      },
+      {
+        "start": 25.17,
+        "end": 25.61,
+        "label": "recently"
+      },
+      {
+        "start": 25.61,
+        "end": 25.91,
+        "label": "urged"
+      },
+      {
+        "start": 25.91,
+        "end": 26.34,
+        "label": "colleagues"
+      },
+      {
+        "start": 26.34,
+        "end": 26.42,
+        "label": "in"
+      },
+      {
+        "start": 26.42,
+        "end": 26.49,
+        "label": "the"
+      },
+      {
+        "start": 26.49,
+        "end": 26.74,
+        "label": "bar"
+      },
+      {
+        "start": 26.74,
+        "end": 27.56,
+        "label": "association"
+      },
+      {
+        "start": 27.56,
+        "end": 27.65,
+        "label": ""
+      },
+      {
+        "start": 27.65,
+        "end": 27.95,
+        "label": "not"
+      },
+      {
+        "start": 27.95,
+        "end": 28.08,
+        "label": "to"
+      },
+      {
+        "start": 28.08,
+        "end": 28.59,
+        "label": "retreat"
+      },
+      {
+        "start": 28.59,
+        "end": 28.67,
+        "label": ""
+      },
+      {
+        "start": 28.67,
+        "end": 28.9,
+        "label": "from"
+      },
+      {
+        "start": 28.9,
+        "end": 29.14,
+        "label": "these"
+      },
+      {
+        "start": 29.14,
+        "end": 29.48,
+        "label": "hard"
+      },
+      {
+        "start": 29.48,
+        "end": 29.72,
+        "label": "won"
+      },
+      {
+        "start": 29.72,
+        "end": 30.36,
+        "label": "gains"
+      },
+      {
+        "start": 30.36,
+        "end": 30.707,
+        "label": ""
+      }
+    ],
+    "phones": [
+      {
+        "start": 0.0,
+        "end": 0.21,
+        "label": ""
+      },
+      {
+        "start": 0.21,
+        "end": 0.26,
+        "label": "DH"
+      },
+      {
+        "start": 0.26,
+        "end": 0.36,
+        "label": "IY0"
+      },
+      {
+        "start": 0.36,
+        "end": 0.5,
+        "label": "AO1"
+      },
+      {
+        "start": 0.5,
+        "end": 0.59,
+        "label": "TH"
+      },
+      {
+        "start": 0.59,
+        "end": 0.71,
+        "label": "ER0"
+      },
+      {
+        "start": 0.71,
+        "end": 0.8,
+        "label": "AH0"
+      },
+      {
+        "start": 0.8,
+        "end": 0.87,
+        "label": "V"
+      },
+      {
+        "start": 0.87,
+        "end": 0.93,
+        "label": "M"
+      },
+      {
+        "start": 0.93,
+        "end": 0.97,
+        "label": "AO1"
+      },
+      {
+        "start": 0.97,
+        "end": 1.05,
+        "label": "R"
+      },
+      {
+        "start": 1.05,
+        "end": 1.11,
+        "label": "DH"
+      },
+      {
+        "start": 1.11,
+        "end": 1.17,
+        "label": "AE1"
+      },
+      {
+        "start": 1.17,
+        "end": 1.23,
+        "label": "N"
+      },
+      {
+        "start": 1.23,
+        "end": 1.37,
+        "label": "EY1"
+      },
+      {
+        "start": 1.37,
+        "end": 1.4,
+        "label": "T"
+      },
+      {
+        "start": 1.4,
+        "end": 1.46,
+        "label": "HH"
+      },
+      {
+        "start": 1.46,
+        "end": 1.54,
+        "label": "AH1"
+      },
+      {
+        "start": 1.54,
+        "end": 1.57,
+        "label": "N"
+      },
+      {
+        "start": 1.57,
+        "end": 1.62,
+        "label": "D"
+      },
+      {
+        "start": 1.62,
+        "end": 1.68,
+        "label": "R"
+      },
+      {
+        "start": 1.68,
+        "end": 1.74,
+        "label": "AH0"
+      },
+      {
+        "start": 1.74,
+        "end": 1.8,
+        "label": "D"
+      },
+      {
+        "start": 1.8,
+        "end": 1.85,
+        "label": "S"
+      },
+      {
+        "start": 1.85,
+        "end": 1.9,
+        "label": "T"
+      },
+      {
+        "start": 1.9,
+        "end": 1.98,
+        "label": "EY1"
+      },
+      {
+        "start": 1.98,
+        "end": 2.04,
+        "label": "T"
+      },
+      {
+        "start": 2.04,
+        "end": 2.09,
+        "label": "S"
+      },
+      {
+        "start": 2.09,
+        "end": 2.13,
+        "label": "AH0"
+      },
+      {
+        "start": 2.13,
+        "end": 2.22,
+        "label": "P"
+      },
+      {
+        "start": 2.22,
+        "end": 2.26,
+        "label": "R"
+      },
+      {
+        "start": 2.26,
+        "end": 2.32,
+        "label": "IY1"
+      },
+      {
+        "start": 2.32,
+        "end": 2.36,
+        "label": "M"
+      },
+      {
+        "start": 2.36,
+        "end": 2.46,
+        "label": "K"
+      },
+      {
+        "start": 2.46,
+        "end": 2.49,
+        "label": "AO1"
+      },
+      {
+        "start": 2.49,
+        "end": 2.55,
+        "label": "R"
+      },
+      {
+        "start": 2.55,
+        "end": 2.59,
+        "label": "T"
+      },
+      {
+        "start": 2.59,
+        "end": 2.63,
+        "label": "AH0"
+      },
+      {
+        "start": 2.63,
+        "end": 2.73,
+        "label": "P"
+      },
+      {
+        "start": 2.73,
+        "end": 2.8,
+        "label": "IH1"
+      },
+      {
+        "start": 2.8,
+        "end": 2.86,
+        "label": "N"
+      },
+      {
+        "start": 2.86,
+        "end": 2.92,
+        "label": "Y"
+      },
+      {
+        "start": 2.92,
+        "end": 2.99,
+        "label": "AH0"
+      },
+      {
+        "start": 2.99,
+        "end": 3.06,
+        "label": "N"
+      },
+      {
+        "start": 3.06,
+        "end": 3.16,
+        "label": "Z"
+      },
+      {
+        "start": 3.16,
+        "end": 3.48,
+        "label": ""
+      },
+      {
+        "start": 3.48,
+        "end": 3.56,
+        "label": "HH"
+      },
+      {
+        "start": 3.56,
+        "end": 3.59,
+        "label": "EH1"
+      },
+      {
+        "start": 3.59,
+        "end": 3.63,
+        "label": "N"
+      },
+      {
+        "start": 3.63,
+        "end": 3.7,
+        "label": "AH0"
+      },
+      {
+        "start": 3.7,
+        "end": 3.8,
+        "label": "S"
+      },
+      {
+        "start": 3.8,
+        "end": 3.9,
+        "label": "IY0"
+      },
+      {
+        "start": 3.9,
+        "end": 3.97,
+        "label": "IH1"
+      },
+      {
+        "start": 3.97,
+        "end": 4.05,
+        "label": "Z"
+      },
+      {
+        "start": 4.05,
+        "end": 4.13,
+        "label": "W"
+      },
+      {
+        "start": 4.13,
+        "end": 4.26,
+        "label": "AY1"
+      },
+      {
+        "start": 4.26,
+        "end": 4.32,
+        "label": "D"
+      },
+      {
+        "start": 4.32,
+        "end": 4.38,
+        "label": "L"
+      },
+      {
+        "start": 4.38,
+        "end": 4.44,
+        "label": "IY0"
+      },
+      {
+        "start": 4.44,
+        "end": 4.52,
+        "label": "R"
+      },
+      {
+        "start": 4.52,
+        "end": 4.58,
+        "label": "IY0"
+      },
+      {
+        "start": 4.58,
+        "end": 4.68,
+        "label": "S"
+      },
+      {
+        "start": 4.68,
+        "end": 4.74,
+        "label": "P"
+      },
+      {
+        "start": 4.74,
+        "end": 4.83,
+        "label": "EH1"
+      },
+      {
+        "start": 4.83,
+        "end": 4.9,
+        "label": "K"
+      },
+      {
+        "start": 4.9,
+        "end": 4.95,
+        "label": "T"
+      },
+      {
+        "start": 4.95,
+        "end": 5.03,
+        "label": "IH0"
+      },
+      {
+        "start": 5.03,
+        "end": 5.12,
+        "label": "D"
+      },
+      {
+        "start": 5.12,
+        "end": 5.19,
+        "label": "F"
+      },
+      {
+        "start": 5.19,
+        "end": 5.22,
+        "label": "R"
+      },
+      {
+        "start": 5.22,
+        "end": 5.27,
+        "label": "ER0"
+      },
+      {
+        "start": 5.27,
+        "end": 5.33,
+        "label": "HH"
+      },
+      {
+        "start": 5.33,
+        "end": 5.4,
+        "label": "IH0"
+      },
+      {
+        "start": 5.4,
+        "end": 5.48,
+        "label": "Z"
+      },
+      {
+        "start": 5.48,
+        "end": 5.55,
+        "label": "L"
+      },
+      {
+        "start": 5.55,
+        "end": 5.61,
+        "label": "IY1"
+      },
+      {
+        "start": 5.61,
+        "end": 5.64,
+        "label": "G"
+      },
+      {
+        "start": 5.64,
+        "end": 5.7,
+        "label": "AH0"
+      },
+      {
+        "start": 5.7,
+        "end": 5.74,
+        "label": "L"
+      },
+      {
+        "start": 5.74,
+        "end": 5.83,
+        "label": "S"
+      },
+      {
+        "start": 5.83,
+        "end": 5.9,
+        "label": "K"
+      },
+      {
+        "start": 5.9,
+        "end": 5.99,
+        "label": "AA1"
+      },
+      {
+        "start": 5.99,
+        "end": 6.06,
+        "label": "L"
+      },
+      {
+        "start": 6.06,
+        "end": 6.12,
+        "label": "ER0"
+      },
+      {
+        "start": 6.12,
+        "end": 6.25,
+        "label": "SH"
+      },
+      {
+        "start": 6.25,
+        "end": 6.36,
+        "label": "IH2"
+      },
+      {
+        "start": 6.36,
+        "end": 6.47,
+        "label": "P"
+      },
+      {
+        "start": 6.47,
+        "end": 6.5,
+        "label": ""
+      },
+      {
+        "start": 6.5,
+        "end": 6.58,
+        "label": "AE1"
+      },
+      {
+        "start": 6.58,
+        "end": 6.62,
+        "label": "N"
+      },
+      {
+        "start": 6.62,
+        "end": 6.66,
+        "label": "D"
+      },
+      {
+        "start": 6.66,
+        "end": 6.72,
+        "label": "HH"
+      },
+      {
+        "start": 6.72,
+        "end": 6.77,
+        "label": "IH0"
+      },
+      {
+        "start": 6.77,
+        "end": 6.84,
+        "label": "Z"
+      },
+      {
+        "start": 6.84,
+        "end": 6.9,
+        "label": "AH0"
+      },
+      {
+        "start": 6.9,
+        "end": 6.94,
+        "label": "D"
+      },
+      {
+        "start": 6.94,
+        "end": 7.01,
+        "label": "M"
+      },
+      {
+        "start": 7.01,
+        "end": 7.04,
+        "label": "IH1"
+      },
+      {
+        "start": 7.04,
+        "end": 7.08,
+        "label": "N"
+      },
+      {
+        "start": 7.08,
+        "end": 7.14,
+        "label": "AH0"
+      },
+      {
+        "start": 7.14,
+        "end": 7.21,
+        "label": "S"
+      },
+      {
+        "start": 7.21,
+        "end": 7.27,
+        "label": "T"
+      },
+      {
+        "start": 7.27,
+        "end": 7.31,
+        "label": "R"
+      },
+      {
+        "start": 7.31,
+        "end": 7.37,
+        "label": "EY2"
+      },
+      {
+        "start": 7.37,
+        "end": 7.4,
+        "label": "T"
+      },
+      {
+        "start": 7.4,
+        "end": 7.43,
+        "label": "IH0"
+      },
+      {
+        "start": 7.43,
+        "end": 7.49,
+        "label": "V"
+      },
+      {
+        "start": 7.49,
+        "end": 7.55,
+        "label": "AH0"
+      },
+      {
+        "start": 7.55,
+        "end": 7.62,
+        "label": "B"
+      },
+      {
+        "start": 7.62,
+        "end": 7.66,
+        "label": "IH1"
+      },
+      {
+        "start": 7.66,
+        "end": 7.76,
+        "label": "L"
+      },
+      {
+        "start": 7.76,
+        "end": 7.82,
+        "label": "AH0"
+      },
+      {
+        "start": 7.82,
+        "end": 7.86,
+        "label": "T"
+      },
+      {
+        "start": 7.86,
+        "end": 7.99,
+        "label": "IY0"
+      },
+      {
+        "start": 7.99,
+        "end": 8.12,
+        "label": "Z"
+      },
+      {
+        "start": 8.12,
+        "end": 8.53,
+        "label": ""
+      },
+      {
+        "start": 8.53,
+        "end": 8.61,
+        "label": "AH0"
+      },
+      {
+        "start": 8.61,
+        "end": 8.66,
+        "label": "D"
+      },
+      {
+        "start": 8.66,
+        "end": 8.73,
+        "label": "M"
+      },
+      {
+        "start": 8.73,
+        "end": 8.87,
+        "label": "AY1"
+      },
+      {
+        "start": 8.87,
+        "end": 9.03,
+        "label": "R"
+      },
+      {
+        "start": 9.03,
+        "end": 9.17,
+        "label": "ER0"
+      },
+      {
+        "start": 9.17,
+        "end": 9.26,
+        "label": "Z"
+      },
+      {
+        "start": 9.26,
+        "end": 9.35,
+        "label": "G"
+      },
+      {
+        "start": 9.35,
+        "end": 9.46,
+        "label": "IH1"
+      },
+      {
+        "start": 9.46,
+        "end": 9.51,
+        "label": "V"
+      },
+      {
+        "start": 9.51,
+        "end": 9.62,
+        "label": "HH"
+      },
+      {
+        "start": 9.62,
+        "end": 9.67,
+        "label": "EH1"
+      },
+      {
+        "start": 9.67,
+        "end": 9.71,
+        "label": "N"
+      },
+      {
+        "start": 9.71,
+        "end": 9.78,
+        "label": "AH0"
+      },
+      {
+        "start": 9.78,
+        "end": 9.9,
+        "label": "S"
+      },
+      {
+        "start": 9.9,
+        "end": 10.0,
+        "label": "IY0"
+      },
+      {
+        "start": 10.0,
+        "end": 10.08,
+        "label": "M"
+      },
+      {
+        "start": 10.08,
+        "end": 10.14,
+        "label": "AH1"
+      },
+      {
+        "start": 10.14,
+        "end": 10.23,
+        "label": "CH"
+      },
+      {
+        "start": 10.23,
+        "end": 10.27,
+        "label": "AH0"
+      },
+      {
+        "start": 10.27,
+        "end": 10.31,
+        "label": "V"
+      },
+      {
+        "start": 10.31,
+        "end": 10.35,
+        "label": "DH"
+      },
+      {
+        "start": 10.35,
+        "end": 10.39,
+        "label": "AH0"
+      },
+      {
+        "start": 10.39,
+        "end": 10.48,
+        "label": "K"
+      },
+      {
+        "start": 10.48,
+        "end": 10.52,
+        "label": "R"
+      },
+      {
+        "start": 10.52,
+        "end": 10.59,
+        "label": "EH1"
+      },
+      {
+        "start": 10.59,
+        "end": 10.62,
+        "label": "D"
+      },
+      {
+        "start": 10.62,
+        "end": 10.69,
+        "label": "IH0"
+      },
+      {
+        "start": 10.69,
+        "end": 10.74,
+        "label": "T"
+      },
+      {
+        "start": 10.74,
+        "end": 10.99,
+        "label": ""
+      },
+      {
+        "start": 10.99,
+        "end": 11.07,
+        "label": "F"
+      },
+      {
+        "start": 11.07,
+        "end": 11.1,
+        "label": "R"
+      },
+      {
+        "start": 11.1,
+        "end": 11.16,
+        "label": "ER0"
+      },
+      {
+        "start": 11.16,
+        "end": 11.3,
+        "label": "S"
+      },
+      {
+        "start": 11.3,
+        "end": 11.34,
+        "label": "W"
+      },
+      {
+        "start": 11.34,
+        "end": 11.41,
+        "label": "IY1"
+      },
+      {
+        "start": 11.41,
+        "end": 11.48,
+        "label": "P"
+      },
+      {
+        "start": 11.48,
+        "end": 11.52,
+        "label": "IH0"
+      },
+      {
+        "start": 11.52,
+        "end": 11.59,
+        "label": "NG"
+      },
+      {
+        "start": 11.59,
+        "end": 11.7,
+        "label": "K"
+      },
+      {
+        "start": 11.7,
+        "end": 11.74,
+        "label": "AO1"
+      },
+      {
+        "start": 11.74,
+        "end": 11.83,
+        "label": "R"
+      },
+      {
+        "start": 11.83,
+        "end": 11.86,
+        "label": "T"
+      },
+      {
+        "start": 11.86,
+        "end": 11.94,
+        "label": "R"
+      },
+      {
+        "start": 11.94,
+        "end": 12.0,
+        "label": "IH0"
+      },
+      {
+        "start": 12.0,
+        "end": 12.13,
+        "label": "F"
+      },
+      {
+        "start": 12.13,
+        "end": 12.21,
+        "label": "AO1"
+      },
+      {
+        "start": 12.21,
+        "end": 12.33,
+        "label": "R"
+      },
+      {
+        "start": 12.33,
+        "end": 12.42,
+        "label": "M"
+      },
+      {
+        "start": 12.42,
+        "end": 12.46,
+        "label": "DH"
+      },
+      {
+        "start": 12.46,
+        "end": 12.49,
+        "label": "AE1"
+      },
+      {
+        "start": 12.49,
+        "end": 12.56,
+        "label": "T"
+      },
+      {
+        "start": 12.56,
+        "end": 12.59,
+        "label": "B"
+      },
+      {
+        "start": 12.59,
+        "end": 12.65,
+        "label": "IH0"
+      },
+      {
+        "start": 12.65,
+        "end": 12.72,
+        "label": "G"
+      },
+      {
+        "start": 12.72,
+        "end": 12.83,
+        "label": "AE1"
+      },
+      {
+        "start": 12.83,
+        "end": 12.88,
+        "label": "N"
+      },
+      {
+        "start": 12.88,
+        "end": 12.93,
+        "label": "AH0"
+      },
+      {
+        "start": 12.93,
+        "end": 13.01,
+        "label": "D"
+      },
+      {
+        "start": 13.01,
+        "end": 13.09,
+        "label": "EH1"
+      },
+      {
+        "start": 13.09,
+        "end": 13.2,
+        "label": "K"
+      },
+      {
+        "start": 13.2,
+        "end": 13.28,
+        "label": "EY0"
+      },
+      {
+        "start": 13.28,
+        "end": 13.31,
+        "label": "D"
+      },
+      {
+        "start": 13.31,
+        "end": 13.38,
+        "label": "AH0"
+      },
+      {
+        "start": 13.38,
+        "end": 13.47,
+        "label": "G"
+      },
+      {
+        "start": 13.47,
+        "end": 13.76,
+        "label": "OW1"
+      },
+      {
+        "start": 13.76,
+        "end": 13.87,
+        "label": ""
+      },
+      {
+        "start": 13.87,
+        "end": 13.96,
+        "label": "AE1"
+      },
+      {
+        "start": 13.96,
+        "end": 14.01,
+        "label": "N"
+      },
+      {
+        "start": 14.01,
+        "end": 14.06,
+        "label": "D"
+      },
+      {
+        "start": 14.06,
+        "end": 14.11,
+        "label": "F"
+      },
+      {
+        "start": 14.11,
+        "end": 14.17,
+        "label": "ER0"
+      },
+      {
+        "start": 14.17,
+        "end": 14.26,
+        "label": "L"
+      },
+      {
+        "start": 14.26,
+        "end": 14.38,
+        "label": "AE1"
+      },
+      {
+        "start": 14.38,
+        "end": 14.47,
+        "label": "S"
+      },
+      {
+        "start": 14.47,
+        "end": 14.54,
+        "label": "T"
+      },
+      {
+        "start": 14.54,
+        "end": 14.58,
+        "label": "Y"
+      },
+      {
+        "start": 14.58,
+        "end": 14.62,
+        "label": "IH1"
+      },
+      {
+        "start": 14.62,
+        "end": 14.72,
+        "label": "R"
+      },
+      {
+        "start": 14.72,
+        "end": 14.82,
+        "label": "Z"
+      },
+      {
+        "start": 14.82,
+        "end": 14.89,
+        "label": "L"
+      },
+      {
+        "start": 14.89,
+        "end": 14.93,
+        "label": "EH1"
+      },
+      {
+        "start": 14.93,
+        "end": 14.99,
+        "label": "JH"
+      },
+      {
+        "start": 14.99,
+        "end": 15.04,
+        "label": "AH0"
+      },
+      {
+        "start": 15.04,
+        "end": 15.15,
+        "label": "S"
+      },
+      {
+        "start": 15.15,
+        "end": 15.18,
+        "label": "L"
+      },
+      {
+        "start": 15.18,
+        "end": 15.25,
+        "label": "EY2"
+      },
+      {
+        "start": 15.25,
+        "end": 15.29,
+        "label": "T"
+      },
+      {
+        "start": 15.29,
+        "end": 15.33,
+        "label": "IH0"
+      },
+      {
+        "start": 15.33,
+        "end": 15.39,
+        "label": "V"
+      },
+      {
+        "start": 15.39,
+        "end": 15.45,
+        "label": "AH0"
+      },
+      {
+        "start": 15.45,
+        "end": 15.58,
+        "label": "P"
+      },
+      {
+        "start": 15.58,
+        "end": 15.62,
+        "label": "R"
+      },
+      {
+        "start": 15.62,
+        "end": 15.71,
+        "label": "UW1"
+      },
+      {
+        "start": 15.71,
+        "end": 15.75,
+        "label": "V"
+      },
+      {
+        "start": 15.75,
+        "end": 15.79,
+        "label": "AH0"
+      },
+      {
+        "start": 15.79,
+        "end": 15.96,
+        "label": "L"
+      },
+      {
+        "start": 15.96,
+        "end": 16.06,
+        "label": ""
+      },
+      {
+        "start": 16.06,
+        "end": 16.14,
+        "label": "AH1"
+      },
+      {
+        "start": 16.14,
+        "end": 16.19,
+        "label": "V"
+      },
+      {
+        "start": 16.19,
+        "end": 16.34,
+        "label": "TH"
+      },
+      {
+        "start": 16.34,
+        "end": 16.44,
+        "label": "ER1"
+      },
+      {
+        "start": 16.44,
+        "end": 16.48,
+        "label": "D"
+      },
+      {
+        "start": 16.48,
+        "end": 16.54,
+        "label": "IY0"
+      },
+      {
+        "start": 16.54,
+        "end": 16.66,
+        "label": "F"
+      },
+      {
+        "start": 16.66,
+        "end": 16.87,
+        "label": "AY1"
+      },
+      {
+        "start": 16.87,
+        "end": 16.93,
+        "label": "V"
+      },
+      {
+        "start": 16.93,
+        "end": 16.99,
+        "label": "N"
+      },
+      {
+        "start": 16.99,
+        "end": 17.04,
+        "label": "Y"
+      },
+      {
+        "start": 17.04,
+        "end": 17.09,
+        "label": "UW1"
+      },
+      {
+        "start": 17.09,
+        "end": 17.2,
+        "label": "JH"
+      },
+      {
+        "start": 17.2,
+        "end": 17.3,
+        "label": "AH1"
+      },
+      {
+        "start": 17.3,
+        "end": 17.35,
+        "label": "JH"
+      },
+      {
+        "start": 17.35,
+        "end": 17.46,
+        "label": "SH"
+      },
+      {
+        "start": 17.46,
+        "end": 17.54,
+        "label": "IH2"
+      },
+      {
+        "start": 17.54,
+        "end": 17.63,
+        "label": "P"
+      },
+      {
+        "start": 17.63,
+        "end": 17.73,
+        "label": "S"
+      },
+      {
+        "start": 17.73,
+        "end": 18.05,
+        "label": ""
+      },
+      {
+        "start": 18.05,
+        "end": 18.12,
+        "label": "AE1"
+      },
+      {
+        "start": 18.12,
+        "end": 18.18,
+        "label": "N"
+      },
+      {
+        "start": 18.18,
+        "end": 18.21,
+        "label": "D"
+      },
+      {
+        "start": 18.21,
+        "end": 18.31,
+        "label": "TH"
+      },
+      {
+        "start": 18.31,
+        "end": 18.35,
+        "label": "R"
+      },
+      {
+        "start": 18.35,
+        "end": 18.42,
+        "label": "IY1"
+      },
+      {
+        "start": 18.42,
+        "end": 18.51,
+        "label": "HH"
+      },
+      {
+        "start": 18.51,
+        "end": 18.56,
+        "label": "AH1"
+      },
+      {
+        "start": 18.56,
+        "end": 18.6,
+        "label": "N"
+      },
+      {
+        "start": 18.6,
+        "end": 18.66,
+        "label": "D"
+      },
+      {
+        "start": 18.66,
+        "end": 18.7,
+        "label": "R"
+      },
+      {
+        "start": 18.7,
+        "end": 18.75,
+        "label": "AH0"
+      },
+      {
+        "start": 18.75,
+        "end": 18.8,
+        "label": "D"
+      },
+      {
+        "start": 18.8,
+        "end": 18.85,
+        "label": "M"
+      },
+      {
+        "start": 18.85,
+        "end": 18.89,
+        "label": "IH1"
+      },
+      {
+        "start": 18.89,
+        "end": 18.94,
+        "label": "L"
+      },
+      {
+        "start": 18.94,
+        "end": 19.01,
+        "label": "Y"
+      },
+      {
+        "start": 19.01,
+        "end": 19.07,
+        "label": "AH0"
+      },
+      {
+        "start": 19.07,
+        "end": 19.12,
+        "label": "N"
+      },
+      {
+        "start": 19.12,
+        "end": 19.18,
+        "label": "D"
+      },
+      {
+        "start": 19.18,
+        "end": 19.31,
+        "label": "AA1"
+      },
+      {
+        "start": 19.31,
+        "end": 19.38,
+        "label": "L"
+      },
+      {
+        "start": 19.38,
+        "end": 19.5,
+        "label": "ER0"
+      },
+      {
+        "start": 19.5,
+        "end": 19.59,
+        "label": "Z"
+      },
+      {
+        "start": 19.59,
+        "end": 19.67,
+        "label": "T"
+      },
+      {
+        "start": 19.67,
+        "end": 19.73,
+        "label": "AH0"
+      },
+      {
+        "start": 19.73,
+        "end": 19.81,
+        "label": "R"
+      },
+      {
+        "start": 19.81,
+        "end": 19.88,
+        "label": "IH0"
+      },
+      {
+        "start": 19.88,
+        "end": 19.99,
+        "label": "S"
+      },
+      {
+        "start": 19.99,
+        "end": 20.06,
+        "label": "T"
+      },
+      {
+        "start": 20.06,
+        "end": 20.15,
+        "label": "AO1"
+      },
+      {
+        "start": 20.15,
+        "end": 20.28,
+        "label": "R"
+      },
+      {
+        "start": 20.28,
+        "end": 20.43,
+        "label": "K"
+      },
+      {
+        "start": 20.43,
+        "end": 20.47,
+        "label": "R"
+      },
+      {
+        "start": 20.47,
+        "end": 20.52,
+        "label": "AH1"
+      },
+      {
+        "start": 20.52,
+        "end": 20.57,
+        "label": "M"
+      },
+      {
+        "start": 20.57,
+        "end": 20.62,
+        "label": "B"
+      },
+      {
+        "start": 20.62,
+        "end": 20.67,
+        "label": "L"
+      },
+      {
+        "start": 20.67,
+        "end": 20.73,
+        "label": "IH0"
+      },
+      {
+        "start": 20.73,
+        "end": 20.8,
+        "label": "NG"
+      },
+      {
+        "start": 20.8,
+        "end": 20.93,
+        "label": "K"
+      },
+      {
+        "start": 20.93,
+        "end": 20.96,
+        "label": "AO1"
+      },
+      {
+        "start": 20.96,
+        "end": 21.04,
+        "label": "R"
+      },
+      {
+        "start": 21.04,
+        "end": 21.07,
+        "label": "T"
+      },
+      {
+        "start": 21.07,
+        "end": 21.13,
+        "label": "HH"
+      },
+      {
+        "start": 21.13,
+        "end": 21.26,
+        "label": "AW1"
+      },
+      {
+        "start": 21.26,
+        "end": 21.36,
+        "label": "S"
+      },
+      {
+        "start": 21.36,
+        "end": 21.48,
+        "label": "AH0"
+      },
+      {
+        "start": 21.48,
+        "end": 21.63,
+        "label": "Z"
+      },
+      {
+        "start": 21.63,
+        "end": 22.17,
+        "label": ""
+      },
+      {
+        "start": 22.17,
+        "end": 22.22,
+        "label": "D"
+      },
+      {
+        "start": 22.22,
+        "end": 22.26,
+        "label": "IH0"
+      },
+      {
+        "start": 22.26,
+        "end": 22.34,
+        "label": "S"
+      },
+      {
+        "start": 22.34,
+        "end": 22.4,
+        "label": "P"
+      },
+      {
+        "start": 22.4,
+        "end": 22.52,
+        "label": "AY1"
+      },
+      {
+        "start": 22.52,
+        "end": 22.58,
+        "label": "T"
+      },
+      {
+        "start": 22.58,
+        "end": 22.62,
+        "label": "DH"
+      },
+      {
+        "start": 22.62,
+        "end": 22.67,
+        "label": "AH0"
+      },
+      {
+        "start": 22.67,
+        "end": 22.75,
+        "label": "S"
+      },
+      {
+        "start": 22.75,
+        "end": 22.8,
+        "label": "T"
+      },
+      {
+        "start": 22.8,
+        "end": 22.91,
+        "label": "EY1"
+      },
+      {
+        "start": 22.91,
+        "end": 22.98,
+        "label": "T"
+      },
+      {
+        "start": 22.98,
+        "end": 23.03,
+        "label": "S"
+      },
+      {
+        "start": 23.03,
+        "end": 23.1,
+        "label": "M"
+      },
+      {
+        "start": 23.1,
+        "end": 23.23,
+        "label": "AE1"
+      },
+      {
+        "start": 23.23,
+        "end": 23.35,
+        "label": "S"
+      },
+      {
+        "start": 23.35,
+        "end": 23.41,
+        "label": "IH0"
+      },
+      {
+        "start": 23.41,
+        "end": 23.52,
+        "label": "V"
+      },
+      {
+        "start": 23.52,
+        "end": 23.57,
+        "label": "B"
+      },
+      {
+        "start": 23.57,
+        "end": 23.66,
+        "label": "AH1"
+      },
+      {
+        "start": 23.66,
+        "end": 23.73,
+        "label": "JH"
+      },
+      {
+        "start": 23.73,
+        "end": 23.8,
+        "label": "IH0"
+      },
+      {
+        "start": 23.8,
+        "end": 23.88,
+        "label": "T"
+      },
+      {
+        "start": 23.88,
+        "end": 23.92,
+        "label": "D"
+      },
+      {
+        "start": 23.92,
+        "end": 23.99,
+        "label": "EH1"
+      },
+      {
+        "start": 23.99,
+        "end": 24.07,
+        "label": "F"
+      },
+      {
+        "start": 24.07,
+        "end": 24.13,
+        "label": "AH0"
+      },
+      {
+        "start": 24.13,
+        "end": 24.24,
+        "label": "S"
+      },
+      {
+        "start": 24.24,
+        "end": 24.32,
+        "label": "AH0"
+      },
+      {
+        "start": 24.32,
+        "end": 24.42,
+        "label": "T"
+      },
+      {
+        "start": 24.42,
+        "end": 24.79,
+        "label": ""
+      },
+      {
+        "start": 24.79,
+        "end": 24.87,
+        "label": "HH"
+      },
+      {
+        "start": 24.87,
+        "end": 24.9,
+        "label": "EH1"
+      },
+      {
+        "start": 24.9,
+        "end": 24.94,
+        "label": "N"
+      },
+      {
+        "start": 24.94,
+        "end": 25.0,
+        "label": "AH0"
+      },
+      {
+        "start": 25.0,
+        "end": 25.09,
+        "label": "S"
+      },
+      {
+        "start": 25.09,
+        "end": 25.17,
+        "label": "IY0"
+      },
+      {
+        "start": 25.17,
+        "end": 25.25,
+        "label": "R"
+      },
+      {
+        "start": 25.25,
+        "end": 25.3,
+        "label": "IY1"
+      },
+      {
+        "start": 25.3,
+        "end": 25.37,
+        "label": "S"
+      },
+      {
+        "start": 25.37,
+        "end": 25.43,
+        "label": "AH0"
+      },
+      {
+        "start": 25.43,
+        "end": 25.46,
+        "label": "N"
+      },
+      {
+        "start": 25.46,
+        "end": 25.49,
+        "label": "T"
+      },
+      {
+        "start": 25.49,
+        "end": 25.54,
+        "label": "L"
+      },
+      {
+        "start": 25.54,
+        "end": 25.61,
+        "label": "IY0"
+      },
+      {
+        "start": 25.61,
+        "end": 25.77,
+        "label": "ER1"
+      },
+      {
+        "start": 25.77,
+        "end": 25.88,
+        "label": "JH"
+      },
+      {
+        "start": 25.88,
+        "end": 25.91,
+        "label": "D"
+      },
+      {
+        "start": 25.91,
+        "end": 25.96,
+        "label": "K"
+      },
+      {
+        "start": 25.96,
+        "end": 26.07,
+        "label": "AA1"
+      },
+      {
+        "start": 26.07,
+        "end": 26.16,
+        "label": "L"
+      },
+      {
+        "start": 26.16,
+        "end": 26.21,
+        "label": "IY0"
+      },
+      {
+        "start": 26.21,
+        "end": 26.27,
+        "label": "G"
+      },
+      {
+        "start": 26.27,
+        "end": 26.34,
+        "label": "Z"
+      },
+      {
+        "start": 26.34,
+        "end": 26.38,
+        "label": "IH0"
+      },
+      {
+        "start": 26.38,
+        "end": 26.42,
+        "label": "N"
+      },
+      {
+        "start": 26.42,
+        "end": 26.46,
+        "label": "DH"
+      },
+      {
+        "start": 26.46,
+        "end": 26.49,
+        "label": "AH0"
+      },
+      {
+        "start": 26.49,
+        "end": 26.56,
+        "label": "B"
+      },
+      {
+        "start": 26.56,
+        "end": 26.62,
+        "label": "AA1"
+      },
+      {
+        "start": 26.62,
+        "end": 26.74,
+        "label": "R"
+      },
+      {
+        "start": 26.74,
+        "end": 26.79,
+        "label": "AH0"
+      },
+      {
+        "start": 26.79,
+        "end": 26.89,
+        "label": "S"
+      },
+      {
+        "start": 26.89,
+        "end": 26.97,
+        "label": "OW2"
+      },
+      {
+        "start": 26.97,
+        "end": 27.11,
+        "label": "S"
+      },
+      {
+        "start": 27.11,
+        "end": 27.2,
+        "label": "IY0"
+      },
+      {
+        "start": 27.2,
+        "end": 27.29,
+        "label": "EY1"
+      },
+      {
+        "start": 27.29,
+        "end": 27.41,
+        "label": "SH"
+      },
+      {
+        "start": 27.41,
+        "end": 27.46,
+        "label": "AH0"
+      },
+      {
+        "start": 27.46,
+        "end": 27.56,
+        "label": "N"
+      },
+      {
+        "start": 27.56,
+        "end": 27.65,
+        "label": ""
+      },
+      {
+        "start": 27.65,
+        "end": 27.8,
+        "label": "N"
+      },
+      {
+        "start": 27.8,
+        "end": 27.9,
+        "label": "AA1"
+      },
+      {
+        "start": 27.9,
+        "end": 27.95,
+        "label": "T"
+      },
+      {
+        "start": 27.95,
+        "end": 28.04,
+        "label": "T"
+      },
+      {
+        "start": 28.04,
+        "end": 28.08,
+        "label": "AH0"
+      },
+      {
+        "start": 28.08,
+        "end": 28.15,
+        "label": "R"
+      },
+      {
+        "start": 28.15,
+        "end": 28.23,
+        "label": "IY0"
+      },
+      {
+        "start": 28.23,
+        "end": 28.38,
+        "label": "T"
+      },
+      {
+        "start": 28.38,
+        "end": 28.41,
+        "label": "R"
+      },
+      {
+        "start": 28.41,
+        "end": 28.56,
+        "label": "IY1"
+      },
+      {
+        "start": 28.56,
+        "end": 28.59,
+        "label": "T"
+      },
+      {
+        "start": 28.59,
+        "end": 28.67,
+        "label": ""
+      },
+      {
+        "start": 28.67,
+        "end": 28.79,
+        "label": "F"
+      },
+      {
+        "start": 28.79,
+        "end": 28.85,
+        "label": "ER0"
+      },
+      {
+        "start": 28.85,
+        "end": 28.9,
+        "label": "M"
+      },
+      {
+        "start": 28.9,
+        "end": 28.95,
+        "label": "DH"
+      },
+      {
+        "start": 28.95,
+        "end": 29.05,
+        "label": "IY1"
+      },
+      {
+        "start": 29.05,
+        "end": 29.14,
+        "label": "Z"
+      },
+      {
+        "start": 29.14,
+        "end": 29.26,
+        "label": "HH"
+      },
+      {
+        "start": 29.26,
+        "end": 29.32,
+        "label": "AA1"
+      },
+      {
+        "start": 29.32,
+        "end": 29.42,
+        "label": "R"
+      },
+      {
+        "start": 29.42,
+        "end": 29.48,
+        "label": "D"
+      },
+      {
+        "start": 29.48,
+        "end": 29.56,
+        "label": "W"
+      },
+      {
+        "start": 29.56,
+        "end": 29.63,
+        "label": "AH1"
+      },
+      {
+        "start": 29.63,
+        "end": 29.72,
+        "label": "N"
+      },
+      {
+        "start": 29.72,
+        "end": 29.83,
+        "label": "G"
+      },
+      {
+        "start": 29.83,
+        "end": 29.99,
+        "label": "EY1"
+      },
+      {
+        "start": 29.99,
+        "end": 30.17,
+        "label": "N"
+      },
+      {
+        "start": 30.17,
+        "end": 30.36,
+        "label": "Z"
+      },
+      {
+        "start": 30.36,
+        "end": 30.707,
+        "label": ""
+      }
+    ]
+  },
+  {
+    "stem": "ISLE_SESS0131_BLOCKD02_01_sprt1",
+    "audio_duration_sec": 4.125,
+    "word_intervals": 8,
+    "word_intervals_non_empty": 5,
+    "phone_intervals": 16,
+    "phone_intervals_non_empty": 13,
+    "zero_length_phones": [],
+    "zero_length_phone_count": 0,
+    "spn_count": 0,
+    "spn_phones": [],
+    "spn_words": [],
+    "explicit_sil_labels": 0,
+    "unlabelled_intervals": 3,
+    "nonspeech_intervals": [
+      "0.0-0.44",
+      "1.21-1.48",
+      "2.24-4.125"
+    ],
+    "nonspeech_total_sec": 2.595,
+    "leading_nonspeech_sec": 0.44,
+    "trailing_nonspeech_sec": 1.885,
+    "longest_phone": {
+      "label": "EY1",
+      "start": 1.84,
+      "end": 2.05,
+      "duration": 0.21
+    },
+    "largest_word_gap": {
+      "gap_sec": 0.27,
+      "after_word": "white",
+      "before_word": "not",
+      "at_time": 1.21
+    },
+    "first_word": "i",
+    "first_word_start": 0.44,
+    "last_word": "bait",
+    "last_word_end": 2.24,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.44,
+        "label": ""
+      },
+      {
+        "start": 0.44,
+        "end": 0.54,
+        "label": "i"
+      },
+      {
+        "start": 0.54,
+        "end": 0.92,
+        "label": "said"
+      },
+      {
+        "start": 0.92,
+        "end": 1.21,
+        "label": "white"
+      },
+      {
+        "start": 1.21,
+        "end": 1.48,
+        "label": ""
+      },
+      {
+        "start": 1.48,
+        "end": 1.8,
+        "label": "not"
+      },
+      {
+        "start": 1.8,
+        "end": 2.24,
+        "label": "bait"
+      },
+      {
+        "start": 2.24,
+        "end": 4.125,
+        "label": ""
+      }
+    ],
+    "phones": [
+      {
+        "start": 0.0,
+        "end": 0.44,
+        "label": ""
+      },
+      {
+        "start": 0.44,
+        "end": 0.54,
+        "label": "AY1"
+      },
+      {
+        "start": 0.54,
+        "end": 0.7,
+        "label": "S"
+      },
+      {
+        "start": 0.7,
+        "end": 0.79,
+        "label": "EH1"
+      },
+      {
+        "start": 0.79,
+        "end": 0.92,
+        "label": "D"
+      },
+      {
+        "start": 0.92,
+        "end": 1.03,
+        "label": "W"
+      },
+      {
+        "start": 1.03,
+        "end": 1.17,
+        "label": "AY1"
+      },
+      {
+        "start": 1.17,
+        "end": 1.21,
+        "label": "T"
+      },
+      {
+        "start": 1.21,
+        "end": 1.48,
+        "label": ""
+      },
+      {
+        "start": 1.48,
+        "end": 1.55,
+        "label": "N"
+      },
+      {
+        "start": 1.55,
+        "end": 1.62,
+        "label": "AA1"
+      },
+      {
+        "start": 1.62,
+        "end": 1.8,
+        "label": "T"
+      },
+      {
+        "start": 1.8,
+        "end": 1.84,
+        "label": "B"
+      },
+      {
+        "start": 1.84,
+        "end": 2.05,
+        "label": "EY1"
+      },
+      {
+        "start": 2.05,
+        "end": 2.24,
+        "label": "T"
+      },
+      {
+        "start": 2.24,
+        "end": 4.125,
+        "label": ""
+      }
+    ]
+  },
+  {
+    "stem": "ISLE_SESS0131_BLOCKD02_02_sprt1",
+    "audio_duration_sec": 3.875,
+    "word_intervals": 8,
+    "word_intervals_non_empty": 5,
+    "phone_intervals": 15,
+    "phone_intervals_non_empty": 12,
+    "zero_length_phones": [],
+    "zero_length_phone_count": 0,
+    "spn_count": 0,
+    "spn_phones": [],
+    "spn_words": [],
+    "explicit_sil_labels": 0,
+    "unlabelled_intervals": 3,
+    "nonspeech_intervals": [
+      "0.0-0.62",
+      "1.43-1.46",
+      "2.19-3.875"
+    ],
+    "nonspeech_total_sec": 2.335,
+    "leading_nonspeech_sec": 0.62,
+    "trailing_nonspeech_sec": 1.685,
+    "longest_phone": {
+      "label": "OW1",
+      "start": 1.87,
+      "end": 2.19,
+      "duration": 0.32
+    },
+    "largest_word_gap": {
+      "gap_sec": 0.03,
+      "after_word": "new",
+      "before_word": "not",
+      "at_time": 1.43
+    },
+    "first_word": "i",
+    "first_word_start": 0.62,
+    "last_word": "no",
+    "last_word_end": 2.19,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.62,
+        "label": ""
+      },
+      {
+        "start": 0.62,
+        "end": 0.69,
+        "label": "i"
+      },
+      {
+        "start": 0.69,
+        "end": 1.0,
+        "label": "said"
+      },
+      {
+        "start": 1.0,
+        "end": 1.43,
+        "label": "new"
+      },
+      {
+        "start": 1.43,
+        "end": 1.46,
+        "label": ""
+      },
+      {
+        "start": 1.46,
+        "end": 1.75,
+        "label": "not"
+      },
+      {
+        "start": 1.75,
+        "end": 2.19,
+        "label": "no"
+      },
+      {
+        "start": 2.19,
+        "end": 3.875,
+        "label": ""
+      }
+    ],
+    "phones": [
+      {
+        "start": 0.0,
+        "end": 0.62,
+        "label": ""
+      },
+      {
+        "start": 0.62,
+        "end": 0.69,
+        "label": "AY1"
+      },
+      {
+        "start": 0.69,
+        "end": 0.87,
+        "label": "S"
+      },
+      {
+        "start": 0.87,
+        "end": 0.95,
+        "label": "EH1"
+      },
+      {
+        "start": 0.95,
+        "end": 1.0,
+        "label": "D"
+      },
+      {
+        "start": 1.0,
+        "end": 1.1,
+        "label": "N"
+      },
+      {
+        "start": 1.1,
+        "end": 1.18,
+        "label": "Y"
+      },
+      {
+        "start": 1.18,
+        "end": 1.43,
+        "label": "UW1"
+      },
+      {
+        "start": 1.43,
+        "end": 1.46,
+        "label": ""
+      },
+      {
+        "start": 1.46,
+        "end": 1.55,
+        "label": "N"
+      },
+      {
+        "start": 1.55,
+        "end": 1.61,
+        "label": "AA1"
+      },
+      {
+        "start": 1.61,
+        "end": 1.75,
+        "label": "T"
+      },
+      {
+        "start": 1.75,
+        "end": 1.87,
+        "label": "N"
+      },
+      {
+        "start": 1.87,
+        "end": 2.19,
+        "label": "OW1"
+      },
+      {
+        "start": 2.19,
+        "end": 3.875,
+        "label": ""
+      }
+    ]
+  },
+  {
+    "stem": "ISLE_SESS0131_BLOCKD02_03_sprt1",
+    "audio_duration_sec": 4.5,
+    "word_intervals": 8,
+    "word_intervals_non_empty": 5,
+    "phone_intervals": 16,
+    "phone_intervals_non_empty": 13,
+    "zero_length_phones": [],
+    "zero_length_phone_count": 0,
+    "spn_count": 0,
+    "spn_phones": [],
+    "spn_words": [],
+    "explicit_sil_labels": 0,
+    "unlabelled_intervals": 3,
+    "nonspeech_intervals": [
+      "0.0-0.22",
+      "1.05-1.13",
+      "1.96-4.5"
+    ],
+    "nonspeech_total_sec": 2.84,
+    "leading_nonspeech_sec": 0.22,
+    "trailing_nonspeech_sec": 2.54,
+    "longest_phone": {
+      "label": "T",
+      "start": 1.33,
+      "end": 1.57,
+      "duration": 0.24
+    },
+    "largest_word_gap": {
+      "gap_sec": 0.08,
+      "after_word": "bad",
+      "before_word": "not",
+      "at_time": 1.05
+    },
+    "first_word": "i",
+    "first_word_start": 0.22,
+    "last_word": "bed",
+    "last_word_end": 1.96,
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.22,
+        "label": ""
+      },
+      {
+        "start": 0.22,
+        "end": 0.29,
+        "label": "i"
+      },
+      {
+        "start": 0.29,
+        "end": 0.66,
+        "label": "said"
+      },
+      {
+        "start": 0.66,
+        "end": 1.05,
+        "label": "bad"
+      },
+      {
+        "start": 1.05,
+        "end": 1.13,
+        "label": ""
+      },
+      {
+        "start": 1.13,
+        "end": 1.57,
+        "label": "not"
+      },
+      {
+        "start": 1.57,
+        "end": 1.96,
+        "label": "bed"
+      },
+      {
+        "start": 1.96,
+        "end": 4.5,
+        "label": ""
+      }
+    ],
+    "phones": [
+      {
+        "start": 0.0,
+        "end": 0.22,
+        "label": ""
+      },
+      {
+        "start": 0.22,
+        "end": 0.29,
+        "label": "AY1"
+      },
+      {
+        "start": 0.29,
+        "end": 0.43,
+        "label": "S"
+      },
+      {
+        "start": 0.43,
+        "end": 0.5,
+        "label": "EH1"
+      },
+      {
+        "start": 0.5,
+        "end": 0.66,
+        "label": "D"
+      },
+      {
+        "start": 0.66,
+        "end": 0.7,
+        "label": "B"
+      },
+      {
+        "start": 0.7,
+        "end": 0.92,
+        "label": "AE1"
+      },
+      {
+        "start": 0.92,
+        "end": 1.05,
+        "label": "D"
+      },
+      {
+        "start": 1.05,
+        "end": 1.13,
+        "label": ""
+      },
+      {
+        "start": 1.13,
+        "end": 1.26,
+        "label": "N"
+      },
+      {
+        "start": 1.26,
+        "end": 1.33,
+        "label": "AA1"
+      },
+      {
+        "start": 1.33,
+        "end": 1.57,
+        "label": "T"
+      },
+      {
+        "start": 1.57,
+        "end": 1.61,
+        "label": "B"
+      },
+      {
+        "start": 1.61,
+        "end": 1.79,
+        "label": "EH1"
+      },
+      {
+        "start": 1.79,
+        "end": 1.96,
+        "label": "D"
+      },
+      {
+        "start": 1.96,
+        "end": 4.5,
+        "label": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+Forced alignment environment - recorded 2026-11-16T12:10:03Z
+======================================================================
+
+MFA
+  mfa version        : 3.4.3
+  install method     : conda (conda-forge), env 'aligner'
+  python in env      : Python 3.13.18
+
+Key conda packages (conda list -n aligner)
+  kaldi                        5.5.1172                  cpu_hf03c2bf_5         conda-forge
+  kalpy                        0.10.5                    py313hf069bd2_0        conda-forge
+  librosa                      1.0.1                     pyhd8ed1ab_0           conda-forge
+  montreal-forced-aligner      3.4.3                     pyhd8ed1ab_1           conda-forge
+  numpy                        2.5.5                     py313ha8dc839_1        conda-forge
+  praatio                      6.2.2                     pyhd8ed1ab_0           conda-forge
+  python                       3.13.18                   h254dcb4_100_cp313     conda-forge
+  rich-click                   1.9.9                     pyh6be1c34_0           conda-forge
+  scipy                        1.18.1                    py313hf327ce8_2        conda-forge
+
+Models (MFA model store: /c/Users/hdd/Documents/MFA/pretrained_models)
+  acoustic model     : english_us_arpa   (version v2.0.0)
+  acoustic model 2   : english_mfa       (version v2.0.0)
+  dictionary         : english_us_arpa   (version v2.0.0)
+  dictionary 2       : english_mfa       (version v2.0.0)
+  g2p model          : english_us_arpa   (version v2.0.0)
+
+Downloaded artefacts
+  english_us_arpa.dict                                              7186498 bytes
+  english_mfa.dict                                                  1078195 bytes
+  english_us_arpa.zip                                              91928208 bytes
+  english_mfa.zip                                                  92170811 bytes
+  english_us_arpa.zip                                              11094999 bytes
+
+Acoustic model details (mfa model inspect acoustic english_us_arpa)
+  │   │   'name': 'english_us_arpa',
+  │   │   │   'Version': ('3.0.0a2.dev0+g940e907.d20230824',),
+  │   │   │   'Train date': '2024-02-10 15:17:19.181270',
+  │   │   │   'Architecture': 'gmm-hmm',
+  │   │   │   'Phone type': 'triphone',
+  │   │   │   │   'Feature type': 'mfcc',
+  │   │   │   │   'Frame shift': 10,
+  │   │   │   │   'Performs speaker adaptation': True,
